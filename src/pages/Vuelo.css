@@ -1,0 +1,15 @@
+.p-datascroller.p-component.p-datascroller-inline {
+    width: 100%;
+}
+
+.p-fieldset .p-fieldset-legend {
+    width: 35rem;
+}
+
+.p-fieldset-legend-text {
+    width: 95%;
+}
+
+.grid {
+    width: 100%;
+}
