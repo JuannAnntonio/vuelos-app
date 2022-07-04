@@ -7,12 +7,12 @@
     "primeflex": "^3.2.1",
     "primeicons": "^5.0.0",
     "primereact": "^8.1.1",
-    "react": "latest",
+    "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
-    "react-dom": "latest",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^5.3.0",
-    "react-scripts": "latest",
+    "react-scripts": "^5.0.1",
     "react-transition-group": "^4.4.2"
   },
   "devDependencies": {

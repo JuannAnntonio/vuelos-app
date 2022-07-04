@@ -50,16 +50,16 @@ export default function Vuelos() {
           <Button label="Buscar" />
         </div>
       </div>
-      <div className="col-1">
+      
         <Divider layout="vertical" />
-      </div>
+      
       <div className="col-8 flex align-items-center justify-content-center">
         <DataScroller
           value={vuelos}
           itemTemplate={itemTemplate}
           rows={5}
           inline
-          scrollHeight="600px"
+          scrollHeight="800px"
           header="Desliza hacia abajo para cargar más resultados"
         />
       </div>

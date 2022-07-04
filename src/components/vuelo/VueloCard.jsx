@@ -28,11 +28,10 @@ function GetAirportByIata(iata) {
   }, []);
 
   Object.keys(airports).forEach(function (key) {
-    if (airports[key]["iata"] == iata) {
+    if (airports[key]["iata"] === iata) {
       airport = airports[key];
     }
   });
-  console.log(airport);
   return airport;
 }
 
