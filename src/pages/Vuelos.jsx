@@ -18,17 +18,20 @@ export default function Vuelos() {
   const itemTemplate = (data) => {
     return (
       <VueloCard
-        departs={data.itineraries[0].segments[0].departure.at}
-        arrives={data.itineraries[0].segments[0].arrival.at}
-        startAirport={data.itineraries[0].segments[0].departure.iataCode}
-        endAirport={data.itineraries[0].segments[0].arrival.iataCode}
         flightPrice={data.price.total}
+        
+        startIda={data.itineraries[0].segments[0].departure.iataCode}
+        startRegreso={data.itineraries[1].segments[0].departure.iataCode}
+        dateDepart={data.itineraries[0].segments[0].departure.at}
+        dateArrive={data.itineraries[1].segments[0].departure.at}
+        itinerariesDepart={data.itineraries[0]}
+        itinerariesArrive={data.itineraries[1]}
       />
     );
   };
   return (
-    <div className="grid">
-      <div className="col-3 flex align-items-center justify-content-center">
+    <div className="grid align-items-center justify-content-center">
+      <div className="col-2 flex align-items-center justify-content-center">
         <div className="p-fluid">
           <div className="field">
             <h1>Vuelos</h1>
@@ -53,7 +56,7 @@ export default function Vuelos() {
       
         <Divider layout="vertical" />
       
-      <div className="col-8 flex align-items-center justify-content-center">
+      <div className="col-9 flex align-items-center justify-content-center">
         <DataScroller
           value={vuelos}
           itemTemplate={itemTemplate}
