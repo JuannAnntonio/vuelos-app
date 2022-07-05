@@ -5,6 +5,18 @@
 .p-fieldset .p-fieldset-legend {
     width: 35rem;
 }
+.p-fieldset.p-fieldset-toggleable .p-fieldset-legend a {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.p-fieldset-content{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.p-fieldset .p-fieldset-content{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 .p-fieldset-legend-text {
     width: 95%;

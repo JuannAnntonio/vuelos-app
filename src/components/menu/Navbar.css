@@ -54,6 +54,8 @@
   
   .nav-text a:hover {
     background-color: var(--primary-500);
+    width: 90%;
+    height: 90%;
   }
   
   .nav-menu-items {
