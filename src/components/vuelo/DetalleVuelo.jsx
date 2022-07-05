@@ -16,15 +16,9 @@ export default function DetalleVuelo(props) {
               <h4>{formatDateShort(segment.departure.at)}</h4>
               <h2>{formatTime(segment.departure.at)}</h2>
               <h4>{segment.departure.iataCode}</h4>
-              {
-                getAirportByIata(props.airports, segment.departure.iataCode)
-                  .city
-              }
-
-              {
-                getAirportByIata(props.airports, segment.departure.iataCode)
-                  .name
-              }
+              {getAirportByIata(props.airports, segment.departure.iataCode).city}
+              <br />
+              {getAirportByIata(props.airports, segment.departure.iataCode).name}
             </div>
             <div className="col-2" style={{ textAlign: "center" }}>
               DURACION

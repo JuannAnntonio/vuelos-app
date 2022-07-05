@@ -8,43 +8,34 @@ import { FaPlaneDeparture, FaPlaneArrival } from "react-icons/fa";
 
 import { VuelosService } from "../../services/VuelosService";
 import DetalleVuelo from "./DetalleVuelo";
-import { getAirportByIata, formatTime, formatDate } from "./Util";
-
-
-
-
-
+import { getAirportByIata, formatDate } from "./Util";
 
 export default function VueloCard(props) {
+  const [airports, setAirports] = useState([]);
+  const [status, setStatus] = useState("loading");
+  const vuelosService = new VuelosService();
 
-const [airports, setAirports] = useState([]);
-const [status, setStatus] = useState("loading");
-const vuelosService = new VuelosService();
-
-useEffect(() => {
-  async function loadAirports() {
-    try{
-      const data = await vuelosService.getAirports();
-    setAirports(data);
-    setStatus("success");
-    }catch(error){
-      setStatus("error");
+  useEffect(() => {
+    async function loadAirports() {
+      try {
+        const data = await vuelosService.getAirports();
+        setAirports(data);
+        setStatus("success");
+      } catch (error) {
+        setStatus("error");
+      }
     }
-  }
-  loadAirports();
-}, []);
+    loadAirports();
+  }, []);
 
-
-
-  /*const startAirport = GetAirportByIata(props.startAirport);
-  const endAirport = GetAirportByIata(props.endAirport);
-
-  let [fechaDepart, horaDepart] = separateDate(props.departs);
-  const [fechaArrive, horaArrive] = separateDate(props.arrives);*/
-
-
-  var endCityDepart = props.itinerariesDepart.segments[props.itinerariesDepart.segments.length-1].arrival.iataCode;
-  var endCityArrive = props.itinerariesArrive.segments[props.itinerariesArrive.segments.length-1].arrival.iataCode;
+  var endCityDepart =
+    props.itinerariesDepart.segments[
+      props.itinerariesDepart.segments.length - 1
+    ].arrival.iataCode;
+  var endCityArrive =
+    props.itinerariesArrive.segments[
+      props.itinerariesArrive.segments.length - 1
+    ].arrival.iataCode;
 
   const headerIda = (
     <div className="grid">
@@ -96,9 +87,9 @@ useEffect(() => {
       </div>
     </div>
   );
-  
-  if(status==="loading") return <span>Loading</span>
-  if(status==="error") return <span>Error</span>
+
+  if (status === "loading") return <span>Loading</span>;
+  if (status === "error") return <span>Error</span>;
 
   return (
     <>
@@ -107,17 +98,17 @@ useEffect(() => {
           <div className="col-9">
             <Fieldset legend={headerIda} toggleable collapsed={true}>
               <DetalleVuelo
-              segments = {props.itinerariesDepart.segments}
-              airports ={airports}
+                segments={props.itinerariesDepart.segments}
+                airports={airports}
               />
             </Fieldset>
             <Divider />
-             <Fieldset legend={headerRegreso} toggleable collapsed={true}>
-             <DetalleVuelo
-              segments = {props.itinerariesArrive.segments}
-              airports ={airports}
+            <Fieldset legend={headerRegreso} toggleable collapsed={true}>
+              <DetalleVuelo
+                segments={props.itinerariesArrive.segments}
+                airports={airports}
               />
-            </Fieldset> 
+            </Fieldset>
           </div>
           <div className="col-1">
             <Divider layout="vertical" />
