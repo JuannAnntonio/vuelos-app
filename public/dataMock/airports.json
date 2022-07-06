@@ -75,21 +75,21 @@
         "state": "",
         "city": "Arona",
         "airport": "Ulawa Airport",
-        "stateCity": ", Arona"
+        "stateCity": "Arona, Ulawa"
     },
     {
         "iata": "ATD",
         "state": "",
         "city": "Atoifi",
         "airport": "Uru Harbour Airport",
-        "stateCity": ", Atoifi"
+        "stateCity": "Atoifi, Uru"
     },
     {
         "iata": "VEV",
         "state": "",
         "city": "Barakoma",
         "airport": "Barakoma Airport",
-        "stateCity": ", Barakoma"
+        "stateCity": "Barakoma Air"
     },
     {
         "iata": "BPF",
@@ -103,35 +103,35 @@
         "state": "",
         "city": "Liangia",
         "airport": "Geva Airport",
-        "stateCity": ", Liangia"
+        "stateCity": "Liangia, Geva"
     },
     {
         "iata": "AKS",
         "state": "",
         "city": "Auki",
         "airport": "Auki Airport",
-        "stateCity": ", Auki"
+        "stateCity": "Auki Air"
     },
     {
         "iata": "BNY",
         "state": "",
         "city": "Anua",
         "airport": "Bellona/Anua Airport",
-        "stateCity": ", Anua"
+        "stateCity": "Anua, Bellona"
     },
     {
         "iata": "CHY",
         "state": "Choiseul",
         "city": "",
         "airport": "Choiseul Bay Airport",
-        "stateCity": "Choiseul, "
+        "stateCity": "Choiseul, Bay"
     },
     {
         "iata": "BAS",
         "state": "",
         "city": "Ballalae",
         "airport": "Ballalae Airport",
-        "stateCity": ", Ballalae"
+        "stateCity": "Ballalae Air"
     },
     {
         "iata": "FRE",
@@ -159,14 +159,14 @@
         "state": "Guadalcanal",
         "city": "",
         "airport": "Avu Avu Airport",
-        "stateCity": "Guadalcanal, "
+        "stateCity": "Guadalcanal, Avu Avu"
     },
     {
         "iata": "IRA",
         "state": "",
         "city": "Kirakira",
         "airport": "Ngorangora Airport",
-        "stateCity": ", Kirakira"
+        "stateCity": "Kirakira, Ngorangora"
     },
     {
         "iata": "SCZ",
@@ -181,21 +181,21 @@
         "state": "",
         "city": "Gizo",
         "airport": "Nusatupe Airport",
-        "stateCity": ", Gizo"
+        "stateCity": "Gizo, Nusatupe"
     },
     {
         "iata": "MNY",
         "state": "",
         "city": "Stirling Island",
         "airport": "Mono Airport",
-        "stateCity": ", Stirling Island"
+        "stateCity": "Stirling Island, Mono"
     },
     {
         "iata": "PRS",
         "state": "",
         "city": "Parasi",
         "airport": "Parasi Airport",
-        "stateCity": ", Parasi"
+        "stateCity": "Parasi, Air"
     },
     {
         "iata": "RNL",
@@ -209,70 +209,70 @@
         "state": "",
         "city": "Sege",
         "airport": "Sege Airport",
-        "stateCity": ", Sege"
+        "stateCity": "Sege, Air"
     },
     {
         "iata": "NNB",
         "state": "",
         "city": "Santa Ana Island",
         "airport": "Santa Ana Airport",
-        "stateCity": ", Santa Ana Island"
+        "stateCity": "Santa Ana Island, Air"
     },
     {
         "iata": "RUS",
         "state": "",
         "city": "Marau",
         "airport": "Marau Airport",
-        "stateCity": ", Marau"
+        "stateCity": "Marau Air"
     },
     {
         "iata": "VAO",
         "state": "",
         "city": "Suavanao",
         "airport": "Suavanao Airport",
-        "stateCity": ", Suavanao"
+        "stateCity": "Suavanao, Air"
     },
     {
         "iata": "XYA",
         "state": "",
         "city": "Yandina",
         "airport": "Yandina Airport",
-        "stateCity": ", Yandina"
+        "stateCity": "Yandina, Air"
     },
     {
         "iata": "KGE",
         "state": "",
         "city": "Kagau Island",
         "airport": "Kagau Island Airport",
-        "stateCity": ", Kagau Island"
+        "stateCity": "Kagau Island, Air"
     },
     {
         "iata": "KWS",
         "state": "",
         "city": "Kwailabesi",
         "airport": "Kwailabesi Airport",
-        "stateCity": ", Kwailabesi"
+        "stateCity": "Kwailabesi, Air"
     },
     {
         "iata": "GTA",
         "state": "",
         "city": "Gatokae",
         "airport": "Gatokae Airport",
-        "stateCity": ", Gatokae"
+        "stateCity": "Gatokae, Air"
     },
     {
         "iata": "RIN",
         "state": "",
         "city": "Ringi Cove",
         "airport": "Ringi Cove Airport",
-        "stateCity": ", Ringi Cove"
+        "stateCity": "Ringi Cove, Air"
     },
     {
         "iata": "RBV",
         "state": "",
         "city": "Ramata",
         "airport": "Ramata Airport",
-        "stateCity": ", Ramata"
+        "stateCity": "Ramata, Air"
     },
     {
         "iata": "CEX",
@@ -356,7 +356,7 @@
         "state": "Enga",
         "city": "",
         "airport": "Kompiam Airport",
-        "stateCity": "Enga, "
+        "stateCity": "Enga, Kompiam"
     },
     {
         "iata": "AUJ",
@@ -391,7 +391,7 @@
         "state": "Morobe",
         "city": "",
         "airport": "Baindoung Airport",
-        "stateCity": "Morobe, "
+        "stateCity": "Morobe, Baindoung"
     },
     {
         "iata": "BUA",
@@ -545,7 +545,7 @@
         "state": "Morobe",
         "city": "",
         "airport": "Kabwum",
-        "stateCity": "Morobe, "
+        "stateCity": "Morobe, Kabwum"
     },
     {
         "iata": "KDR",
@@ -671,14 +671,14 @@
         "state": "Southern Highlands",
         "city": "",
         "airport": "Mendi Airport",
-        "stateCity": "Southern Highlands, "
+        "stateCity": "Southern Highlands, Mendi"
     },
     {
         "iata": "MAS",
         "state": "Manus",
         "city": "",
         "airport": "Momote Airport",
-        "stateCity": "Manus, "
+        "stateCity": "Manus, Momote"
     },
     {
         "iata": "MXH",
@@ -727,7 +727,7 @@
         "state": "Morobe",
         "city": "",
         "airport": "Ogeranang Airport",
-        "stateCity": "Morobe, "
+        "stateCity": "Morobe, Ogeranang"
     },
     {
         "iata": "OSE",
@@ -755,14 +755,14 @@
         "state": "East Sepik",
         "city": "",
         "airport": "Karawari Airstrip",
-        "stateCity": "East Sepik, "
+        "stateCity": "East Sepik, Karawari"
     },
     {
         "iata": "RMN",
         "state": "Western Province",
         "city": "",
         "airport": "Rumginae Airport",
-        "stateCity": "Western Province, "
+        "stateCity": "Western Province, Rumginae"
     },
     {
         "iata": "KMR",
@@ -776,7 +776,7 @@
         "state": "Western Province",
         "city": "",
         "airport": "Suabi Airport",
-        "stateCity": "Western Province, "
+        "stateCity": "Western Province, Suabi"
     },
     {
         "iata": "NIS",
@@ -867,7 +867,7 @@
         "state": "Sandaun",
         "city": "",
         "airport": "Vanimo Airport",
-        "stateCity": "Sandaun, "
+        "stateCity": "Sandaun, Vanimo"
     },
     {
         "iata": "WAO",
@@ -881,14 +881,14 @@
         "state": "Enga",
         "city": "",
         "airport": "Wapenamanda Airport",
-        "stateCity": "Enga, "
+        "stateCity": "Enga, Wapenamanda"
     },
     {
         "iata": "AGL",
         "state": "Northern Province",
         "city": "",
         "airport": "Wanigela Airport",
-        "stateCity": "Northern Province, "
+        "stateCity": "Northern Province, Wanigela"
     },
     {
         "iata": "WWK",
@@ -951,14 +951,14 @@
         "state": "",
         "city": "Nuuk",
         "airport": "Godthaab / Nuuk Airport",
-        "stateCity": ", Nuuk"
+        "stateCity": "Nuuk, Godthaab"
     },
     {
         "iata": "JAV",
         "state": "",
         "city": "Ilulissat",
         "airport": "Ilulissat Airport",
-        "stateCity": ", Ilulissat"
+        "stateCity": "Ilulissat, Air"
     },
     {
         "iata": "KUS",
@@ -972,21 +972,21 @@
         "state": "",
         "city": "Maniitsoq",
         "airport": "Maniitsoq Airport",
-        "stateCity": ", Maniitsoq"
+        "stateCity": "Maniitsoq, Air"
     },
     {
         "iata": "JFR",
         "state": "",
         "city": "Paamiut",
         "airport": "Paamiut Airport",
-        "stateCity": ", Paamiut"
+        "stateCity": "Paamiut, Air"
     },
     {
         "iata": "NAQ",
         "state": "",
         "city": "Qaanaaq",
         "airport": "Qaanaaq Airport",
-        "stateCity": ", Qaanaaq"
+        "stateCity": "Qaanaaq, Air"
     },
     {
         "iata": "SFJ",
@@ -1000,7 +1000,7 @@
         "state": "",
         "city": "Sisimiut",
         "airport": "Sisimiut Airport",
-        "stateCity": ", Sisimiut"
+        "stateCity": "Sisimiut, Air"
     },
     {
         "iata": "THU",
@@ -1014,14 +1014,14 @@
         "state": "",
         "city": "Upernavik",
         "airport": "Upernavik Airport",
-        "stateCity": ", Upernavik"
+        "stateCity": "Upernavik, Air"
     },
     {
         "iata": "JQA",
         "state": "",
         "city": "Uummannaq",
         "airport": "Qaarsut Airport",
-        "stateCity": ", Uummannaq"
+        "stateCity": "Uummannaq, Air"
     },
     {
         "iata": "AEY",
@@ -3863,14 +3863,14 @@
         "state": "Blida",
         "city": "",
         "airport": "Blida Airport",
-        "stateCity": "Blida, "
+        "stateCity": "Blida, Blida"
     },
     {
         "iata": "BUJ",
         "state": "M'Sila",
         "city": "",
         "airport": "Bou Saada Airport",
-        "stateCity": "M'Sila, "
+        "stateCity": "M'Sila, Bou Saada"
     },
     {
         "iata": "BJA",
@@ -3898,7 +3898,7 @@
         "state": "Blida",
         "city": "",
         "airport": "Boufarik Airport",
-        "stateCity": "Blida, "
+        "stateCity": "Blida, Boufarik"
     },
     {
         "iata": "VVZ",
@@ -3940,7 +3940,7 @@
         "state": "Relizane",
         "city": "",
         "airport": "Relizane Airport",
-        "stateCity": "Relizane, "
+        "stateCity": "Relizane, Relizane"
     },
     {
         "iata": "AAE",
@@ -3975,14 +3975,14 @@
         "state": "Laghouat",
         "city": "",
         "airport": "Hassi R'Mel Airport",
-        "stateCity": "Laghouat, "
+        "stateCity": "Laghouat, Hassi R'Mel"
     },
     {
         "iata": "QDJ",
         "state": "Djelfa",
         "city": "",
         "airport": "Tsletsi Airport",
-        "stateCity": "Djelfa, "
+        "stateCity": "Djelfa, Tsletsi"
     },
     {
         "iata": "TID",
@@ -4003,14 +4003,14 @@
         "state": "Chlef",
         "city": "",
         "airport": "Ech Cheliff Airport",
-        "stateCity": "Chlef, "
+        "stateCity": "Chlef, Ech Cheliff"
     },
     {
         "iata": "TAF",
         "state": "Oran",
         "city": "",
         "airport": "Tafaraoui Airport",
-        "stateCity": "Oran, "
+        "stateCity": "Oran, Tafaraoui"
     },
     {
         "iata": "TLM",
@@ -4038,14 +4038,14 @@
         "state": "Sidi-Bel-Abbes",
         "city": "",
         "airport": "Sidi Bel Abbes Airport",
-        "stateCity": "Sidi-Bel-Abbes, "
+        "stateCity": "Sidi-Bel-Abbes, Air"
     },
     {
         "iata": "MUW",
         "state": "Mascara",
         "city": "",
         "airport": "Ghriss Airport",
-        "stateCity": "Mascara, "
+        "stateCity": "Mascara, Ghriss"
     },
     {
         "iata": "EBH",
@@ -4073,7 +4073,7 @@
         "state": "Adrar",
         "city": "",
         "airport": "Touat Cheikh Sidi Mohamed Belkebir Airport",
-        "stateCity": "Adrar, "
+        "stateCity": "Adrar, Touat Cheikh"
     },
     {
         "iata": "BSK",
@@ -4087,7 +4087,7 @@
         "state": "Ghardaia",
         "city": "",
         "airport": "El Golea Airport",
-        "stateCity": "Ghardaia, "
+        "stateCity": "Ghardaia, El Golea"
     },
     {
         "iata": "GHA",
@@ -4178,7 +4178,7 @@
         "state": "",
         "city": "Natitingou",
         "airport": "Natitingou Airport",
-        "stateCity": ", Natitingou"
+        "stateCity": "Natitingou, Air"
     },
     {
         "iata": "PKO",
@@ -4199,14 +4199,14 @@
         "state": "",
         "city": "Kaya",
         "airport": "Kaya Airport",
-        "stateCity": ", Kaya"
+        "stateCity": "Kaya, Air"
     },
     {
         "iata": "OUG",
         "state": "",
         "city": "Ouahigouya",
         "airport": "Ouahigouya Airport",
-        "stateCity": ", Ouahigouya"
+        "stateCity": "Ouahigouya, Air"
     },
     {
         "iata": "XDJ",
@@ -4220,7 +4220,7 @@
         "state": "",
         "city": "Leo",
         "airport": "Leo Airport",
-        "stateCity": ", Leo"
+        "stateCity": "Leo, Air"
     },
     {
         "iata": "PUP",
@@ -4234,21 +4234,21 @@
         "state": "",
         "city": "Boulsa",
         "airport": "Boulsa Airport",
-        "stateCity": ", Boulsa"
+        "stateCity": "Boulsa, Air"
     },
     {
         "iata": "XBG",
         "state": "",
         "city": "Bogande",
         "airport": "Bogande Airport",
-        "stateCity": ", Bogande"
+        "stateCity": "Bogande, Air"
     },
     {
         "iata": "DIP",
         "state": "",
         "city": "Diapaga",
         "airport": "Diapaga Airport",
-        "stateCity": ", Diapaga"
+        "stateCity": "Diapaga, Air"
     },
     {
         "iata": "DOR",
@@ -4276,7 +4276,7 @@
         "state": "",
         "city": "Kantchari",
         "airport": "Kantchari Airport",
-        "stateCity": ", Kantchari"
+        "stateCity": "Kantchari, Air"
     },
     {
         "iata": "TMQ",
@@ -4290,14 +4290,14 @@
         "state": "",
         "city": "Pama",
         "airport": "Pama Airport",
-        "stateCity": ", Pama"
+        "stateCity": "Pama, Air"
     },
     {
         "iata": "ARL",
         "state": "",
         "city": "Arly",
         "airport": "Arly Airport",
-        "stateCity": ", Arly"
+        "stateCity": "Arly, Air"
     },
     {
         "iata": "XSE",
@@ -4311,21 +4311,21 @@
         "state": "",
         "city": "Tenkodogo",
         "airport": "Tenkodogo Airport",
-        "stateCity": ", Tenkodogo"
+        "stateCity": "Tenkodogo, Air"
     },
     {
         "iata": "XZA",
         "state": "",
         "city": "Zabre",
         "airport": "Zabre Airport",
-        "stateCity": ", Zabre"
+        "stateCity": "Zabre, Air"
     },
     {
         "iata": "OUA",
         "state": "",
         "city": "Ouagadougou",
         "airport": "Ouagadougou Airport",
-        "stateCity": ", Ouagadougou"
+        "stateCity": "Ouagadougou, Air"
     },
     {
         "iata": "BNR",
@@ -4339,7 +4339,7 @@
         "state": "",
         "city": "Dedougou",
         "airport": "Dedougou Airport",
-        "stateCity": ", Dedougou"
+        "stateCity": "Dedougou, Air"
     },
     {
         "iata": "XGA",
@@ -4353,7 +4353,7 @@
         "state": "",
         "city": "Nouna",
         "airport": "Nouna Airport",
-        "stateCity": ", Nouna"
+        "stateCity": "Nouna, Air"
     },
     {
         "iata": "BOY",
@@ -4374,7 +4374,7 @@
         "state": "",
         "city": "Diebougou",
         "airport": "Diebougou Airport",
-        "stateCity": ", Diebougou"
+        "stateCity": "Diebougou, Air"
     },
     {
         "iata": "XAR",
@@ -4388,21 +4388,21 @@
         "state": "",
         "city": "Accra",
         "airport": "Kotoka International Airport",
-        "stateCity": ", Accra"
+        "stateCity": "Accra, Air"
     },
     {
         "iata": "TML",
         "state": "",
         "city": "Tamale",
         "airport": "Tamale Airport",
-        "stateCity": ", Tamale"
+        "stateCity": "Tamale, Air"
     },
     {
         "iata": "KMS",
         "state": "",
         "city": "Kumasi",
         "airport": "Kumasi Airport",
-        "stateCity": ", Kumasi"
+        "stateCity": "Kumasi, Air"
     },
     {
         "iata": "NYI",
@@ -4430,35 +4430,35 @@
         "state": "",
         "city": "Abengourou",
         "airport": "Abengourou Airport",
-        "stateCity": ", Abengourou"
+        "stateCity": "Abengourou, Air"
     },
     {
         "iata": "BXI",
         "state": "",
         "city": "Boundiali",
         "airport": "Boundiali Airport",
-        "stateCity": ", Boundiali"
+        "stateCity": "Boundiali, Air"
     },
     {
         "iata": "BYK",
         "state": "Vallee-du-Bandama",
         "city": "",
         "airport": "Bouake Airport",
-        "stateCity": "Vallee-du-Bandama, "
+        "stateCity": "Vallee-du-Bandama, Bouake"
     },
     {
         "iata": "BQO",
         "state": "",
         "city": "Bouna",
         "airport": "Bouna Airport",
-        "stateCity": ", Bouna"
+        "stateCity": "Bouna, Air"
     },
     {
         "iata": "BDK",
         "state": "",
         "city": "Bondoukou",
         "airport": "Soko Airport",
-        "stateCity": ", Bondoukou"
+        "stateCity": "Bondoukou, Air"
     },
     {
         "iata": "DIM",
@@ -4472,14 +4472,14 @@
         "state": "Sassandra-Marahoue",
         "city": "",
         "airport": "Daloa Airport",
-        "stateCity": "Sassandra-Marahoue, "
+        "stateCity": "Sassandra-Marahoue, Daloa"
     },
     {
         "iata": "FEK",
         "state": "",
         "city": "Ferkessedougou",
         "airport": "Ferkessedougou Airport",
-        "stateCity": ", Ferkessedougou"
+        "stateCity": "Ferkessedougou, Air"
     },
     {
         "iata": "GGN",
@@ -4493,7 +4493,7 @@
         "state": "",
         "city": "Guiglo",
         "airport": "Guiglo Airport",
-        "stateCity": ", Guiglo"
+        "stateCity": "Guiglo, Air"
     },
     {
         "iata": "BBV",
@@ -4507,14 +4507,14 @@
         "state": "Savanes",
         "city": "",
         "airport": "Korhogo Airport",
-        "stateCity": "Savanes, "
+        "stateCity": "Savanes, Korhogo"
     },
     {
         "iata": "MJC",
         "state": "Montagnes",
         "city": "",
         "airport": "Man Airport",
-        "stateCity": "Montagnes, "
+        "stateCity": "Montagnes, Man"
     },
     {
         "iata": "KEO",
@@ -4528,7 +4528,7 @@
         "state": "",
         "city": "Ouango Fitini",
         "airport": "Ouango Fitini Airport",
-        "stateCity": ", Ouango Fitini"
+        "stateCity": "Ouango Fitini, Air"
     },
     {
         "iata": "SEO",
@@ -4542,21 +4542,21 @@
         "state": "Bas-Sassandra",
         "city": "",
         "airport": "San Pedro Airport",
-        "stateCity": "Bas-Sassandra, "
+        "stateCity": "Bas-Sassandra, San Pedro"
     },
     {
         "iata": "ZSS",
         "state": "",
         "city": "Sassandra",
         "airport": "Sassandra Airport",
-        "stateCity": ", Sassandra"
+        "stateCity": "Sassandra, Air"
     },
     {
         "iata": "TXU",
         "state": "",
         "city": "Tabou",
         "airport": "Tabou Airport",
-        "stateCity": ", Tabou"
+        "stateCity": "Tabou, Air"
     },
     {
         "iata": "ASK",
@@ -4948,7 +4948,7 @@
         "state": "Mecklenburg-Vorpommern",
         "city": "",
         "airport": "Barth Airport",
-        "stateCity": "Mecklenburg-Vorpommern, "
+        "stateCity": "Mecklenburg-Vorpommern, Barth"
     },
     {
         "iata": "ZMG",
@@ -5123,7 +5123,7 @@
         "state": "North-Rhine-Westphalia",
         "city": "",
         "airport": "Siegerland Airport",
-        "stateCity": "North-Rhine-Westphalia, "
+        "stateCity": "North-Rhine-Westphalia, Siegerland"
     },
     {
         "iata": "XFW",
@@ -5179,7 +5179,7 @@
         "state": "North-Rhine-Westphalia",
         "city": "",
         "airport": "Essen Mulheim Airport",
-        "stateCity": "North-Rhine-Westphalia, "
+        "stateCity": "North-Rhine-Westphalia, Essen"
     },
     {
         "iata": "BFE",
@@ -5235,7 +5235,7 @@
         "state": "Bavaria",
         "city": "",
         "airport": "Oberpfaffenhofen Airport",
-        "stateCity": "Bavaria, "
+        "stateCity": "Bavaria, Oberpfaffenhofen"
     },
     {
         "iata": "RBM",
@@ -5263,7 +5263,7 @@
         "state": "Mecklenburg-Vorpommern",
         "city": "",
         "airport": "Schwerin Parchim Airport",
-        "stateCity": "Mecklenburg-Vorpommern, "
+        "stateCity": "Mecklenburg-Vorpommern, Schwerin"
     },
     {
         "iata": "BYU",
@@ -5319,14 +5319,14 @@
         "state": "Baden-Wuerttemberg",
         "city": "",
         "airport": "Lahr Airport",
-        "stateCity": "Baden-Wuerttemberg, "
+        "stateCity": "Baden-Wuerttemberg, Lahr"
     },
     {
         "iata": "BWE",
         "state": "Lower-Saxony",
         "city": "",
         "airport": "Braunschweig Wolfsburg Airport",
-        "stateCity": "Lower-Saxony, "
+        "stateCity": "Lower-Saxony, Braunschweig"
     },
     {
         "iata": "KSF",
@@ -5543,14 +5543,14 @@
         "state": "Uusimaa",
         "city": "",
         "airport": "Hyvinkaa Airport",
-        "stateCity": "Uusimaa, "
+        "stateCity": "Uusimaa, Hyvinkaa"
     },
     {
         "iata": "KTQ",
         "state": "North-Karelia",
         "city": "",
         "airport": "Kitee Airport",
-        "stateCity": "North-Karelia, "
+        "stateCity": "North-Karelia, Kitee"
     },
     {
         "iata": "IVL",
@@ -5599,7 +5599,7 @@
         "state": "Southern-Ostrobothnia",
         "city": "",
         "airport": "Kauhajoki Airport",
-        "stateCity": "Southern-Ostrobothnia, "
+        "stateCity": "Southern-Ostrobothnia, Kauhajoki"
     },
     {
         "iata": "KOK",
@@ -5634,7 +5634,7 @@
         "state": "Paeijaenne-Tavastia",
         "city": "",
         "airport": "Lahti Vesivehmaa Airport",
-        "stateCity": "Paeijaenne-Tavastia, "
+        "stateCity": "Paeijaenne-Tavastia, Lahti"
     },
     {
         "iata": "LPP",
@@ -5648,7 +5648,7 @@
         "state": "Mariehamns-stad",
         "city": "",
         "airport": "Mariehamn Airport",
-        "stateCity": "Mariehamns-stad, "
+        "stateCity": "Mariehamns-stad, Mariehamn"
     },
     {
         "iata": "MIK",
@@ -5739,7 +5739,7 @@
         "state": "Northern-Ostrobothnia",
         "city": "",
         "airport": "Ylivieska Airport",
-        "stateCity": "Northern-Ostrobothnia, "
+        "stateCity": "Northern-Ostrobothnia, Ylivieska"
     },
     {
         "iata": "BFS",
@@ -6614,7 +6614,7 @@
         "state": "Groningen",
         "city": "",
         "airport": "Oostwold Airport",
-        "stateCity": "Groningen, "
+        "stateCity": "Groningen, Oostwold"
     },
     {
         "iata": "RTM",
@@ -6782,7 +6782,7 @@
         "state": "Zealand",
         "city": "",
         "airport": "Vejro",
-        "stateCity": "Zealand, "
+        "stateCity": "Zealand, Vejro"
     },
     {
         "iata": "AAR",
@@ -7013,7 +7013,7 @@
         "state": "Oppland",
         "city": "",
         "airport": "Leirin Airport",
-        "stateCity": "Oppland, "
+        "stateCity": "Oppland, Leirin"
     },
     {
         "iata": "FRO",
@@ -7069,7 +7069,7 @@
         "state": "Finnmark",
         "city": "",
         "airport": "Kautokeino Air Base",
-        "stateCity": "Finnmark, "
+        "stateCity": "Finnmark, Kautokeino"
     },
     {
         "iata": "KSU",
@@ -7125,7 +7125,7 @@
         "state": "Nordland",
         "city": "",
         "airport": "Mosjoen Airport Kjaerstad",
-        "stateCity": "Nordland, "
+        "stateCity": "Nordland, Mosjoen"
     },
     {
         "iata": "LKL",
@@ -7153,7 +7153,7 @@
         "state": "Telemark",
         "city": "",
         "airport": "Notodden Airport",
-        "stateCity": "Telemark, "
+        "stateCity": "Telemark, Notodden"
     },
     {
         "iata": "OLA",
@@ -7195,7 +7195,7 @@
         "state": "Nordland",
         "city": "",
         "airport": "Rost Airport",
-        "stateCity": "Nordland, "
+        "stateCity": "Nordland, Rost"
     },
     {
         "iata": "RYG",
@@ -7349,7 +7349,7 @@
         "state": "Silesia",
         "city": "",
         "airport": "Gliwice Glider Airport",
-        "stateCity": "Silesia, "
+        "stateCity": "Silesia, Gliwice"
     },
     {
         "iata": "KRK",
@@ -7363,7 +7363,7 @@
         "state": "West-Pomerania",
         "city": "",
         "airport": "Koszalin Zegrze Airport",
-        "stateCity": "West-Pomerania, "
+        "stateCity": "West-Pomerania, Koszalin"
     },
     {
         "iata": "KTW",
@@ -7398,7 +7398,7 @@
         "state": "Lublin",
         "city": "",
         "airport": "Lublin Radwiec Airport",
-        "stateCity": "Lublin, "
+        "stateCity": "Lublin, Radwiec"
     },
     {
         "iata": "WMI",
@@ -7489,7 +7489,7 @@
         "state": "Blekinge",
         "city": "",
         "airport": "Ronneby Airport",
-        "stateCity": "Blekinge, "
+        "stateCity": "Blekinge, Ronneby"
     },
     {
         "iata": "XWP",
@@ -7545,14 +7545,14 @@
         "state": "Oerebro",
         "city": "",
         "airport": "Karlskoga Airport",
-        "stateCity": "Oerebro, "
+        "stateCity": "Oerebro, Karlskoga"
     },
     {
         "iata": "MXX",
         "state": "Dalarna",
         "city": "",
         "airport": "Mora Airport",
-        "stateCity": "Dalarna, "
+        "stateCity": "Dalarna, Mora"
     },
     {
         "iata": "NYO",
@@ -7573,14 +7573,14 @@
         "state": "Kalmar",
         "city": "",
         "airport": "Oskarshamn Airport",
-        "stateCity": "Kalmar, "
+        "stateCity": "Kalmar, Oskarshamn"
     },
     {
         "iata": "KLR",
         "state": "Kalmar",
         "city": "",
         "airport": "Kalmar Airport",
-        "stateCity": "Kalmar, "
+        "stateCity": "Kalmar"
     },
     {
         "iata": "MMX",
@@ -7608,7 +7608,7 @@
         "state": "Jaemtland",
         "city": "",
         "airport": "Sveg Airport",
-        "stateCity": "Jaemtland, "
+        "stateCity": "Jaemtland, Sveg"
     },
     {
         "iata": "GEV",
@@ -7629,7 +7629,7 @@
         "state": "Vaesterbotten",
         "city": "",
         "airport": "Lycksele Airport",
-        "stateCity": "Vaesterbotten, "
+        "stateCity": "Vaesterbotten, Lycksele"
     },
     {
         "iata": "SDL",
@@ -7650,7 +7650,7 @@
         "state": "Norrbotten",
         "city": "",
         "airport": "Kiruna Airport",
-        "stateCity": "Norrbotten, "
+        "stateCity": "Norrbotten, Kiruna"
     },
     {
         "iata": "SFT",
@@ -7671,7 +7671,7 @@
         "state": "Vaesterbotten",
         "city": "",
         "airport": "Vilhelmina Airport",
-        "stateCity": "Vaesterbotten, "
+        "stateCity": "Vaesterbotten, Vilhelmina"
     },
     {
         "iata": "AJR",
@@ -7706,7 +7706,7 @@
         "state": "Vaermland",
         "city": "",
         "airport": "Hagfors Airport",
-        "stateCity": "Vaermland, "
+        "stateCity": "Vaermland, Hagfors"
     },
     {
         "iata": "KSD",
@@ -7748,14 +7748,14 @@
         "state": "Dalarna",
         "city": "",
         "airport": "Borlange Airport",
-        "stateCity": "Dalarna, "
+        "stateCity": "Dalarna, Borlange"
     },
     {
         "iata": "HLF",
         "state": "Kalmar",
         "city": "",
         "airport": "Hultsfred Airport",
-        "stateCity": "Kalmar, "
+        "stateCity": "Kalmar, Hultsfred"
     },
     {
         "iata": "GVX",
@@ -7783,7 +7783,7 @@
         "state": "Vaermland",
         "city": "",
         "airport": "Torsby Airport",
-        "stateCity": "Vaermland, "
+        "stateCity": "Vaermland, Torsby"
     },
     {
         "iata": "EKT",
@@ -7818,7 +7818,7 @@
         "state": "Vaesterbotten",
         "city": "",
         "airport": "Storuman Airport",
-        "stateCity": "Vaesterbotten, "
+        "stateCity": "Vaesterbotten, Storuman"
     },
     {
         "iata": "IDB",
@@ -7832,14 +7832,14 @@
         "state": "Norrbotten",
         "city": "",
         "airport": "Pajala Airport",
-        "stateCity": "Norrbotten, "
+        "stateCity": "Norrbotten, Pajala"
     },
     {
         "iata": "HMV",
         "state": "Vaesterbotten",
         "city": "",
         "airport": "Hemavan Airport",
-        "stateCity": "Vaesterbotten, "
+        "stateCity": "Vaesterbotten, Hemavan"
     },
     {
         "iata": "SPM",
@@ -7867,14 +7867,14 @@
         "state": "Lower-Saxony",
         "city": "",
         "airport": "Celle Airport",
-        "stateCity": "Lower-Saxony, "
+        "stateCity": "Lower-Saxony, Celle"
     },
     {
         "iata": "ZPQ",
         "state": "North-Rhine-Westphalia",
         "city": "",
         "airport": "Rheine Bentlage Airport",
-        "stateCity": "North-Rhine-Westphalia, "
+        "stateCity": "North-Rhine-Westphalia, Rheine"
     },
     {
         "iata": "FRZ",
@@ -7888,21 +7888,21 @@
         "state": "Hesse",
         "city": "",
         "airport": "Hanau Army Air Field",
-        "stateCity": "Hesse, "
+        "stateCity": "Hesse, Hanau"
     },
     {
         "iata": "NDZ",
         "state": "Lower-Saxony",
         "city": "",
         "airport": "Nordholz Airport",
-        "stateCity": "Lower-Saxony, "
+        "stateCity": "Lower-Saxony, Nordholz"
     },
     {
         "iata": "GKE",
         "state": "North-Rhine-Westphalia",
         "city": "",
         "airport": "Geilenkirchen Airport",
-        "stateCity": "North-Rhine-Westphalia, "
+        "stateCity": "North-Rhine-Westphalia, Geilenkirchen"
     },
     {
         "iata": "RLG",
@@ -7916,21 +7916,21 @@
         "state": "North-Rhine-Westphalia",
         "city": "",
         "airport": "Norvenich Airport",
-        "stateCity": "North-Rhine-Westphalia, "
+        "stateCity": "North-Rhine-Westphalia, Norvenich"
     },
     {
         "iata": "WBG",
         "state": "Schleswig-Holstein",
         "city": "",
         "airport": "Schleswig Airport",
-        "stateCity": "Schleswig-Holstein, "
+        "stateCity": "Schleswig-Holstein, Schleswig"
     },
     {
         "iata": "FNB",
         "state": "Mecklenburg-Vorpommern",
         "city": "",
         "airport": "Neubrandenburg Airport",
-        "stateCity": "Mecklenburg-Vorpommern, "
+        "stateCity": "Mecklenburg-Vorpommern, Neubrandenburg"
     },
     {
         "iata": "WIE",
@@ -7965,7 +7965,7 @@
         "state": "North-Rhine-Westphalia",
         "city": "",
         "airport": "Brugge Air Base",
-        "stateCity": "North-Rhine-Westphalia, "
+        "stateCity": "North-Rhine-Westphalia, Brugge"
     },
     {
         "iata": "DGP",
@@ -8000,21 +8000,21 @@
         "state": "",
         "city": "Kaunas",
         "airport": "Kaunas International Airport",
-        "stateCity": ", Kaunas"
+        "stateCity": "Kaunas, Air"
     },
     {
         "iata": "KLJ",
         "state": "",
         "city": "Klaipeda",
         "airport": "Klaipeda Airport",
-        "stateCity": ", Klaipeda"
+        "stateCity": "Klaipeda, Air"
     },
     {
         "iata": "PLQ",
         "state": "",
         "city": "Palanga",
         "airport": "Palanga International Airport",
-        "stateCity": ", Palanga"
+        "stateCity": "Palanga, Air"
     },
     {
         "iata": "PNV",
@@ -8028,7 +8028,7 @@
         "state": "",
         "city": "Siauliai",
         "airport": "Siauliai International Airport",
-        "stateCity": ", Siauliai"
+        "stateCity": "Siauliai, Air"
     },
     {
         "iata": "HLJ",
@@ -8637,7 +8637,7 @@
         "state": "Ngwaketsi",
         "city": "",
         "airport": "Jwaneng Airport",
-        "stateCity": "Ngwaketsi, "
+        "stateCity": "Ngwaketsi, Jwaneng"
     },
     {
         "iata": "BBK",
@@ -8665,7 +8665,7 @@
         "state": "Central",
         "city": "",
         "airport": "Orapa Airport",
-        "stateCity": "Central, "
+        "stateCity": "Central, Orapa"
     },
     {
         "iata": "QPH",
@@ -8686,7 +8686,7 @@
         "state": "Central",
         "city": "",
         "airport": "Sua Pan Airport",
-        "stateCity": "Central, "
+        "stateCity": "Central, Sua"
     },
 
     {
@@ -8841,7 +8841,7 @@
         "state": "Sangha",
         "city": "",
         "airport": "Ouesso Airport",
-        "stateCity": "Sangha, "
+        "stateCity": "Sangha, Ouesso"
     },
     {
         "iata": "KMK",
@@ -8890,7 +8890,7 @@
         "state": "",
         "city": "Bangassou",
         "airport": "Bangassou Airport",
-        "stateCity": ", Bangassou"
+        "stateCity": "Bangassou, Air"
     },
     {
         "iata": "IRO",
@@ -9030,14 +9030,14 @@
         "state": "Litoral",
         "city": "",
         "airport": "Bata Airport",
-        "stateCity": "Litoral, "
+        "stateCity": "Litoral, Bata"
     },
     {
         "iata": "SSG",
         "state": "",
         "city": "Malabo",
         "airport": "Malabo Airport",
-        "stateCity": ", Malabo"
+        "stateCity": "Malabo, Air"
     },
     {
         "iata": "ASI",
@@ -9065,7 +9065,7 @@
         "state": "",
         "city": "Diego Garcia",
         "airport": "Diego Garcia Naval Support Facility",
-        "stateCity": ", Diego Garcia"
+        "stateCity": "Diego Garcia, Air"
     },
     {
         "iata": "NKS",
@@ -9366,7 +9366,7 @@
         "state": "Moheli",
         "city": "",
         "airport": "Moheli Bandar Es Eslam Airport",
-        "stateCity": "Moheli, "
+        "stateCity": "Moheli, Bandar"
     },
     {
         "iata": "YVA",
@@ -9408,42 +9408,42 @@
         "state": "",
         "city": "Malaimbandy",
         "airport": "Malaimbandy Airport",
-        "stateCity": ", Malaimbandy"
+        "stateCity": "Malaimbandy, Air"
     },
     {
         "iata": "ATJ",
         "state": "",
         "city": "Antsirabe",
         "airport": "Antsirabe Airport",
-        "stateCity": ", Antsirabe"
+        "stateCity": "Antsirabe, Air"
     },
     {
         "iata": "WAQ",
         "state": "",
         "city": "Antsalova",
         "airport": "Antsalova Airport",
-        "stateCity": ", Antsalova"
+        "stateCity": "Antsalova, Air"
     },
     {
         "iata": "VVB",
         "state": "",
         "city": "Mahanoro",
         "airport": "Mahanoro Airport",
-        "stateCity": ", Mahanoro"
+        "stateCity": "Mahanoro, Air"
     },
     {
         "iata": "TNR",
         "state": "",
         "city": "Antananarivo",
         "airport": "Ivato Airport",
-        "stateCity": ", Antananarivo"
+        "stateCity": "Antananarivo, Air"
     },
     {
         "iata": "JVA",
         "state": "",
         "city": "Ankavandra",
         "airport": "Ankavandra Airport",
-        "stateCity": ", Ankavandra"
+        "stateCity": "Ankavandra, Air"
     },
     {
         "iata": "BMD",
@@ -9465,14 +9465,14 @@
         "state": "",
         "city": "Ilaka",
         "airport": "Atsinanana Airport",
-        "stateCity": ", Ilaka"
+        "stateCity": "Ilaka, Air"
     },
     {
         "iata": "TVA",
         "state": "",
         "city": "Morafenobe",
         "airport": "Morafenobe Airport",
-        "stateCity": ", Morafenobe"
+        "stateCity": "Morafenobe, Air"
     },
 
     {
@@ -9480,49 +9480,49 @@
         "state": "Atsinanana",
         "city": "",
         "airport": "Toamasina Airport",
-        "stateCity": "Atsinanana, "
+        "stateCity": "Atsinanana, Toamasina"
     },
     {
         "iata": "WTA",
         "state": "",
         "city": "Tambohorano",
         "airport": "Tambohorano Airport",
-        "stateCity": ", Tambohorano"
+        "stateCity": "Tambohorano, Air"
     },
     {
         "iata": "MOQ",
         "state": "Menabe",
         "city": "",
         "airport": "Morondava Airport",
-        "stateCity": "Menabe, "
+        "stateCity": "Menabe, Morondava"
     },
     {
         "iata": "WTS",
         "state": "",
         "city": "Tsiroanomandidy",
         "airport": "Tsiroanomandidy Airport",
-        "stateCity": ", Tsiroanomandidy"
+        "stateCity": "Tsiroanomandidy, Air"
     },
     {
         "iata": "VAT",
         "state": "",
         "city": "Vatomandry",
         "airport": "Vatomandry Airport",
-        "stateCity": ", Vatomandry"
+        "stateCity": "Vatomandry, Air"
     },
     {
         "iata": "WAM",
         "state": "",
         "city": "Ambatondrazaka",
         "airport": "Ambatondrazaka Airport",
-        "stateCity": ", Ambatondrazaka"
+        "stateCity": "Ambatondrazaka, Air"
     },
     {
         "iata": "DIE",
         "state": "Diana",
         "city": "",
         "airport": "Arrachart Airport",
-        "stateCity": "Diana, "
+        "stateCity": "Diana, Arrachart"
     },
     {
         "iata": "WMR",
@@ -9537,28 +9537,28 @@
         "state": "",
         "city": "Befandriana",
         "airport": "Avaratra Airport",
-        "stateCity": ", Befandriana"
+        "stateCity": "Befandriana, Air"
     },
     {
         "iata": "WPB",
         "state": "",
         "city": "Port Berge",
         "airport": "Port Berge Airport",
-        "stateCity": ", Port Berge"
+        "stateCity": "Port Berge, Air"
     },
     {
         "iata": "ANM",
         "state": "Sava",
         "city": "",
         "airport": "Antsirabato Airport",
-        "stateCity": "Sava, "
+        "stateCity": "Sava, Antsirabato"
     },
     {
         "iata": "IVA",
         "state": "",
         "city": "Ambanja",
         "airport": "Ambanja Airport",
-        "stateCity": ", Ambanja"
+        "stateCity": "Ambanja, Air"
     },
     
     {
@@ -9573,21 +9573,21 @@
         "state": "",
         "city": "Soalala",
         "airport": "Soalala Airport",
-        "stateCity": ", Soalala"
+        "stateCity": "Soalala, Air"
     },
     {
         "iata": "WMP",
         "state": "",
         "city": "Mampikony",
         "airport": "Mampikony Airport",
-        "stateCity": ", Mampikony"
+        "stateCity": "Mampikony, Air"
     },
     {
         "iata": "BPY",
         "state": "Melaky",
         "city": "",
         "airport": "Besalampy Airport",
-        "stateCity": "Melaky, "
+        "stateCity": "Melaky, Besalampy"
     },
     
     {
@@ -9595,7 +9595,7 @@
         "state": "",
         "city": "Tsaratanana",
         "airport": "Tsaratanana Airport",
-        "stateCity": ", Tsaratanana"
+        "stateCity": "Tsaratanana, Air"
     },
     
     {
@@ -9603,35 +9603,35 @@
         "state": "",
         "city": "Antsohihy",
         "airport": "Ambalabe Airport",
-        "stateCity": ", Antsohihy"
+        "stateCity": "Antsohihy, Air"
     },
     {
         "iata": "WMA",
         "state": "",
         "city": "Mandritsara",
         "airport": "Mandritsara Airport",
-        "stateCity": ", Mandritsara"
+        "stateCity": "Mandritsara, Air"
     },
     {
         "iata": "WBO",
         "state": "",
         "city": "Beroroha",
         "airport": "Antsoa Airport",
-        "stateCity": ", Beroroha"
+        "stateCity": "Beroroha, Air"
     },
     {
         "iata": "WMD",
         "state": "",
         "city": "Mandabe",
         "airport": "Mandabe Airport",
-        "stateCity": ", Mandabe"
+        "stateCity": "Mandabe, Air"
     },
     {
         "iata": "FTU",
         "state": "",
         "city": "Tolanaro",
         "airport": "Tolanaro Airport",
-        "stateCity": ", Tolanaro"
+        "stateCity": "Tolanaro, Air"
     },
     
     {
@@ -9646,7 +9646,7 @@
         "state": "",
         "city": "Manja",
         "airport": "Manja Airport",
-        "stateCity": ", Manja"
+        "stateCity": "Manja, Air"
     },
     
     {
@@ -9654,7 +9654,7 @@
         "state": "",
         "city": "Bekily",
         "airport": "Bekily Airport",
-        "stateCity": ", Bekily"
+        "stateCity": "Bekily, Air"
     },
     
     {
@@ -9662,14 +9662,14 @@
         "state": "",
         "city": "Tanandava",
         "airport": "Samangoky Airport",
-        "stateCity": ", Tanandava"
+        "stateCity": "Tanandava, Air"
     },
     {
         "iata": "MXM",
         "state": "Atsimo-Andrefana",
         "city": "",
         "airport": "Morombe Airport",
-        "stateCity": "Atsimo-Andrefana, "
+        "stateCity": "Atsimo-Andrefana, Morombe"
     },
     
     {
@@ -9698,7 +9698,7 @@
         "state": "",
         "city": "Ankazoabo",
         "airport": "Ankazoabo Airport",
-        "stateCity": ", Ankazoabo"
+        "stateCity": "Ankazoabo, Air"
     },
     {
         "iata": "AZZ",
@@ -10090,7 +10090,7 @@
         "state": "Principe",
         "city": "",
         "airport": "Principe Airport",
-        "stateCity": "Principe, "
+        "stateCity": "Principe"
     },
     {
         "iata": "TMS",
@@ -10230,7 +10230,7 @@
         "state": "",
         "city": "Desroches Island",
         "airport": "Desroches Airport",
-        "stateCity": ", Desroches Island"
+        "stateCity": "Desroches Island, Air"
     },
     {
         "iata": "SEZ",
@@ -10251,14 +10251,14 @@
         "state": "",
         "city": "Bird Island",
         "airport": "Bird Island Airport",
-        "stateCity": ", Bird Island"
+        "stateCity": "Bird Island, Air"
     },
     {
         "iata": "DEI",
         "state": "",
         "city": "Denis Island",
         "airport": "Denis Island Airport",
-        "stateCity": ", Denis Island"
+        "stateCity": "Denis Island, Air"
     },
     {
         "iata": "FRK",
@@ -10286,14 +10286,14 @@
         "state": "Ouadai",
         "city": "",
         "airport": "Abeche Airport",
-        "stateCity": "Ouadai, "
+        "stateCity": "Ouadai, Abeche"
     },
     {
         "iata": "MQQ",
         "state": "Logone-Occidental",
         "city": "",
         "airport": "Moundou Airport",
-        "stateCity": "Logone-Occidental, "
+        "stateCity": "Logone-Occidental, Moundou"
     },
     {
         "iata": "LTC",
@@ -10370,7 +10370,7 @@
         "state": "Borkou",
         "city": "",
         "airport": "Faya Largeau Airport",
-        "stateCity": "Borkou, "
+        "stateCity": "Borkou, Faya"
     },
     {
         "iata": "BUQ",
@@ -10398,7 +10398,7 @@
         "state": "",
         "city": "Victoria Falls",
         "airport": "Victoria Falls International Airport",
-        "stateCity": ", Victoria Falls"
+        "stateCity": "Victoria Falls, Air"
     },
     {
         "iata": "HRE",
@@ -10412,14 +10412,14 @@
         "state": "",
         "city": "Kariba",
         "airport": "Kariba International Airport",
-        "stateCity": ", Kariba"
+        "stateCity": "Kariba, Air"
     },
     {
         "iata": "UTA",
         "state": "Manicaland",
         "city": "",
         "airport": "Mutare Airport",
-        "stateCity": "Manicaland, "
+        "stateCity": "Manicaland, Mutare"
     },
     {
         "iata": "MVZ",
@@ -10433,7 +10433,7 @@
         "state": "",
         "city": "Gweru",
         "airport": "Thornhill Air Base",
-        "stateCity": ", Gweru"
+        "stateCity": "Gweru, Air"
     },
     {
         "iata": "HWN",
@@ -10454,7 +10454,7 @@
         "state": "Northern-Region",
         "city": "",
         "airport": "Chelinda Malawi Airport",
-        "stateCity": "Northern-Region, "
+        "stateCity": "Northern-Region, Chelinda"
     },
     {
         "iata": "BLZ",
@@ -10482,7 +10482,7 @@
         "state": "",
         "city": "Karonga",
         "airport": "Karonga Airport",
-        "stateCity": ", Karonga"
+        "stateCity": "Karonga, Air"
     },
     {
         "iata": "KBQ",
@@ -10650,14 +10650,14 @@
         "state": "",
         "city": "Arandis",
         "airport": "Arandis Airport",
-        "stateCity": ", Arandis"
+        "stateCity": "Arandis, Air"
     },
     {
         "iata": "GOG",
         "state": "",
         "city": "Gobabis",
         "airport": "Gobabis Airport",
-        "stateCity": ", Gobabis"
+        "stateCity": "Gobabis, Air"
     },
     {
         "iata": "GFY",
@@ -10692,28 +10692,28 @@
         "state": "",
         "city": "Mokuti Lodge",
         "airport": "Mokuti Lodge Airport",
-        "stateCity": ", Mokuti Lodge"
+        "stateCity": "Mokuti Lodge, Air"
     },
     {
         "iata": "NNI",
         "state": "",
         "city": "Namutoni",
         "airport": "Namutoni Airport",
-        "stateCity": ", Namutoni"
+        "stateCity": "Namutoni, Air"
     },
     {
         "iata": "OND",
         "state": "",
         "city": "Ondangwa",
         "airport": "Ondangwa Airport",
-        "stateCity": ", Ondangwa"
+        "stateCity": "Ondangwa, Air"
     },
     {
         "iata": "OMG",
         "state": "",
         "city": "Omega",
         "airport": "Omega Airport",
-        "stateCity": ", Omega"
+        "stateCity": "Omega, Air"
     },
     {
         "iata": "OMD",
@@ -10734,7 +10734,7 @@
         "state": "",
         "city": "Rundu",
         "airport": "Rundu Airport",
-        "stateCity": ", Rundu"
+        "stateCity": "Rundu, Air"
     },
     {
         "iata": "SWP",
@@ -10748,7 +10748,7 @@
         "state": "",
         "city": "Tsumeb",
         "airport": "Tsumeb Airport",
-        "stateCity": ", Tsumeb"
+        "stateCity": "Tsumeb, Air"
     },
     {
         "iata": "WVB",
@@ -10776,21 +10776,21 @@
         "state": "",
         "city": "Kinshasa",
         "airport": "Ndjili International Airport",
-        "stateCity": ", Kinshasa"
+        "stateCity": "Kinshasa, Air"
     },
     {
         "iata": "NLO",
         "state": "Kinshasa",
         "city": "",
         "airport": "Ndolo Airport",
-        "stateCity": "Kinshasa, "
+        "stateCity": "Kinshasa, Ndolo"
     },
     {
         "iata": "MNB",
         "state": "Bas-Congo",
         "city": "",
         "airport": "Muanda Airport",
-        "stateCity": "Bas-Congo, "
+        "stateCity": "Bas-Congo, Muanda"
     },
     {
         "iata": "BOA",
@@ -10825,56 +10825,56 @@
         "state": "",
         "city": "Inongo",
         "airport": "Inongo Airport",
-        "stateCity": ", Inongo"
+        "stateCity": "Inongo, Air"
     },
     {
         "iata": "NIO",
         "state": "",
         "city": "Nioki",
         "airport": "Nioki Airport",
-        "stateCity": ", Nioki"
+        "stateCity": "Nioki, Air"
     },
     {
         "iata": "FDU",
         "state": "Kwilu",
         "city": "",
         "airport": "Bandundu Airport",
-        "stateCity": "Kwilu, "
+        "stateCity": "Kwilu, Bandundu"
     },
     {
         "iata": "KRZ",
         "state": "",
         "city": "Kiri",
         "airport": "Basango Mboliasa Airport",
-        "stateCity": ", Kiri"
+        "stateCity": "Kiri, Air"
     },
     {
         "iata": "KKW",
         "state": "Kwilu",
         "city": "",
         "airport": "Kikwit Airport",
-        "stateCity": "Kwilu, "
+        "stateCity": "Kwilu, Air"
     },
     {
         "iata": "IDF",
         "state": "",
         "city": "Idiofa",
         "airport": "Idiofa Airport",
-        "stateCity": ", Idiofa"
+        "stateCity": "Idiofa Air"
     },
     {
         "iata": "LUS",
         "state": "",
         "city": "Lusanga",
         "airport": "Lusanga Airport",
-        "stateCity": ", Lusanga"
+        "stateCity": "Lusanga Air"
     },
     {
         "iata": "MSM",
         "state": "",
         "city": "Masi Manimba",
         "airport": "Masi Manimba Airport",
-        "stateCity": ", Masi Manimba"
+        "stateCity": "Masi Manimba Air"
     },
     {
         "iata": "MDK",
@@ -10902,7 +10902,7 @@
         "state": "Equateur",
         "city": "",
         "airport": "Gbadolite Airport",
-        "stateCity": "Equateur, "
+        "stateCity": "Equateur, Gbadolite"
     },
     {
         "iata": "GMA",
@@ -10916,7 +10916,7 @@
         "state": "Equateur",
         "city": "",
         "airport": "Kotakoli Airport",
-        "stateCity": "Equateur, "
+        "stateCity": "Equateur, Kotakoli"
     },
     {
         "iata": "BMB",
@@ -10930,7 +10930,7 @@
         "state": "Equateur",
         "city": "",
         "airport": "Lisala Airport",
-        "stateCity": "Equateur, "
+        "stateCity": "Equateur, Lisala"
     },
     {
         "iata": "BNB",
@@ -10958,7 +10958,7 @@
         "state": "",
         "city": "Yangambi",
         "airport": "Yangambi Airport",
-        "stateCity": ", Yangambi"
+        "stateCity": "Yangambi, Air"
     },
     {
         "iata": "RUE",
@@ -10972,7 +10972,7 @@
         "state": "",
         "city": "Goma",
         "airport": "Goma International Airport",
-        "stateCity": ", Goma"
+        "stateCity": "Goma, Air"
     },
     {
         "iata": "BNC",
@@ -10993,28 +10993,28 @@
         "state": "",
         "city": "Kalima",
         "airport": "Kinkungwa Airport",
-        "stateCity": ", Kalima"
+        "stateCity": "Kalima, Air"
     },
     {
         "iata": "PUN",
         "state": "",
         "city": "Punia",
         "airport": "Punia Airport",
-        "stateCity": ", Punia"
+        "stateCity": "Punia, Air"
     },
     {
         "iata": "FBM",
         "state": "",
         "city": "Lubumbashi",
         "airport": "Lubumbashi International Airport",
-        "stateCity": ", Lubumbashi"
+        "stateCity": "Lubumbashi, Air"
     },
     {
         "iata": "PWO",
         "state": "",
         "city": "Pweto",
         "airport": "Pweto Airport",
-        "stateCity": ", Pweto"
+        "stateCity": "Pweto, Air"
     },
     {
         "iata": "KEC",
@@ -11028,7 +11028,7 @@
         "state": "Lualaba",
         "city": "",
         "airport": "Kolwezi Airport",
-        "stateCity": "Lualaba, "
+        "stateCity": "Lualaba, Kolwezi"
     },
     {
         "iata": "MNO",
@@ -11042,28 +11042,28 @@
         "state": "",
         "city": "Moba",
         "airport": "Moba Airport",
-        "stateCity": ", Moba"
+        "stateCity": "Moba, Air"
     },
     {
         "iata": "FMI",
         "state": "Tanganika",
         "city": "",
         "airport": "Kalemie Airport",
-        "stateCity": "Tanganika, "
+        "stateCity": "Tanganika, Kalemie"
     },
     {
         "iata": "KBO",
         "state": "",
         "city": "Kabalo",
         "airport": "Kabalo Airport",
-        "stateCity": ", Kabalo"
+        "stateCity": "Kabalo, Air"
     },
     {
         "iata": "KOO",
         "state": "",
         "city": "Kongolo",
         "airport": "Kongolo Airport",
-        "stateCity": ", Kongolo"
+        "stateCity": "Kongolo, Air"
     },
     
     {
@@ -11071,7 +11071,7 @@
         "state": "",
         "city": "Kapanga",
         "airport": "Kapanga Airport",
-        "stateCity": ", Kapanga"
+        "stateCity": "Kapanga, Air"
     },
     {
         "iata": "KNM",
@@ -11092,14 +11092,14 @@
         "state": "",
         "city": "Luiza",
         "airport": "Luiza Airport",
-        "stateCity": ", Luiza"
+        "stateCity": "Luiza, Air"
     },
     {
         "iata": "TSH",
         "state": "",
         "city": "Tshikapa",
         "airport": "Tshikapa Airport",
-        "stateCity": ", Tshikapa"
+        "stateCity": "Tshikapa, Air"
     },
     {
         "iata": "LJA",
@@ -11120,14 +11120,14 @@
         "state": "",
         "city": "Mweka",
         "airport": "Mweka Airport",
-        "stateCity": ", Mweka"
+        "stateCity": "Mweka, Air"
     },
     {
         "iata": "BAN",
         "state": "",
         "city": "Basongo",
         "airport": "Basongo Airport",
-        "stateCity": ", Basongo"
+        "stateCity": "Basongo, Air"
     },
     {
         "iata": "PFR",
@@ -11176,7 +11176,7 @@
         "state": "Gao",
         "city": "",
         "airport": "Gao Airport",
-        "stateCity": "Gao, "
+        "stateCity": "Gao Air"
     },
     {
         "iata": "KNZ",
@@ -11197,14 +11197,14 @@
         "state": "Kayes",
         "city": "",
         "airport": "Kayes Dag Dag Airport",
-        "stateCity": "Kayes, "
+        "stateCity": "Kayes, Dag"
     },
     {
         "iata": "MZI",
         "state": "Mopti",
         "city": "",
         "airport": "Ambodedjo Airport",
-        "stateCity": "Mopti, "
+        "stateCity": "Mopti, Ambodedjo"
     },
     {
         "iata": "NRM",
@@ -11379,7 +11379,7 @@
         "state": "",
         "city": "Bissau",
         "airport": "Osvaldo Vieira International Airport",
-        "stateCity": ", Bissau"
+        "stateCity": "Bissau, Air"
     },
     {
         "iata": "UCN",
@@ -11470,7 +11470,7 @@
         "state": "",
         "city": "Bouarfa",
         "airport": "Bouarfa Airport",
-        "stateCity": ", Bouarfa"
+        "stateCity": "Bouarfa, Air"
     },
     {
         "iata": "FEZ",
@@ -11484,7 +11484,7 @@
         "state": "",
         "city": "Errachidia",
         "airport": "Moulay Ali Cherif Airport",
-        "stateCity": ", Errachidia"
+        "stateCity": "Errachidia, Moulay"
     },
     {
         "iata": "MEK",
@@ -11526,7 +11526,7 @@
         "state": "",
         "city": "Rabat",
         "airport": "Rabat-Sale Airport",
-        "stateCity": ", Rabat"
+        "stateCity": "Rabat, Air"
     },
     {
         "iata": "SII",
@@ -11547,7 +11547,7 @@
         "state": "",
         "city": "Essaouira",
         "airport": "Mogador Airport",
-        "stateCity": ", Essaouira"
+        "stateCity": "Essaouira, Mogador"
     },
     {
         "iata": "EUN",
@@ -11561,7 +11561,7 @@
         "state": "",
         "city": "Casablanca",
         "airport": "Mohammed V International Airport",
-        "stateCity": ", Casablanca"
+        "stateCity": "Casablanca, Air"
     },
     {
         "iata": "SFI",
@@ -11605,7 +11605,7 @@
         "state": "",
         "city": "Tangier",
         "airport": "Ibn Batouta Airport",
-        "stateCity": ", Tangier"
+        "stateCity": "Tangier, Ibn"
     },
     {
         "iata": "DSS",
@@ -11710,7 +11710,7 @@
         "state": "",
         "city": "Aioun El Atrouss",
         "airport": "Aioun el Atrouss Airport",
-        "stateCity": ", Aioun El Atrouss"
+        "stateCity": "Aioun El Atrouss, Air"
     },
     {
         "iata": "OTL",
@@ -11766,7 +11766,7 @@
         "state": "",
         "city": "Akjoujt",
         "airport": "Akjoujt Airport",
-        "stateCity": ", Akjoujt"
+        "stateCity": "Akjoujt, Air"
     },
     {
         "iata": "KED",
@@ -11843,14 +11843,14 @@
         "state": "Boke",
         "city": "",
         "airport": "Fria Airport",
-        "stateCity": "Boke, "
+        "stateCity": "Boke, Fria"
     },
     {
         "iata": "FAA",
         "state": "Faranah",
         "city": "",
         "airport": "Faranah Airport",
-        "stateCity": "Faranah, "
+        "stateCity": "Faranah, Air"
     },
     {
         "iata": "KSI",
@@ -11864,7 +11864,7 @@
         "state": "Labe",
         "city": "",
         "airport": "Labe Airport",
-        "stateCity": "Labe, "
+        "stateCity": "Labe, Air"
     },
     {
         "iata": "MCA",
@@ -11990,21 +11990,21 @@
         "state": "SNNPR",
         "city": "",
         "airport": "Arba Minch Airport",
-        "stateCity": "SNNPR, "
+        "stateCity": "SNNPR, Arba Minch"
     },
     {
         "iata": "AXU",
         "state": "Tigray",
         "city": "",
         "airport": "Axum Airport",
-        "stateCity": "Tigray, "
+        "stateCity": "Tigray, Axum"
     },
     {
         "iata": "BCO",
         "state": "",
         "city": "Baco",
         "airport": "Baco Airport",
-        "stateCity": ", Baco"
+        "stateCity": "Baco, Air"
     },
     {
         "iata": "BJR",
@@ -12018,21 +12018,21 @@
         "state": "",
         "city": "Beica",
         "airport": "Beica Airport",
-        "stateCity": ", Beica"
+        "stateCity": "Beica, Air"
     },
     {
         "iata": "DSE",
         "state": "",
         "city": "Dessie",
         "airport": "Combolcha Airport",
-        "stateCity": ", Dessie"
+        "stateCity": "Dessie, Air"
     },
     {
         "iata": "DEM",
         "state": "",
         "city": "Dembidollo",
         "airport": "Dembidollo Airport",
-        "stateCity": ", Dembidollo"
+        "stateCity": "Dembidollo, Air"
     },
     {
         "iata": "DBM",
@@ -12053,14 +12053,14 @@
         "state": "",
         "city": "Debre Tabor",
         "airport": "Debre Tabor Airport",
-        "stateCity": ", Debre Tabor"
+        "stateCity": "Debre Tabor, Air"
     },
     {
         "iata": "FNH",
         "state": "",
         "city": "Fincha",
         "airport": "Fincha Airport",
-        "stateCity": ", Fincha"
+        "stateCity": "Fincha, Air"
     },
     {
         "iata": "GOB",
@@ -12081,7 +12081,7 @@
         "state": "",
         "city": "Gambela",
         "airport": "Gambella Airport",
-        "stateCity": ", Gambela"
+        "stateCity": "Gambela, Air"
     },
     {
         "iata": "GDQ",
@@ -12102,21 +12102,21 @@
         "state": "",
         "city": "Gore",
         "airport": "Gore Airport",
-        "stateCity": ", Gore"
+        "stateCity": "Gore, Air"
     },
     {
         "iata": "QHR",
         "state": "",
         "city": "Debre Zeyit",
         "airport": "Harar Meda Airport",
-        "stateCity": ", Debre Zeyit"
+        "stateCity": "Debre Zeyit, Air"
     },
     {
         "iata": "HUE",
         "state": "",
         "city": "Humera",
         "airport": "Humera Airport",
-        "stateCity": ", Humera"
+        "stateCity": "Humera, Air"
     },
     {
         "iata": "JIM",
@@ -12130,14 +12130,14 @@
         "state": "",
         "city": "Kabri Dehar",
         "airport": "Kabri Dehar Airport",
-        "stateCity": ", Kabri Dehar"
+        "stateCity": "Kabri Dehar, Air"
     },
     {
         "iata": "LFO",
         "state": "",
         "city": "Kelafo",
         "airport": "Kelafo East Airport",
-        "stateCity": ", Kelafo"
+        "stateCity": "Kelafo, Air"
     },
     {
         "iata": "AWA",
@@ -12158,42 +12158,42 @@
         "state": "Tigray",
         "city": "",
         "airport": "Mekele Airport",
-        "stateCity": "Tigray, "
+        "stateCity": "Tigray, Mekele"
     },
     {
         "iata": "NDM",
         "state": "",
         "city": "Mendi",
         "airport": "Mendi Airport",
-        "stateCity": ", Mendi"
+        "stateCity": "Mendi, Air"
     },
     {
         "iata": "MTF",
         "state": "",
         "city": "Mizan Teferi",
         "airport": "Mizan Teferi Airport",
-        "stateCity": ", Mizan Teferi"
+        "stateCity": "Mizan Teferi, Air"
     },
     {
         "iata": "NEJ",
         "state": "",
         "city": "Nejjo",
         "airport": "Nejjo Airport",
-        "stateCity": ", Nejjo"
+        "stateCity": "Nejjo, Air"
     },
     {
         "iata": "NEK",
         "state": "",
         "city": "Nekemte",
         "airport": "Nekemte Airport",
-        "stateCity": ", Nekemte"
+        "stateCity": "Nekemte, Air"
     },
     {
         "iata": "SXU",
         "state": "",
         "city": "Soddu",
         "airport": "Soddu Airport",
-        "stateCity": ", Soddu"
+        "stateCity": "Soddu, Air"
     },
     {
         "iata": "ASO",
@@ -12207,14 +12207,14 @@
         "state": "",
         "city": "Tippi",
         "airport": "Tippi Airport",
-        "stateCity": ", Tippi"
+        "stateCity": "Tippi, Air"
     },
     {
         "iata": "WAC",
         "state": "",
         "city": "Waca",
         "airport": "Waca Airport",
-        "stateCity": ", Waca"
+        "stateCity": "Waca, Air"
     },
     {
         "iata": "BJM",
@@ -12263,7 +12263,7 @@
         "state": "Gedo",
         "city": "",
         "airport": "Bardera Airport",
-        "stateCity": "Gedo, "
+        "stateCity": "Gedo, Bardera"
     },
     {
         "iata": "HCM",
@@ -12305,7 +12305,7 @@
         "state": "Lower-Juba",
         "city": "",
         "airport": "Kisimayu Airport",
-        "stateCity": "Lower-Juba, "
+        "stateCity": "Lower-Juba, Kisimayu"
     },
     {
         "iata": "MGQ",
@@ -12417,7 +12417,7 @@
         "state": "",
         "city": "Alexandria",
         "airport": "El Nouzha Airport",
-        "stateCity": ", Alexandria"
+        "stateCity": "Alexandria, Air"
     },
     {
         "iata": "HBE",
@@ -12452,7 +12452,7 @@
         "state": "New-Valley",
         "city": "",
         "airport": "Dakhla Airport",
-        "stateCity": "New-Valley, "
+        "stateCity": "New-Valley, Dakhla"
     },
     {
         "iata": "HRG",
@@ -12466,14 +12466,14 @@
         "state": "North-Sinai",
         "city": "",
         "airport": "El Gora Airport",
-        "stateCity": "North-Sinai, "
+        "stateCity": "North-Sinai, El Gora"
     },
     {
         "iata": "UVL",
         "state": "New-Valley",
         "city": "",
         "airport": "El Kharga Airport",
-        "stateCity": "New-Valley, "
+        "stateCity": "New-Valley, El Kharga"
     },
     {
         "iata": "LXR",
@@ -12508,7 +12508,7 @@
         "state": "New-Valley",
         "city": "",
         "airport": "Shark El Oweinat International Airport",
-        "stateCity": "New-Valley, "
+        "stateCity": "New-Valley, Shark"
     },
     {
         "iata": "PSD",
@@ -12522,7 +12522,7 @@
         "state": "South-Sinai",
         "city": "",
         "airport": "St Catherine International Airport",
-        "stateCity": "South-Sinai, "
+        "stateCity": "South-Sinai, St"
     },
     {
         "iata": "SSH",
@@ -12557,7 +12557,7 @@
         "state": "South-Sinai",
         "city": "",
         "airport": "El Tor Airport",
-        "stateCity": "South-Sinai, "
+        "stateCity": "South-Sinai, El Tor"
     },
     {
         "iata": "ASM",
@@ -12578,14 +12578,14 @@
         "state": "",
         "city": "Asab",
         "airport": "Assab International Airport",
-        "stateCity": ", Asab"
+        "stateCity": "Asab, Air"
     },
     {
         "iata": "TES",
         "state": "",
         "city": "Tessenei",
         "airport": "Tessenei Airport",
-        "stateCity": ", Tessenei"
+        "stateCity": "Tessenei, Air"
     },
     {
         "iata": "ASV",
@@ -12606,7 +12606,7 @@
         "state": "",
         "city": "Eliye Springs",
         "airport": "Eliye Springs Airport",
-        "stateCity": ", Eliye Springs"
+        "stateCity": "Eliye Springs, Air"
     },
     {
         "iata": "KLK",
@@ -12781,14 +12781,14 @@
         "state": "",
         "city": "Samburu South",
         "airport": "Samburu South Airport",
-        "stateCity": ", Samburu South"
+        "stateCity": "Samburu South, Air"
     },
     {
         "iata": "UKA",
         "state": "",
         "city": "Ukunda",
         "airport": "Ukunda Airstrip",
-        "stateCity": ", Ukunda"
+        "stateCity": "Ukunda, Air"
     },
     {
         "iata": "WJR",
@@ -12802,14 +12802,14 @@
         "state": "",
         "city": "Sirt",
         "airport": "Gardabya Airport",
-        "stateCity": ", Sirt"
+        "stateCity": "Sirt, Air"
     },
     {
         "iata": "TOB",
         "state": "",
         "city": "Tobruk",
         "airport": "Gamal Abdel Nasser Airport",
-        "stateCity": ", Tobruk"
+        "stateCity": "Tobruk, Air"
     },
     {
         "iata": "GHT",
@@ -12844,21 +12844,21 @@
         "state": "",
         "city": "Al Bayda'",
         "airport": "La Abraq Airport",
-        "stateCity": ", Al Bayda'"
+        "stateCity": "Al Bayda', Air"
     },
     {
         "iata": "SEB",
         "state": "",
         "city": "Sabha",
         "airport": "Sabha Airport",
-        "stateCity": ", Sabha"
+        "stateCity": "Sabha, Air"
     },
     {
         "iata": "TIP",
         "state": "",
         "city": "Tripoli",
         "airport": "Tripoli International Airport",
-        "stateCity": ", Tripoli"
+        "stateCity": "Tripoli, Air"
     },
     
     {
@@ -12866,14 +12866,14 @@
         "state": "",
         "city": "Ghadames",
         "airport": "Ghadames East Airport",
-        "stateCity": ", Ghadames"
+        "stateCity": "Ghadames, Air-East"
     },
     {
         "iata": "WAX",
         "state": "",
         "city": "Zuwara",
         "airport": "Zwara Airport",
-        "stateCity": ", Zuwara"
+        "stateCity": "Zuwara, Air"
     },
     {
         "iata": "GYI",
@@ -12915,14 +12915,14 @@
         "state": "",
         "city": "Atbara",
         "airport": "Atbara Airport",
-        "stateCity": ", Atbara"
+        "stateCity": "Atbara, Air"
     },
     {
         "iata": "EDB",
         "state": "",
         "city": "El Debba",
         "airport": "El Debba Airport",
-        "stateCity": ", El Debba"
+        "stateCity": "El Debba, Air"
     },
     {
         "iata": "DOG",
@@ -12950,14 +12950,14 @@
         "state": "",
         "city": "Gedaref",
         "airport": "Azaza Airport",
-        "stateCity": ", Gedaref"
+        "stateCity": "Gedaref, Air"
     },
     {
         "iata": "DNX",
         "state": "",
         "city": "Dinder",
         "airport": "Galegu Airport",
-        "stateCity": ", Dinder"
+        "stateCity": "Dinder, Air"
     },
     {
         "iata": "EGN",
@@ -12971,7 +12971,7 @@
         "state": "",
         "city": "Heglig Oilfield",
         "airport": "Heglig Airport",
-        "stateCity": ", Heglig Oilfield"
+        "stateCity": "Heglig Oilfield, Air"
     },
     {
         "iata": "KSL",
@@ -12985,7 +12985,7 @@
         "state": "",
         "city": "Khashm El Girba",
         "airport": "Khashm El Girba Airport",
-        "stateCity": ", Khashm El Girba"
+        "stateCity": "Khashm El Girba, Air"
     },
     {
         "iata": "KST",
@@ -13006,7 +13006,7 @@
         "state": "",
         "city": "Rumbek",
         "airport": "Rumbek Airport",
-        "stateCity": ", Rumbek"
+        "stateCity": "Rumbek, Air"
     },
     {
         "iata": "MWE",
@@ -13055,14 +13055,14 @@
         "state": "",
         "city": "Juba",
         "airport": "Juba Airport",
-        "stateCity": ", Juba"
+        "stateCity": "Juba, Air"
     },
     {
         "iata": "MAK",
         "state": "",
         "city": "Malakal",
         "airport": "Malakal Airport",
-        "stateCity": ", Malakal"
+        "stateCity": "Malakal, Air"
     },
     {
         "iata": "KRT",
@@ -13083,7 +13083,7 @@
         "state": "",
         "city": "Wau",
         "airport": "Wau Airport",
-        "stateCity": ", Wau"
+        "stateCity": "Wau, Air"
     },
     {
         "iata": "ARK",
@@ -13342,7 +13342,7 @@
         "state": "Western-Region",
         "city": "",
         "airport": "Pakuba Airport",
-        "stateCity": "Western-Region, "
+        "stateCity": "Western-Region, Pakuba"
     },
     {
         "iata": "SRT",
@@ -18284,7 +18284,7 @@
         "state": "",
         "city": "Tirana",
         "airport": "Tirana International Airport Mother Teresa",
-        "stateCity": ", Tirana"
+        "stateCity": "Tirana, Air"
     },
     {
         "iata": "BOJ",
@@ -19860,7 +19860,7 @@
         "state": "",
         "city": "Saint-Pierre",
         "airport": "St Pierre Airport",
-        "stateCity": ", Saint-Pierre"
+        "stateCity": "Saint-Pierre, Air"
     },
     {
         "iata": "PYR",
@@ -20259,7 +20259,7 @@
         "state": "Apulia",
         "city": "",
         "airport": "Lecce Airport",
-        "stateCity": "Apulia, "
+        "stateCity": "Apulia, Lecce"
     },
     {
         "iata": "PSR",
@@ -20336,7 +20336,7 @@
         "state": "Sicily",
         "city": "",
         "airport": "Sigonella Airport",
-        "stateCity": "Sicily, "
+        "stateCity": "Sicily, Sigonella"
     },
     {
         "iata": "BLX",
@@ -20707,7 +20707,7 @@
         "state": "Hoce-Slivnica",
         "city": "",
         "airport": "Maribor Airport",
-        "stateCity": "Hoce-Slivnica, "
+        "stateCity": "Hoce-Slivnica, Maribor"
     },
     {
         "iata": "POW",
@@ -20945,7 +20945,7 @@
         "state": "Braganca",
         "city": "",
         "airport": "Braganca Airport",
-        "stateCity": "Braganca, "
+        "stateCity": "Braganca, Braganca"
     },
     {
         "iata": "BYJ",
@@ -20973,7 +20973,7 @@
         "state": "Coimbra",
         "city": "",
         "airport": "Coimbra Airport",
-        "stateCity": "Coimbra, "
+        "stateCity": "Coimbra, Air"
     },
     {
         "iata": "CVU",
@@ -20987,7 +20987,7 @@
         "state": "Castelo-Branco",
         "city": "",
         "airport": "Covilha Airport",
-        "stateCity": "Castelo-Branco, "
+        "stateCity": "Castelo-Branco, Covilha"
     },
     {
         "iata": "FLW",
@@ -21050,7 +21050,7 @@
         "state": "Faro",
         "city": "",
         "airport": "Portimao Airport",
-        "stateCity": "Faro, "
+        "stateCity": "Faro, Portimao"
     },
     {
         "iata": "OPO",
@@ -21078,7 +21078,7 @@
         "state": "Setubal",
         "city": "",
         "airport": "Sines Airport",
-        "stateCity": "Setubal, "
+        "stateCity": "Setubal, Sines"
     },
     {
         "iata": "SJZ",
@@ -21092,14 +21092,14 @@
         "state": "Vila-Real",
         "city": "",
         "airport": "Vila Real Airport",
-        "stateCity": "Vila-Real, "
+        "stateCity": "Vila-Real, Air"
     },
     {
         "iata": "VSE",
         "state": "Viseu",
         "city": "",
         "airport": "Viseu Airport",
-        "stateCity": "Viseu, "
+        "stateCity": "Viseu, Air"
     },
     {
         "iata": "BNX",
@@ -21267,7 +21267,7 @@
         "state": "Neuchatel",
         "city": "",
         "airport": "Neuchatel Airport",
-        "stateCity": "Neuchatel, "
+        "stateCity": "Neuchatel, Air"
     },
     {
         "iata": "SIR",
@@ -21281,7 +21281,7 @@
         "state": "Bern",
         "city": "",
         "airport": "Interlaken Air Base",
-        "stateCity": "Bern, "
+        "stateCity": "Bern, Interlaken"
     },
     {
         "iata": "LUG",
@@ -21309,7 +21309,7 @@
         "state": "Solothurn",
         "city": "",
         "airport": "Grenchen Airport",
-        "stateCity": "Solothurn, "
+        "stateCity": "Solothurn, Grenchen"
     },
     {
         "iata": "ZRH",
@@ -21323,7 +21323,7 @@
         "state": "Ticino",
         "city": "",
         "airport": "Locarno Airport",
-        "stateCity": "Ticino, "
+        "stateCity": "Ticino, Locarno"
     },
     {
         "iata": "MLH",
@@ -21344,7 +21344,7 @@
         "state": "Grisons",
         "city": "",
         "airport": "Samedan Airport",
-        "stateCity": "Grisons, "
+        "stateCity": "Grisons, Samedan"
     },
     {
         "iata": "ESB",
@@ -21554,7 +21554,7 @@
         "state": "Kocaeli",
         "city": "",
         "airport": "Cengiz Topel Airport",
-        "stateCity": "Kocaeli, "
+        "stateCity": "Kocaeli, Cengiz"
     },
     {
         "iata": "YEI",
@@ -21820,28 +21820,28 @@
         "state": "",
         "city": "Gibraltar",
         "airport": "Gibraltar Airport",
-        "stateCity": ", Gibraltar"
+        "stateCity": "Gibraltar, Air"
     },
     {
         "iata": "BEG",
         "state": "",
         "city": "Belgrad",
         "airport": "Belgrade Nikola Tesla Airport",
-        "stateCity": ", Belgrad"
+        "stateCity": "Belgrad, Air"
     },
     {
         "iata": "IVG",
         "state": "",
         "city": "Berane",
         "airport": "Berane Airport",
-        "stateCity": ", Berane"
+        "stateCity": "Berane, Air"
     },
     {
         "iata": "BJY",
         "state": "",
         "city": "Batajnica",
         "airport": "Batajnica Air Base",
-        "stateCity": ", Batajnica"
+        "stateCity": "Batajnica, Air"
     },
     {
         "iata": "INI",
@@ -21855,7 +21855,7 @@
         "state": "",
         "city": "Novi Sad",
         "airport": "Cenej Airport",
-        "stateCity": ", Novi Sad"
+        "stateCity": "Novi Sad, Air"
     },
     {
         "iata": "TGD",
@@ -21869,21 +21869,21 @@
         "state": "",
         "city": "Tivat",
         "airport": "Tivat Airport",
-        "stateCity": ", Tivat"
+        "stateCity": "Tivat, Air"
     },
     {
         "iata": "UZC",
         "state": "",
         "city": "Uzice",
         "airport": "Ponikve Airport",
-        "stateCity": ", Uzice"
+        "stateCity": "Uzice, Air"
     },
     {
         "iata": "QWV",
         "state": "",
         "city": "Valjevo",
         "airport": "Divci Airport",
-        "stateCity": ", Valjevo"
+        "stateCity": "Valjevo, Air"
     },
     {
         "iata": "ZRE",
@@ -21918,7 +21918,7 @@
         "state": "",
         "city": "Piestany",
         "airport": "Piestany Airport",
-        "stateCity": ", Piestany"
+        "stateCity": "Piestany, Air"
     },
     {
         "iata": "POV",
@@ -21953,14 +21953,14 @@
         "state": "",
         "city": "Cockburn Town",
         "airport": "JAGS McCartney International Airport",
-        "stateCity": ", Cockburn Town"
+        "stateCity": "Cockburn Town, Air"
     },
     {
         "iata": "MDS",
         "state": "",
         "city": "Middle Caicos",
         "airport": "Middle Caicos Airport",
-        "stateCity": ", Middle Caicos"
+        "stateCity": "Middle Caicos, Air"
     },
    
     {
@@ -21968,14 +21968,14 @@
         "state": "",
         "city": "Pine Cay",
         "airport": "Pine Cay Airport",
-        "stateCity": ", Pine Cay"
+        "stateCity": "Pine Cay, Air"
     },
     {
         "iata": "PLS",
         "state": "",
         "city": "Providenciales Island",
         "airport": "Providenciales Airport",
-        "stateCity": ", Providenciales Island"
+        "stateCity": "Providenciales Island, Air"
     },
     
     {
@@ -21983,7 +21983,7 @@
         "state": "",
         "city": "Salt Cay",
         "airport": "Salt Cay Airport",
-        "stateCity": ", Salt Cay"
+        "stateCity": "Salt Cay, Air"
     },
     {
         "iata": "BRX",
@@ -22403,7 +22403,7 @@
         "state": "Nuevo-Leon",
         "city": "",
         "airport": "Del Norte International Airport",
-        "stateCity": "Nuevo-Leon, "
+        "stateCity": "Monterrey, Nuevo-Leon"
     },
     {
         "iata": "AGU",
@@ -22424,14 +22424,14 @@
         "state": "Sonora",
         "city": "",
         "airport": "Cananea Airport",
-        "stateCity": "Sonora, "
+        "stateCity": "Mexico, Sonora"
     },
     {
         "iata": "CVJ",
         "state": "Morelos",
         "city": "",
         "airport": "General Mariano Matamoros Airport",
-        "stateCity": "Morelos, "
+        "stateCity": "Mexico, Morelos"
     },
     {
         "iata": "ACN",
@@ -22452,14 +22452,14 @@
         "state": "Chihuahua",
         "city": "",
         "airport": "Nuevo Casas Grandes Airport",
-        "stateCity": "Chihuahua, "
+        "stateCity": "Mexico, Chihuahua"
     },
     {
         "iata": "CUL",
         "state": "Sinaloa",
         "city": "Culiacan",
         "airport": "Federal de Bachigualato International Airport",
-        "stateCity": "Sinaloa, Culiacan"
+        "stateCity": "Mexico, Sinaloa"
     },
     {
         "iata": "CTM",
@@ -22480,7 +22480,7 @@
         "state": "Chiapas",
         "city": "",
         "airport": "Comitan Airport",
-        "stateCity": "Chiapas, "
+        "stateCity": "Mexico, Chiapas"
     },
     {
         "iata": "CPE",
@@ -22501,7 +22501,7 @@
         "state": "Yucatan",
         "city": "",
         "airport": "Chichen Itza International Airport",
-        "stateCity": "Yucatan, "
+        "stateCity": "Mexico, Yucatan"
     },
     {
         "iata": "CUU",
@@ -22564,7 +22564,7 @@
         "state": "Baja-California",
         "city": "",
         "airport": "Ensenada Airport",
-        "stateCity": "Baja-California, "
+        "stateCity": "MExico, Baja-California"
     },
     {
         "iata": "GDL",
@@ -22592,7 +22592,7 @@
         "state": "Puebla",
         "city": "",
         "airport": "Tehuacan Airport",
-        "stateCity": "Puebla, "
+        "stateCity": "Mexico, Puebla"
     },
     {
         "iata": "HMO",
@@ -22613,7 +22613,7 @@
         "state": "Quintana-Roo",
         "city": "",
         "airport": "Isla Mujeres Airport",
-        "stateCity": "Quintana-Roo, "
+        "stateCity": "Mexico, Quintana-Roo"
     },
     {
         "iata": "SLW",
@@ -22627,7 +22627,7 @@
         "state": "Oaxaca",
         "city": "",
         "airport": "Ixtepec Airport",
-        "stateCity": "Oaxaca, "
+        "stateCity": "Mexico, Oaxaca"
     },
     {
         "iata": "JAL",
@@ -22809,7 +22809,7 @@
         "state": "Michoacan",
         "city": "",
         "airport": "Licenciado y General Ignacio Lopez Rayon Airport",
-        "stateCity": "Michoacan"
+        "stateCity": "Mexico, Michoacan"
     },
     {
         "iata": "PQM",
@@ -22991,14 +22991,14 @@
         "state": "",
         "city": "Bonanza",
         "airport": "San Pedro Airport",
-        "stateCity": ", Bonanza"
+        "stateCity": "Bonanza, Air"
     },
     {
         "iata": "RNI",
         "state": "",
         "city": "Corn Island",
         "airport": "Corn Island",
-        "stateCity": ", Corn Island"
+        "stateCity": "Corn Island, Air"
     },
     {
         "iata": "MGA",
@@ -23012,7 +23012,7 @@
         "state": "",
         "city": "Nueva Guinea",
         "airport": "Nueva Guinea Airport",
-        "stateCity": ", Nueva Guinea"
+        "stateCity": "Nueva Guinea, Air"
     },
     {
         "iata": "PUZ",
@@ -23039,15 +23039,15 @@
         "iata": "SIU",
         "state": "",
         "city": "Siuna",
-        "airport": "Siuna",
-        "stateCity": ", Siuna"
+        "airport": "Siuna Airport",
+        "stateCity": "Siuna, Air"
     },
     {
         "iata": "WSP",
         "state": "",
         "city": "Waspam",
         "airport": "Waspam Airport",
-        "stateCity": ", Waspam"
+        "stateCity": "Waspam, Air"
     },
     {
         "iata": "BOC",
@@ -23607,21 +23607,21 @@
         "state": "",
         "city": "Cayman Brac",
         "airport": "Gerrard Smith International Airport",
-        "stateCity": ", Cayman Brac"
+        "stateCity": "Cayman Brac, Gerrard"
     },
     {
         "iata": "LYB",
         "state": "",
         "city": "Little Cayman",
         "airport": "Edward Bodden Airfield",
-        "stateCity": ", Little Cayman"
+        "stateCity": "Little Cayman, Edward"
     },
     {
         "iata": "GCM",
         "state": "",
         "city": "Georgetown",
         "airport": "Owen Roberts International Airport",
-        "stateCity": ", Georgetown"
+        "stateCity": "Georgetown, Owen"
     },
     {
         "iata": "MAY",
@@ -23649,7 +23649,7 @@
         "state": "",
         "city": "Marsh Harbour",
         "airport": "Marsh Harbour International Airport",
-        "stateCity": ", Marsh Harbour"
+        "stateCity": "Marsh Harbour, Air"
     },
     {
         "iata": "SAQ",
@@ -23866,56 +23866,56 @@
         "state": "",
         "city": "Aitutaki",
         "airport": "Aitutaki Airport",
-        "stateCity": ", Aitutaki"
+        "stateCity": "Aitutaki, Air"
     },
     {
         "iata": "AIU",
         "state": "",
         "city": "Atiu Island",
         "airport": "Enua Airport",
-        "stateCity": ", Atiu Island"
+        "stateCity": "Atiu Island, Air"
     },
     {
         "iata": "MGS",
         "state": "",
         "city": "Mangaia Island",
         "airport": "Mangaia Island Airport",
-        "stateCity": ", Mangaia Island"
+        "stateCity": "Mangaia Island, Air"
     },
     {
         "iata": "MHX",
         "state": "",
         "city": "Manihiki Island",
         "airport": "Manihiki Island Airport",
-        "stateCity": ", Manihiki Island"
+        "stateCity": "Manihiki Island, Air"
     },
     {
         "iata": "MUK",
         "state": "",
         "city": "Mauke Island",
         "airport": "Mauke Airport",
-        "stateCity": ", Mauke Island"
+        "stateCity": "Mauke Island, Air"
     },
     {
         "iata": "MOI",
         "state": "",
         "city": "Mitiaro Island",
         "airport": "Mitiaro Island Airport",
-        "stateCity": ", Mitiaro Island"
+        "stateCity": "Mitiaro Island, Air"
     },
     {
         "iata": "PYE",
         "state": "",
         "city": "Penrhyn Island",
         "airport": "Tongareva Airport",
-        "stateCity": ", Penrhyn Island"
+        "stateCity": "Penrhyn Island, Air"
     },
     {
         "iata": "RAR",
         "state": "",
         "city": "Avarua",
         "airport": "Rarotonga International Airport",
-        "stateCity": ", Avarua"
+        "stateCity": "Avarua, Rarotonga"
     },
     {
         "iata": "ICI",
@@ -23950,7 +23950,7 @@
         "state": "",
         "city": "Vunisea",
         "airport": "Vunisea Airport",
-        "stateCity": ", Vunisea"
+        "stateCity": "Vunisea, Air"
     },
     {
         "iata": "MNF",
@@ -24048,14 +24048,14 @@
         "state": "",
         "city": "Wakaya Island",
         "airport": "Wakaya Island Airport",
-        "stateCity": ", Wakaya Island"
+        "stateCity": "Wakaya Island, Air"
     },
     {
         "iata": "ONU",
         "state": "",
         "city": "Ono-I-Lau",
         "airport": "Ono-I-Lau Airport",
-        "stateCity": ", Ono-I-Lau"
+        "stateCity": "Ono-I-Lau, Air"
     },
     {
         "iata": "YAS",
@@ -24251,7 +24251,7 @@
         "state": "",
         "city": "Alofi",
         "airport": "Niue International Airport",
-        "stateCity": ", Alofi"
+        "stateCity": "Alofi, Niue"
     },
     {
         "iata": "FUT",
@@ -24279,7 +24279,7 @@
         "state": "",
         "city": "Asau",
         "airport": "Asau Airport",
-        "stateCity": ", Asau"
+        "stateCity": "Asau, Air"
     },
     {
         "iata": "APW",
@@ -24307,7 +24307,7 @@
         "state": "",
         "city": "Maota",
         "airport": "Maota Airport",
-        "stateCity": ", Maota"
+        "stateCity": "Maota, Air"
     },
     {
         "iata": "PPG",
@@ -24466,7 +24466,7 @@
         "state": "",
         "city": "Kauehi",
         "airport": "Kauehi Airport",
-        "stateCity": ", Kauehi"
+        "stateCity": "Kauehi, Air"
     },
     {
         "iata": "FAC",
@@ -24480,7 +24480,7 @@
         "state": "",
         "city": "Fakahina",
         "airport": "Fakahina Airport",
-        "stateCity": ", Fakahina"
+        "stateCity": "Fakahina, Air"
     },
    
     {
@@ -24614,7 +24614,7 @@
         "state": "",
         "city": "Sangafa",
         "airport": "Sangafa Airport",
-        "stateCity": ", Sangafa"
+        "stateCity": "Sangafa, Air"
     },
     {
         "iata": "CCV",
@@ -24803,7 +24803,7 @@
         "state": "",
         "city": "Tiga",
         "airport": "Tiga Airport",
-        "stateCity": ", Tiga"
+        "stateCity": "Tiga, Air"
     },
     {
         "iata": "BMY",
@@ -24817,28 +24817,28 @@
         "state": "",
         "city": "Kone",
         "airport": "Kone Airport",
-        "stateCity": ", Kone"
+        "stateCity": "Kone, Air"
     },
     {
         "iata": "ILP",
         "state": "",
         "city": "Ile des Pins",
         "airport": "Ile des Pins Airport",
-        "stateCity": ", Ile des Pins"
+        "stateCity": "Ile des Pins, Air"
     },
     {
         "iata": "HLU",
         "state": "",
         "city": "Houailou",
         "airport": "Nesson Airport",
-        "stateCity": ", Houailou"
+        "stateCity": "Houailou, Air"
     },
     {
         "iata": "KOC",
         "state": "",
         "city": "Koumac",
         "airport": "Koumac Airport",
-        "stateCity": ", Koumac"
+        "stateCity": "Koumac, Air"
     },
     {
         "iata": "LIF",
@@ -24859,21 +24859,21 @@
         "state": "",
         "city": "Ile Ouen",
         "airport": "Edmond Cane Airport",
-        "stateCity": ", Ile Ouen"
+        "stateCity": "Ile Ouen, Edmond"
     },
     {
         "iata": "PUV",
         "state": "",
         "city": "Poum",
         "airport": "Poum Airport",
-        "stateCity": ", Poum"
+        "stateCity": "Poum, Air"
     },
     {
         "iata": "PDC",
         "state": "",
         "city": "Mueo",
         "airport": "Mueo Airport",
-        "stateCity": ", Mueo"
+        "stateCity": "Mueo, Air"
     },
     {
         "iata": "MEE",
@@ -24887,7 +24887,7 @@
         "state": "",
         "city": "Touho",
         "airport": "Touho Airport",
-        "stateCity": ", Touho"
+        "stateCity": "Touho, Air"
     },
     {
         "iata": "UVE",
@@ -25482,7 +25482,7 @@
         "state": "Eastern-Province",
         "city": "",
         "airport": "Al Ahsa Airport",
-        "stateCity": "Eastern-Province, "
+        "stateCity": "Eastern-Province, AA"
     },
     {
         "iata": "DMM",
@@ -25524,7 +25524,7 @@
         "state": "Hail",
         "city": "",
         "airport": "Hail Airport",
-        "stateCity": "Hail, "
+        "stateCity": "Hail, Air"
     },
     {
         "iata": "QJB",
@@ -25545,7 +25545,7 @@
         "state": "",
         "city": "King Khaled Military City",
         "airport": "King Khaled Military City Airport",
-        "stateCity": ", King Khaled Military City"
+        "stateCity": "King Khaled Military City, Air"
     },
     {
         "iata": "MED",
@@ -25713,7 +25713,7 @@
         "state": "",
         "city": "Asaloyeh",
         "airport": "Asaloyeh Airport",
-        "stateCity": ", Asaloyeh"
+        "stateCity": "Asaloyeh, Air"
     },
     {
         "iata": "KNR",
@@ -26112,7 +26112,7 @@
         "state": "",
         "city": "Kuwait City",
         "airport": "Kuwait International Airport",
-        "stateCity": ", Kuwait City"
+        "stateCity": "Kuwait City, Air"
     },
     {
         "iata": "BEY",
@@ -28359,7 +28359,7 @@
         "state": "Tokyo",
         "city": "",
         "airport": "Minami Torishima Airport",
-        "stateCity": "Tokyo, "
+        "stateCity": "Tokyo, Minami"
     },
     {
         "iata": "IWO",
@@ -29192,7 +29192,7 @@
         "state": "",
         "city": "Manila",
         "airport": "Ninoy Aquino International Airport",
-        "stateCity": ", Manila"
+        "stateCity": "Manila, Ninoy"
     },
     {
         "iata": "CYU",
@@ -29262,7 +29262,7 @@
         "state": "Caraga",
         "city": "",
         "airport": "Bislig Airport",
-        "stateCity": "Caraga, "
+        "stateCity": "Caraga, Bislig"
     },
     {
         "iata": "DPL",
@@ -30859,7 +30859,7 @@
         "state": "",
         "city": "Oiapoque",
         "airport": "Oiapoque Airport",
-        "stateCity": ", Oiapoque"
+        "stateCity": "Oiapoque Air"
     },
     {
         "iata": "POA",
@@ -31454,7 +31454,7 @@
         "state": "",
         "city": "Isla Rey Jorge",
         "airport": "Teniente Rodolfo Marsh Martin Base",
-        "stateCity": ", Isla Rey Jorge"
+        "stateCity": "Isla Rey Jorge, Teniente R."
     },
     {
         "iata": "SMB",
@@ -31608,7 +31608,7 @@
         "state": "",
         "city": "Ourinhos",
         "airport": "Ourinhos Airport",
-        "stateCity": ", Ourinhos"
+        "stateCity": "Ourinhos, Air"
     },
     {
         "iata": "QHB",
@@ -31741,7 +31741,7 @@
         "state": "",
         "city": "Macas",
         "airport": "Coronel E Carvajal Airport",
-        "stateCity": ", Macas"
+        "stateCity": "Macas, Coronel E."
     },
     {
         "iata": "MCH",
@@ -31874,7 +31874,7 @@
         "state": "",
         "city": "Stanley",
         "airport": "Stanley Airport",
-        "stateCity": ", Stanley"
+        "stateCity": "Stanley, Air"
     },
     {
         "iata": "ASU",
@@ -32154,7 +32154,7 @@
         "state": "",
         "city": "Covenas",
         "airport": "Covenas Airport",
-        "stateCity": ", Covenas"
+        "stateCity": "Covenas, Air"
     },
     {
         "iata": "CZU",
@@ -33701,7 +33701,7 @@
         "state": "",
         "city": "Plaza Saposoa",
         "airport": "Saposoa Airport",
-        "stateCity": ", Plaza Saposoa"
+        "stateCity": "Plaza Saposoa, Air"
     },
     {
         "iata": "CHH",
@@ -34618,7 +34618,7 @@
         "state": "",
         "city": "Feijo",
         "airport": "Feijo Airport",
-        "stateCity": ", Feijo"
+        "stateCity": "Feijo, Air"
     },
     {
         "iata": "SXO",
@@ -34772,7 +34772,7 @@
         "state": "",
         "city": "Pimenta Bueno",
         "airport": "Pimenta Bueno Airport",
-        "stateCity": ", Pimenta Bueno"
+        "stateCity": "Pimenta Bueno, Air"
     },
     {
         "iata": "AAI",
@@ -35003,7 +35003,7 @@
         "state": "",
         "city": "Orinduik",
         "airport": "Orinduik Airport",
-        "stateCity": ", Orinduik"
+        "stateCity": "Orinduik, Air"
     },
     {
         "iata": "PRR",
@@ -35080,14 +35080,14 @@
         "state": "",
         "city": "Grand Case",
         "airport": "L'Esperance Airport",
-        "stateCity": ", Grand Case"
+        "stateCity": "Grand Case, Air"
     },
     {
         "iata": "SBH",
         "state": "",
         "city": "Gustavia",
         "airport": "Gustaf III Airport",
-        "stateCity": ", Gustavia"
+        "stateCity": "Gustavia, Gustaf"
     },
     {
         "iata": "GBJ",
@@ -35122,7 +35122,7 @@
         "state": "",
         "city": "Carriacou Island",
         "airport": "Lauriston Airport",
-        "stateCity": ", Carriacou Island"
+        "stateCity": "Carriacou Island, Lauriston"
     },
     {
         "iata": "STT",
@@ -35234,7 +35234,7 @@
         "state": "",
         "city": "Oranjestad",
         "airport": "Queen Beatrix International Airport",
-        "stateCity": ", Oranjestad"
+        "stateCity": "Oranjestad, Queen B."
     },
     {
         "iata": "BON",
@@ -35248,7 +35248,7 @@
         "state": "",
         "city": "Willemstad",
         "airport": "Hato International Airport",
-        "stateCity": ", Willemstad"
+        "stateCity": "Willemstad, Hato"
     },
     {
         "iata": "EUX",
@@ -35262,7 +35262,7 @@
         "state": "",
         "city": "Saint Martin",
         "airport": "Princess Juliana International Airport",
-        "stateCity": ", Saint Martin"
+        "stateCity": "Saint Martin, Princess J."
     },
     {
         "iata": "SAB",
@@ -35276,7 +35276,7 @@
         "state": "",
         "city": "The Valley",
         "airport": "Wallblake Airport",
-        "stateCity": ", The Valley"
+        "stateCity": "The Valley, Wallblake"
     },
     {
         "iata": "MNI",
@@ -35304,21 +35304,21 @@
         "state": "",
         "city": "Anegada",
         "airport": "Captain Auguste George Airport",
-        "stateCity": ", Anegada"
+        "stateCity": "Anegada, Captain"
     },
     {
         "iata": "EIS",
         "state": "",
         "city": "Road Town",
         "airport": "Terrance B. Lettsome International Airport",
-        "stateCity": ", Road Town"
+        "stateCity": "Road Town, Terrance B."
     },
     {
         "iata": "VIJ",
         "state": "",
         "city": "Spanish Town",
         "airport": "Virgin Gorda Airport",
-        "stateCity": ", Spanish Town"
+        "stateCity": "Spanish Town, Virgin"
     },
     {
         "iata": "BQU",
@@ -35472,7 +35472,7 @@
         "state": "",
         "city": "Uralsk",
         "airport": "Uralsk Airport",
-        "stateCity": ", Uralsk"
+        "stateCity": "Uralsk, Air"
     },
     {
         "iata": "EKB",
@@ -35528,7 +35528,7 @@
         "state": "",
         "city": "Arkalyk",
         "airport": "Arkalyk North Airport",
-        "stateCity": ", Arkalyk"
+        "stateCity": "Arkalyk, North"
     },
     {
         "iata": "KSN",
@@ -35591,7 +35591,7 @@
         "state": "",
         "city": "Yerevan",
         "airport": "Zvartnots International Airport",
-        "stateCity": ", Yerevan"
+        "stateCity": "Yerevan, Zvartnots"
     },
     {
         "iata": "ADH",
@@ -35661,7 +35661,7 @@
         "state": "",
         "city": "Kutaisi",
         "airport": "Kopitnari Airport",
-        "stateCity": ", Kutaisi"
+        "stateCity": "Kutaisi, Air"
     },
     {
         "iata": "BUS",
@@ -35682,7 +35682,7 @@
         "state": "",
         "city": "Tbilisi",
         "airport": "Tbilisi International Airport",
-        "stateCity": ", Tbilisi"
+        "stateCity": "Tbilisi, Air"
     },
     {
         "iata": "BQS",
@@ -36235,14 +36235,14 @@
         "state": "",
         "city": "Minsk",
         "airport": "Minsk 1 Airport",
-        "stateCity": ", Minsk"
+        "stateCity": "Minsk, Air"
     },
     {
         "iata": "MSQ",
         "state": "Minsk",
         "city": "Minsk",
         "airport": "Minsk International Airport",
-        "stateCity": "Minsk, Minsk"
+        "stateCity": "Minsk, International Air"
     },
     {
         "iata": "MVQ",
@@ -36690,14 +36690,14 @@
         "state": "",
         "city": "Krasnovodsk",
         "airport": "Turkmenbashi Airport",
-        "stateCity": ", Krasnovodsk"
+        "stateCity": "Krasnovodsk, Turkmenbashi"
     },
     {
         "iata": "MYP",
         "state": "",
         "city": "Mary",
         "airport": "Mary Airport",
-        "stateCity": ", Mary"
+        "stateCity": "Mary, Air"
     },
     {
         "iata": "TAZ",
@@ -36711,7 +36711,7 @@
         "state": "",
         "city": "Turkmenabat",
         "airport": "Turkmenabat Airport",
-        "stateCity": ", Turkmenabat"
+        "stateCity": "Turkmenabat, Air"
     },
     {
         "iata": "DYU",
@@ -36788,7 +36788,7 @@
         "state": "",
         "city": "Bukhara",
         "airport": "Bukhara Airport",
-        "stateCity": ", Bukhara"
+        "stateCity": "Bukhara, Air"
     },
     {
         "iata": "KSQ",
@@ -36809,7 +36809,7 @@
         "state": "",
         "city": "Samarkand",
         "airport": "Samarkand Airport",
-        "stateCity": ", Samarkand"
+        "stateCity": "Samarkand, Air"
     },
     {
         "iata": "TMJ",
@@ -36844,7 +36844,7 @@
         "state": "",
         "city": "Ivanovo",
         "airport": "Ivanovo South Airport",
-        "stateCity": ", Ivanovo"
+        "stateCity": "Ivanovo, South"
     },
     {
         "iata": "RYB",
@@ -37453,7 +37453,7 @@
         "state": "",
         "city": "Battambang",
         "airport": "Battambang Airport",
-        "stateCity": ", Battambang"
+        "stateCity": "Battambang, Air"
     },
     {
         "iata": "KZC",
@@ -37481,7 +37481,7 @@
         "state": "",
         "city": "Phnom Penh",
         "airport": "Phnom Penh International Airport",
-        "stateCity": ", Phnom Penh"
+        "stateCity": "Phnom Penh, Air"
     },
     {
         "iata": "RBE",
@@ -37684,7 +37684,7 @@
         "state": "",
         "city": "Malda",
         "airport": "Malda Airport",
-        "stateCity": ", Malda"
+        "stateCity": "Malda, Air"
     },
     {
         "iata": "DIB",
@@ -37866,7 +37866,7 @@
         "state": "",
         "city": "Hong Kong",
         "airport": "Chek Lap Kok International Airport",
-        "stateCity": ", Hong Kong"
+        "stateCity": "Hong Kong, Chek"
     },
     {
         "iata": "AGR",
@@ -38153,7 +38153,7 @@
         "state": "",
         "city": "Taipa",
         "airport": "Macau International Airport",
-        "stateCity": ", Taipa"
+        "stateCity": "Taipa, Macau"
     },
     {
         "iata": "BJH",
@@ -38258,7 +38258,7 @@
         "state": "",
         "city": "Jiri",
         "airport": "Jiri Airport",
-        "stateCity": ", Jiri"
+        "stateCity": "Jiri, Air"
     },
     {
         "iata": "JUM",
@@ -38517,7 +38517,7 @@
         "state": "Karnataka",
         "city": "",
         "airport": "Vijayanagar Aerodrome (JSW)",
-        "stateCity": "Karnataka, "
+        "stateCity": "Karnataka, Vijayanagar"
     },
     {
         "iata": "IXM",
@@ -38559,7 +38559,7 @@
         "state": "Tamil-Nadu",
         "city": "",
         "airport": "Pondicherry Airport",
-        "stateCity": "Tamil-Nadu, "
+        "stateCity": "Tamil-Nadu, Pondicherry"
     },
     {
         "iata": "RJA",
@@ -38573,7 +38573,7 @@
         "state": "Tamil-Nadu",
         "city": "",
         "airport": "Salem Airport",
-        "stateCity": "Tamil-Nadu, "
+        "stateCity": "Tamil-Nadu, Salem"
     },
     {
         "iata": "TJV",
@@ -38671,7 +38671,7 @@
         "state": "",
         "city": "Maamigili",
         "airport": "Villa Airport",
-        "stateCity": ", Maamigili"
+        "stateCity": "Maamigili, Villa"
     },
     {
         "iata": "DMK",
@@ -38685,7 +38685,7 @@
         "state": "Lop-Buri",
         "city": "",
         "airport": "Sa Pran Nak Airport",
-        "stateCity": "Lop-Buri, "
+        "stateCity": "Lop-Buri, Sa Pran"
     },
     {
         "iata": "KDT",
@@ -38699,7 +38699,7 @@
         "state": "Trat",
         "city": "",
         "airport": "Trat Airport",
-        "stateCity": "Trat, "
+        "stateCity": "Trat, Air"
     },
     {
         "iata": "BKK",
@@ -38727,7 +38727,7 @@
         "state": "Mae-Hong-Son",
         "city": "",
         "airport": "Mae Hong Son Airport",
-        "stateCity": "Mae-Hong-Son, "
+        "stateCity": "Mae-Hong-Son, Air"
     },
     {
         "iata": "PYY",
@@ -38741,21 +38741,21 @@
         "state": "Lampang",
         "city": "",
         "airport": "Lampang Airport",
-        "stateCity": "Lampang, "
+        "stateCity": "Lampang, Air"
     },
     {
         "iata": "NNT",
         "state": "Nan",
         "city": "",
         "airport": "Nan Airport",
-        "stateCity": "Nan, "
+        "stateCity": "Nan, Air"
     },
     {
         "iata": "PRH",
         "state": "Phrae",
         "city": "",
         "airport": "Phrae Airport",
-        "stateCity": "Phrae, "
+        "stateCity": "Phrae, Air"
     },
     {
         "iata": "CEI",
@@ -38776,7 +38776,7 @@
         "state": "Phetchabun",
         "city": "",
         "airport": "Phetchabun Airport",
-        "stateCity": "Phetchabun, "
+        "stateCity": "Phetchabun, Air"
     },
     {
         "iata": "HHQ",
@@ -38790,35 +38790,35 @@
         "state": "Nakhon-Sawan",
         "city": "",
         "airport": "Takhli Airport",
-        "stateCity": "Nakhon-Sawan, "
+        "stateCity": "Nakhon-Sawan, Air"
     },
     {
         "iata": "MAQ",
         "state": "Tak",
         "city": "",
         "airport": "Mae Sot Airport",
-        "stateCity": "Tak, "
+        "stateCity": "Tak, Air"
     },
     {
         "iata": "THS",
         "state": "Sukhothai",
         "city": "",
         "airport": "Sukhothai Airport",
-        "stateCity": "Sukhothai, "
+        "stateCity": "Sukhothai, Air"
     },
     {
         "iata": "PHS",
         "state": "Phitsanulok",
         "city": "",
         "airport": "Phitsanulok Airport",
-        "stateCity": "Phitsanulok, "
+        "stateCity": "Phitsanulok, Air"
     },
     {
         "iata": "TKT",
         "state": "Tak",
         "city": "",
         "airport": "Tak Airport",
-        "stateCity": "Tak, "
+        "stateCity": "Tak, Air"
     },
     {
         "iata": "UTR",
@@ -38839,14 +38839,14 @@
         "state": "Narathiwat",
         "city": "",
         "airport": "Narathiwat Airport",
-        "stateCity": "Narathiwat, "
+        "stateCity": "Narathiwat, Air"
     },
     {
         "iata": "CJM",
         "state": "Chumphon",
         "city": "",
         "airport": "Chumphon Airport",
-        "stateCity": "Chumphon, "
+        "stateCity": "Chumphon, Air"
     },
     {
         "iata": "NST",
@@ -38867,14 +38867,14 @@
         "state": "Songkhla",
         "city": "",
         "airport": "Songkhla Airport",
-        "stateCity": "Songkhla, "
+        "stateCity": "Songkhla, Air"
     },
     {
         "iata": "PAN",
         "state": "Pattani",
         "city": "",
         "airport": "Pattani Airport",
-        "stateCity": "Pattani, "
+        "stateCity": "Pattani, Air"
     },
     {
         "iata": "USM",
@@ -38895,7 +38895,7 @@
         "state": "Ranong",
         "city": "",
         "airport": "Ranong Airport",
-        "stateCity": "Ranong, "
+        "stateCity": "Ranong, Air"
     },
     {
         "iata": "HDY",
@@ -38909,7 +38909,7 @@
         "state": "Trang",
         "city": "",
         "airport": "Trang Airport",
-        "stateCity": "Trang, "
+        "stateCity": "Trang, Air"
     },
     {
         "iata": "UTH",
@@ -38923,7 +38923,7 @@
         "state": "Sakon-Nakhon",
         "city": "",
         "airport": "Sakon Nakhon Airport",
-        "stateCity": "Sakon-Nakhon, "
+        "stateCity": "Sakon-Nakhon, Sakon"
     },
     {
         "iata": "KKC",
@@ -38937,21 +38937,21 @@
         "state": "Loei",
         "city": "",
         "airport": "Loei Airport",
-        "stateCity": "Loei, "
+        "stateCity": "Loei, Air"
     },
     {
         "iata": "BFV",
         "state": "Buriram",
         "city": "",
         "airport": "Buri Ram Airport",
-        "stateCity": "Buriram, "
+        "stateCity": "Buriram, Buri"
     },
     {
         "iata": "NAK",
         "state": "Nakhon-Ratchasima",
         "city": "",
         "airport": "Nakhon Ratchasima Airport",
-        "stateCity": "Nakhon-Ratchasima, "
+        "stateCity": "Nakhon-Ratchasima, Nakhon"
     },
     {
         "iata": "UBP",
@@ -38965,14 +38965,14 @@
         "state": "Roi-Et",
         "city": "",
         "airport": "Roi Et Airport",
-        "stateCity": "Roi-Et, "
+        "stateCity": "Roi-Et, Roi"
     },
     {
         "iata": "KOP",
         "state": "Nakhon-Phanom",
         "city": "",
         "airport": "Nakhon Phanom Airport",
-        "stateCity": "Nakhon-Phanom, "
+        "stateCity": "Nakhon-Phanom, Nakhon"
     },
     {
         "iata": "BMV",
@@ -38986,7 +38986,7 @@
         "state": "",
         "city": "Dung Quat Bay",
         "airport": "Chu Lai International Airport",
-        "stateCity": ", Dung Quat Bay"
+        "stateCity": "Dung Quat Bay, Chu Lai"
     },
     {
         "iata": "HPH",
@@ -39091,7 +39091,7 @@
         "state": "",
         "city": "Pleiku",
         "airport": "Pleiku Airport",
-        "stateCity": ", Pleiku"
+        "stateCity": "Pleiku, Air"
     },
     {
         "iata": "PQC",
@@ -39140,7 +39140,7 @@
         "state": "",
         "city": "Thanh Hóa",
         "airport": "Thọ Xuân Airport",
-        "stateCity": ", Thanh Hóa"
+        "stateCity": "Thanh Hóa, Thọ"
     },
     {
         "iata": "VII",
@@ -39315,7 +39315,7 @@
         "state": "Shan",
         "city": "",
         "airport": "Momeik Airport",
-        "stateCity": "Shan, "
+        "stateCity": "Shan, Momeik"
     },
     {
         "iata": "MOG",
@@ -39490,7 +39490,7 @@
         "state": "",
         "city": "Kokonau-Papua Island",
         "airport": "Kokonau Airport",
-        "stateCity": ", Kokonau-Papua Island"
+        "stateCity": "Kokonau-Papua Island"
     },
     {
         "iata": "ZRI",
@@ -39574,7 +39574,7 @@
         "state": "",
         "city": "Bokondini-Papua Island",
         "airport": "Bokondini Airport",
-        "stateCity": ", Bokondini-Papua Island"
+        "stateCity": "Bokondini-Papua Island"
     },
     {
         "iata": "ZRM",
@@ -39763,7 +39763,7 @@
         "state": "",
         "city": "Toli Toli-Celebes Island",
         "airport": "Toli Toli Airport",
-        "stateCity": ", Toli Toli-Celebes Island"
+        "stateCity": "Toli Toli-Celebes Island"
     },
     {
         "iata": "GEB",
@@ -40050,7 +40050,7 @@
         "state": "",
         "city": "Fakfak-Papua Island",
         "airport": "Fakfak Airport",
-        "stateCity": ", Fakfak-Papua Island"
+        "stateCity": "Fakfak-Papua Island"
     },
     {
         "iata": "INX",
@@ -40064,7 +40064,7 @@
         "state": "",
         "city": "Kaimana-Papua Island",
         "airport": "Kaimana Airport",
-        "stateCity": ", Kaimana-Papua Island"
+        "stateCity": "Kaimana-Papua Island"
     },
     {
         "iata": "RDE",
@@ -40106,7 +40106,7 @@
         "state": "",
         "city": "Wasior-Papua Island",
         "airport": "Wasior Airport",
-        "stateCity": ", Wasior-Papua Island"
+        "stateCity": "Wasior-Papua Island"
     },
     {
         "iata": "BJW",
@@ -40456,7 +40456,7 @@
         "state": "",
         "city": "Bandar Seri Begawan",
         "airport": "Brunei International Airport",
-        "stateCity": ", Bandar Seri Begawan"
+        "stateCity": "Bandar Seri Begawan, Int Air"
     },
     {
         "iata": "PKU",
@@ -40519,14 +40519,14 @@
         "state": "",
         "city": "Bandar Lampung-Sumatra Island",
         "airport": "Radin Inten II (Branti) Airport",
-        "stateCity": ", Bandar Lampung-Sumatra Island"
+        "stateCity": "Bandar Lampung-Sumatra Island, Radin"
     },
     {
         "iata": "BTH",
         "state": "",
         "city": "Batam Island",
         "airport": "Hang Nadim Airport",
-        "stateCity": ", Batam Island"
+        "stateCity": "Batam Island"
     },
     {
         "iata": "PPR",
@@ -40568,14 +40568,14 @@
         "state": "",
         "city": "Cilacap-Java Island",
         "airport": "Tunggul Wulung Airport",
-        "stateCity": ", Cilacap-Java Island"
+        "stateCity": "Cilacap-Java Island"
     },
     {
         "iata": "PCB",
         "state": "",
         "city": "Jakarta",
         "airport": "Pondok Cabe Air Base",
-        "stateCity": ", Jakarta"
+        "stateCity": "Jakarta, Pondok"
     },
     {
         "iata": "PPJ",
@@ -40589,7 +40589,7 @@
         "state": "",
         "city": "Jakarta",
         "airport": "Soekarno-Hatta International Airport",
-        "stateCity": ", Jakarta"
+        "stateCity": "Jakarta, SH"
     },
     {
         "iata": "GNS",
@@ -40603,21 +40603,21 @@
         "state": "",
         "city": "Padang Sidempuan-Sumatra Island",
         "airport": "Aek Godang Airport",
-        "stateCity": ", Padang Sidempuan-Sumatra Island"
+        "stateCity": "Padang Sidempuan-Sumatra Island"
     },
     {
         "iata": "MES",
         "state": "",
         "city": "Medan",
         "airport": "Soewondo Air Force Base",
-        "stateCity": ", Medan"
+        "stateCity": "Medan, S. Air"
     },
     {
         "iata": "KNO",
         "state": "",
         "city": "Medan-Sumatra Island",
         "airport": "Polonia International Airport",
-        "stateCity": ", Medan-Sumatra Island"
+        "stateCity": "Plonia, Medan-Sumatra Island"
     },
     {
         "iata": "FLZ",
@@ -40645,7 +40645,7 @@
         "state": "",
         "city": "Ketapang-Borneo Island",
         "airport": "Ketapang(Rahadi Usman) Airport",
-        "stateCity": ", Ketapang-Borneo Island"
+        "stateCity": "Ketapang-Borneo Island"
     },
     {
         "iata": "MWK",
@@ -40680,14 +40680,14 @@
         "state": "",
         "city": "Sintang-Borneo Island",
         "airport": "Sintang(Susilo) Airport",
-        "stateCity": ", Sintang-Borneo Island"
+        "stateCity": "Sintang-Borneo Island"
     },
     {
         "iata": "DJB",
         "state": "",
         "city": "Jambi-Sumatra Island",
         "airport": "Sultan Thaha Airport",
-        "stateCity": ", Jambi-Sumatra Island"
+        "stateCity": "Jambi-Sumatra Island"
     },
     {
         "iata": "PGK",
@@ -40701,7 +40701,7 @@
         "state": "",
         "city": "Bengkulu-Sumatra Island",
         "airport": "Padang Kemiling (Fatmawati Soekarno) Airport",
-        "stateCity": ", Bengkulu-Sumatra Island"
+        "stateCity": "Bengkulu-Sumatra Island"
     },
     {
         "iata": "PLM",
@@ -40729,14 +40729,14 @@
         "state": "",
         "city": "Muko Muko-Sumatra Island",
         "airport": "Muko Muko Airport",
-        "stateCity": ", Muko Muko-Sumatra Island"
+        "stateCity": "Muko Muko-Sumatra Island"
     },
     {
         "iata": "KLQ",
         "state": "",
         "city": "Keluang-Sumatra Island",
         "airport": "Keluang Airport",
-        "stateCity": ", Keluang-Sumatra Island"
+        "stateCity": "Keluang-Sumatra Island"
     },
     {
         "iata": "TPK",
@@ -40820,14 +40820,14 @@
         "state": "",
         "city": "Alor Satar",
         "airport": "Sultan Abdul Halim Airport",
-        "stateCity": ", Alor Satar"
+        "stateCity": "Alor Satar, Sultan"
     },
     {
         "iata": "BWH",
         "state": "",
         "city": "Butterworth",
         "airport": "Butterworth Airport",
-        "stateCity": ", Butterworth"
+        "stateCity": "Butterworth, Air"
     },
     {
         "iata": "KBR",
@@ -40855,7 +40855,7 @@
         "state": "",
         "city": "Ipoh",
         "airport": "Sultan Azlan Shah Airport",
-        "stateCity": ", Ipoh"
+        "stateCity": "Ipoh, Sultan Air"
     },
     {
         "iata": "JHB",
@@ -40869,7 +40869,7 @@
         "state": "",
         "city": "Kuala Lumpur",
         "airport": "Kuala Lumpur International Airport",
-        "stateCity": ", Kuala Lumpur"
+        "stateCity": "Kuala Lumpur, Int Air"
     },
     {
         "iata": "LGK",
@@ -40883,7 +40883,7 @@
         "state": "",
         "city": "Malacca",
         "airport": "Malacca Airport",
-        "stateCity": ", Malacca"
+        "stateCity": "Malacca, Air"
     },
     {
         "iata": "TGG",
@@ -40897,28 +40897,28 @@
         "state": "",
         "city": "Penang",
         "airport": "Penang International Airport",
-        "stateCity": ", Penang"
+        "stateCity": "Penang, Int Air"
     },
     {
         "iata": "PKG",
         "state": "",
         "city": "Pangkor Island",
         "airport": "Pulau Pangkor Airport",
-        "stateCity": ", Pangkor Island"
+        "stateCity": "Pangkor Island, Pulau"
     },
     {
         "iata": "RDN",
         "state": "",
         "city": "Redang",
         "airport": "LTS Pulau Redang Airport",
-        "stateCity": ", Redang"
+        "stateCity": "Redang, LTS"
     },
     {
         "iata": "SZB",
         "state": "",
         "city": "Subang",
         "airport": "Sultan Abdul Aziz Shah International Airport",
-        "stateCity": ", Subang"
+        "stateCity": "Subang, Sultan AA"
     },
     {
         "iata": "DTR",
@@ -41044,7 +41044,7 @@
         "state": "",
         "city": "Seletar",
         "airport": "Seletar Airport",
-        "stateCity": ", Seletar"
+        "stateCity": "Seletar, Air"
     },
     {
         "iata": "SIN",
@@ -41072,91 +41072,91 @@
         "state": "Queensland",
         "city": "",
         "airport": "Abingdon Downs Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Abingdon"
     },
     {
         "iata": "AWN",
         "state": "South-Australia",
         "city": "",
         "airport": "Alton Downs Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Alton"
     },
     {
         "iata": "AUD",
         "state": "Queensland",
         "city": "",
         "airport": "Augustus Downs Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Augustus"
     },
     {
         "iata": "MRP",
         "state": "South-Australia",
         "city": "",
         "airport": "Marla Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Marla"
     },
     {
         "iata": "AXL",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Alexandria Homestead Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Alexandria"
     },
     {
         "iata": "AXC",
         "state": "Queensland",
         "city": "",
         "airport": "Aramac Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Aramac"
     },
     {
         "iata": "ADO",
         "state": "South-Australia",
         "city": "",
         "airport": "Andamooka Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Andamooka"
     },
     {
         "iata": "AMX",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Ammaroo Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Ammaroo"
     },
     {
         "iata": "AMT",
         "state": "South-Australia",
         "city": "",
         "airport": "Amata Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Amata"
     },
     {
         "iata": "AYL",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Anthony Lagoon Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Anthony"
     },
     {
         "iata": "ABH",
         "state": "Queensland",
         "city": "",
         "airport": "Alpha Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Alpha"
     },
     {
         "iata": "ARY",
         "state": "Victoria",
         "city": "",
         "airport": "Ararat Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Ararat"
     },
     {
         "iata": "GYL",
         "state": "Western-Australia",
         "city": "",
         "airport": "Argyle Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Argyle"
     },
     {
         "iata": "ARM",
@@ -41170,28 +41170,28 @@
         "state": "Queensland",
         "city": "",
         "airport": "Arrabury Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Arrabury"
     },
     {
         "iata": "AUU",
         "state": "Queensland",
         "city": "",
         "airport": "Aurukun Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Aurukun"
     },
     {
         "iata": "AWP",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Austral Downs Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Austral"
     },
     {
         "iata": "AVG",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Auvergne Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Auvergne"
     },
     {
         "iata": "AYQ",
@@ -41205,7 +41205,7 @@
         "state": "Queensland",
         "city": "",
         "airport": "Ayr Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Ayr"
     },
     {
         "iata": "ACF",
@@ -41219,7 +41219,7 @@
         "state": "Queensland",
         "city": "",
         "airport": "Bamaga Injinoo Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Bamaga"
     },
     {
         "iata": "BCI",
@@ -41240,14 +41240,14 @@
         "state": "Queensland",
         "city": "",
         "airport": "Badu Island Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland,Badu "
     },
     {
         "iata": "BKP",
         "state": "Queensland",
         "city": "",
         "airport": "Barkly Downs Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Barkly"
     },
     {
         "iata": "BBE",
@@ -41296,35 +41296,35 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Bedford Downs Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Bedford"
     },
     {
         "iata": "BXG",
         "state": "Victoria",
         "city": "",
         "airport": "Bendigo Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Bendigo"
     },
     {
         "iata": "BVI",
         "state": "Queensland",
         "city": "",
         "airport": "Birdsville Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Birdsville"
     },
     {
         "iata": "BTX",
         "state": "Queensland",
         "city": "",
         "airport": "Betoota Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Betoota"
     },
     {
         "iata": "BQW",
         "state": "Western-Australia",
         "city": "",
         "airport": "Balgo Hill Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Balgo"
     },
     {
         "iata": "BHQ",
@@ -41345,14 +41345,14 @@
         "state": "Queensland",
         "city": "",
         "airport": "Bedourie Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Bedourie"
     },
     {
         "iata": "BIW",
         "state": "Western-Australia",
         "city": "",
         "airport": "Billiluna Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Billiluna"
     },
     {
         "iata": "BZP",
@@ -41366,35 +41366,35 @@
         "state": "New-South-Wales",
         "city": "",
         "airport": "Bourke Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Bourke"
     },
     {
         "iata": "BUC",
         "state": "Queensland",
         "city": "",
         "airport": "Burketown Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Burketown"
     },
     {
         "iata": "BLN",
         "state": "Victoria",
         "city": "",
         "airport": "Benalla Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Benalla"
     },
     {
         "iata": "LCN",
         "state": "South-Australia",
         "city": "",
         "airport": "Balcanoona Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Balcanoona"
     },
     {
         "iata": "BLS",
         "state": "Queensland",
         "city": "",
         "airport": "Bollon Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Bollon"
     },
     {
         "iata": "BQB",
@@ -41436,35 +41436,35 @@
         "state": "Victoria",
         "city": "",
         "airport": "Bairnsdale Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Bairnsdale"
     },
     {
         "iata": "GIC",
         "state": "Queensland",
         "city": "",
         "airport": "Boigu Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Boigu"
     },
     {
         "iata": "OKY",
         "state": "Queensland",
         "city": "",
         "airport": "Oakey Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Oakey"
     },
     {
         "iata": "BQL",
         "state": "Queensland",
         "city": "",
         "airport": "Boulia Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Boulia"
     },
     {
         "iata": "BMP",
         "state": "Queensland",
         "city": "",
         "airport": "Brampton Island Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Brampton"
     },
     {
         "iata": "PPP",
@@ -41485,7 +41485,7 @@
         "state": "Northern-Territory",
         "city": "",
         "airport": "Borroloola Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Borroloola"
     },
     {
         "iata": "BME",
@@ -41499,21 +41499,21 @@
         "state": "New-South-Wales",
         "city": "",
         "airport": "Balranald Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Balranald"
     },
     {
         "iata": "BTD",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Brunette Downs Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Brunette"
     },
     {
         "iata": "BWQ",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Brewarrina Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Brewarrina"
     },
     {
         "iata": "BHS",
@@ -41527,7 +41527,7 @@
         "state": "Northern-Territory",
         "city": "",
         "airport": "Bathurst Island Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Bathurst"
     },
     {
         "iata": "TSV",
@@ -41541,7 +41541,7 @@
         "state": "Queensland",
         "city": "",
         "airport": "Blackwater Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Blackwater"
     },
     {
         "iata": "BDB",
@@ -41555,21 +41555,21 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Bunbury Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Bunbury"
     },
     {
         "iata": "BIP",
         "state": "Queensland",
         "city": "",
         "airport": "Bulimba Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Bulimba"
     },
     {
         "iata": "ZBO",
         "state": "Queensland",
         "city": "",
         "airport": "Bowen Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Bowen"
     },
     {
         "iata": "WEI",
@@ -41590,56 +41590,56 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Barrow Island Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Barrow"
     },
     {
         "iata": "BVZ",
         "state": "Western-Australia",
         "city": "",
         "airport": "Beverley Springs Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Beverley"
     },
     {
         "iata": "CGV",
         "state": "Western-Australia",
         "city": "",
         "airport": "Caiguna Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Caiguna"
     },
     {
         "iata": "CLH",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Coolah Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Coolah"
     },
     {
         "iata": "CVQ",
         "state": "Western-Australia",
         "city": "",
         "airport": "Carnarvon Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Carnarvon"
     },
     {
         "iata": "CSI",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Casino Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Casino"
     },
     {
         "iata": "CAZ",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Cobar Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Cobar"
     },
     {
         "iata": "COJ",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Coonabarabran Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Coonabarabran"
     },
     {
         "iata": "CBY",
@@ -41653,35 +41653,35 @@
         "state": "Tasmania",
         "city": "",
         "airport": "Cape Barren Island Airport",
-        "stateCity": "Tasmania, "
+        "stateCity": "Tasmania, Cape"
     },
     {
         "iata": "CPD",
         "state": "South-Australia",
         "city": "",
         "airport": "Coober Pedy Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Coober"
     },
     {
         "iata": "CRB",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Collarenebri Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Collarenebri"
     },
     {
         "iata": "CCL",
         "state": "Queensland",
         "city": "",
         "airport": "Chinchilla Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Chinchilla"
     },
     {
         "iata": "CNC",
         "state": "Queensland",
         "city": "",
         "airport": "Coconut Island Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Coconut"
     },
     {
         "iata": "CNJ",
@@ -41695,42 +41695,42 @@
         "state": "New-South-Wales",
         "city": "",
         "airport": "Condobolin Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Condobolin"
     },
     {
         "iata": "CUD",
         "state": "Queensland",
         "city": "",
         "airport": "Caloundra Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Caloundra"
     },
     {
         "iata": "CED",
         "state": "South-Australia",
         "city": "",
         "airport": "Ceduna Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Ceduna"
     },
     {
         "iata": "CVC",
         "state": "South-Australia",
         "city": "",
         "airport": "Cleve Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Cleve"
     },
     {
         "iata": "CFI",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Camfield Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Camfield"
     },
     {
         "iata": "LLG",
         "state": "Queensland",
         "city": "",
         "airport": "Chillagoe Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Chillagoe"
     },
     {
         "iata": "CKW",
@@ -41744,70 +41744,70 @@
         "state": "Queensland",
         "city": "",
         "airport": "Charters Towers Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Charters"
     },
     {
         "iata": "DCN",
         "state": "Western-Australia",
         "city": "",
         "airport": "RAAF Base Curtin",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, RAAF"
     },
     {
         "iata": "CKI",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Croker Island Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Croker"
     },
     {
         "iata": "CTN",
         "state": "Queensland",
         "city": "",
         "airport": "Cooktown Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Cooktown"
     },
     {
         "iata": "CMQ",
         "state": "Queensland",
         "city": "",
         "airport": "Clermont Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Clermont"
     },
     {
         "iata": "CMA",
         "state": "Queensland",
         "city": "",
         "airport": "Cunnamulla Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Cunnamulla"
     },
     {
         "iata": "CML",
         "state": "Queensland",
         "city": "",
         "airport": "Camooweal Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Camooweal"
     },
     {
         "iata": "NIF",
         "state": "Western-Australia",
         "city": "",
         "airport": "Camp Nifty Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Camp"
     },
     {
         "iata": "CES",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Cessnock Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Cessnock"
     },
     {
         "iata": "CNB",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Coonamble Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Coonamble"
     },
     {
         "iata": "ODL",
@@ -41821,7 +41821,7 @@
         "state": "Queensland",
         "city": "",
         "airport": "Coen Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Coen"
     },
     {
         "iata": "OOM",
@@ -41835,112 +41835,112 @@
         "state": "Northern-Territory",
         "city": "",
         "airport": "Cooinda Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Cooinda"
     },
     {
         "iata": "CWW",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Corowa Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Corowa"
     },
     {
         "iata": "CYG",
         "state": "Victoria",
         "city": "",
         "airport": "Corryong Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Corryong"
     },
     {
         "iata": "CDQ",
         "state": "Queensland",
         "city": "",
         "airport": "Croydon Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Croydon"
     },
     {
         "iata": "KCE",
         "state": "Queensland",
         "city": "",
         "airport": "Collinsville Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Collinsville"
     },
     {
         "iata": "CMD",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Cootamundra Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Cootamundra"
     },
     {
         "iata": "CUG",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Cudal Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Cudal"
     },
     {
         "iata": "CUY",
         "state": "Western-Australia",
         "city": "",
         "airport": "Cue Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Cue"
     },
     {
         "iata": "CWR",
         "state": "South-Australia",
         "city": "",
         "airport": "Cowarie Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Cowarie"
     },
     {
         "iata": "CCW",
         "state": "South-Australia",
         "city": "",
         "airport": "Cowell Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Cowell"
     },
     {
         "iata": "CWT",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Cowra Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Cowra"
     },
     {
         "iata": "DJR",
         "state": "Queensland",
         "city": "",
         "airport": "Dajarra Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Dajarra"
     },
     {
         "iata": "DBY",
         "state": "Queensland",
         "city": "",
         "airport": "Dalby Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Dalby"
     },
     {
         "iata": "DRN",
         "state": "Queensland",
         "city": "",
         "airport": "Dirranbandi Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Dirranbandi"
     },
     {
         "iata": "DNB",
         "state": "Queensland",
         "city": "",
         "airport": "Dunbar Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Dunbar"
     },
     {
         "iata": "DRB",
         "state": "Western-Australia",
         "city": "",
         "airport": "Derby Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Derby"
     },
     {
         "iata": "DFP",
@@ -41954,7 +41954,7 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Dalgaranga Gold Mine Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Dalgaranga"
     },
     {
         "iata": "DXD",
@@ -41975,14 +41975,14 @@
         "state": "Queensland",
         "city": "",
         "airport": "Delta Downs Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Delta"
     },
     {
         "iata": "DLV",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Delissaville Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Delissaville"
     },
     {
         "iata": "DYW",
@@ -41996,14 +41996,14 @@
         "state": "Queensland",
         "city": "",
         "airport": "Doomadgee Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Doomadgee"
     },
     {
         "iata": "DVR",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Daly River Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Daly River"
     },
     {
         "iata": "NLF",
@@ -42017,14 +42017,14 @@
         "state": "Queensland",
         "city": "",
         "airport": "Dorunda Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Dorunda"
     },
     {
         "iata": "DVP",
         "state": "Queensland",
         "city": "",
         "airport": "Davenport Downs Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Davenport"
     },
     {
         "iata": "DPO",
@@ -42038,56 +42038,56 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Dongara Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Dongara"
     },
     {
         "iata": "DRY",
         "state": "Western-Australia",
         "city": "",
         "airport": "Drysdale River Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Drysdale"
     },
     {
         "iata": "DHD",
         "state": "Queensland",
         "city": "",
         "airport": "Durham Downs Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Durham"
     },
     {
         "iata": "DRR",
         "state": "Queensland",
         "city": "",
         "airport": "Durrie Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Durrie"
     },
     {
         "iata": "DKV",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Docker River Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Docker"
     },
     {
         "iata": "DYA",
         "state": "Queensland",
         "city": "",
         "airport": "Dysart Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Dysart"
     },
     {
         "iata": "ECH",
         "state": "Victoria",
         "city": "",
         "airport": "Echuca Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Echuca"
     },
     {
         "iata": "EUC",
         "state": "Western-Australia",
         "city": "",
         "airport": "Eucla Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Eucla"
     },
     {
         "iata": "ETD",
@@ -42129,14 +42129,14 @@
         "state": "South-Australia",
         "city": "",
         "airport": "Ernabella Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Ernabella"
     },
     {
         "iata": "EPR",
         "state": "Western-Australia",
         "city": "",
         "airport": "Esperance Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Esperance"
     },
     {
         "iata": "EVD",
@@ -42150,14 +42150,14 @@
         "state": "New-South-Wales",
         "city": "",
         "airport": "Evans Head Aerodrome",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Evans"
     },
     {
         "iata": "EXM",
         "state": "Western-Australia",
         "city": "",
         "airport": "Exmouth Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Exmouth"
     },
     {
         "iata": "KFE",
@@ -42171,21 +42171,21 @@
         "state": "New-South-Wales",
         "city": "",
         "airport": "Finley Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Finley"
     },
     {
         "iata": "FLS",
         "state": "Tasmania",
         "city": "",
         "airport": "Flinders Island Airport",
-        "stateCity": "Tasmania, "
+        "stateCity": "Tasmania, Flinders"
     },
     {
         "iata": "FVL",
         "state": "Western-Australia",
         "city": "",
         "airport": "Flora Valley Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Flora"
     },
     {
         "iata": "FIK",
@@ -42199,49 +42199,49 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Forrest Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Forrest"
     },
     {
         "iata": "FOT",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Forster (Wallis Is) Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Forster"
     },
     {
         "iata": "FIZ",
         "state": "Western-Australia",
         "city": "",
         "airport": "Fitzroy Crossing Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Fitzroy"
     },
     {
         "iata": "GAH",
         "state": "Queensland",
         "city": "",
         "airport": "Gayndah Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Gayndah"
     },
     {
         "iata": "GBL",
         "state": "Northern-Territory",
         "city": "",
         "airport": "South Goulburn Is Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, South Goulburn"
     },
     {
         "iata": "GUH",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Gunnedah Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Gunnedah"
     },
     {
         "iata": "GOO",
         "state": "Queensland",
         "city": "",
         "airport": "Goondiwindi Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Goondiwindi"
     },
     {
         "iata": "GDD",
@@ -42255,28 +42255,28 @@
         "state": "Queensland",
         "city": "",
         "airport": "Gregory Downs Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Gregory"
     },
     {
         "iata": "GTS",
         "state": "South-Australia",
         "city": "",
         "airport": "Granite Downs Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Granite"
     },
     {
         "iata": "GET",
         "state": "Western-Australia",
         "city": "",
         "airport": "Geraldton Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Geraldton"
     },
     {
         "iata": "GFN",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Grafton Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Grafton"
     },
     {
         "iata": "GBW",
@@ -42290,7 +42290,7 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Gibb River Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Gibb"
     },
     {
         "iata": "GLT",
@@ -42304,49 +42304,49 @@
         "state": "New-South-Wales",
         "city": "",
         "airport": "Goulburn Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Goulburn"
     },
     {
         "iata": "GLG",
         "state": "Queensland",
         "city": "",
         "airport": "Glengyle Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Glengyle"
     },
     {
         "iata": "GEX",
         "state": "Victoria",
         "city": "",
         "airport": "Geelong Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Geelong"
     },
     {
         "iata": "GLI",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Glen Innes Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Glen"
     },
     {
         "iata": "GLM",
         "state": "Queensland",
         "city": "",
         "airport": "Glenormiston Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Glenormiston"
     },
     {
         "iata": "GVP",
         "state": "Queensland",
         "city": "",
         "airport": "Greenvale Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Greenvale"
     },
     {
         "iata": "GPN",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Garden Point Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Garden"
     },
     {
         "iata": "GTE",
@@ -42367,21 +42367,21 @@
         "state": "Queensland",
         "city": "",
         "airport": "Georgetown Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Georgetown"
     },
     {
         "iata": "GEE",
         "state": "Tasmania",
         "city": "",
         "airport": "Georgetown (Tas) Airport",
-        "stateCity": "Tasmania, "
+        "stateCity": "Tasmania, Georgetown"
     },
     {
         "iata": "GYP",
         "state": "Queensland",
         "city": "",
         "airport": "Gympie Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Gympie"
     },
     {
         "iata": "HWK",
@@ -42395,7 +42395,7 @@
         "state": "New-South-Wales",
         "city": "",
         "airport": "Hay Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Hay"
     },
     {
         "iata": "HVB",
@@ -42409,14 +42409,14 @@
         "state": "Northern-Territory",
         "city": "",
         "airport": "Humbert River Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Humbert"
     },
     {
         "iata": "HIP",
         "state": "Queensland",
         "city": "",
         "airport": "Headingly Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Headingly"
     },
     {
         "iata": "HID",
@@ -42430,28 +42430,28 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Halls Creek Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Halls"
     },
     {
         "iata": "HMG",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Hermannsburg Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Hermannsburg"
     },
     {
         "iata": "HLT",
         "state": "Victoria",
         "city": "",
         "airport": "Hamilton Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Hamilton"
     },
     {
         "iata": "HOK",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Hooker Creek Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Hooker"
     },
     {
         "iata": "MHU",
@@ -42465,70 +42465,70 @@
         "state": "Victoria",
         "city": "",
         "airport": "Hopetoun Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Hopetoun"
     },
     {
         "iata": "HSM",
         "state": "Victoria",
         "city": "",
         "airport": "Horsham Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Horsham"
     },
     {
         "iata": "HGD",
         "state": "Queensland",
         "city": "",
         "airport": "Hughenden Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Hughenden"
     },
     {
         "iata": "IDK",
         "state": "South-Australia",
         "city": "",
         "airport": "Indulkana Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Indulkana"
     },
     {
         "iata": "IFL",
         "state": "Queensland",
         "city": "",
         "airport": "Innisfail Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Innisfail"
     },
     {
         "iata": "IFF",
         "state": "Queensland",
         "city": "",
         "airport": "Iffley Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Iffley"
     },
     {
         "iata": "IGH",
         "state": "Queensland",
         "city": "",
         "airport": "Ingham Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Ingham"
     },
     {
         "iata": "IKP",
         "state": "Queensland",
         "city": "",
         "airport": "Inkerman Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Inkerman"
     },
     {
         "iata": "INJ",
         "state": "Queensland",
         "city": "",
         "airport": "Injune Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Injune"
     },
     {
         "iata": "INM",
         "state": "South-Australia",
         "city": "",
         "airport": "Innamincka Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Innamincka"
     },
     {
         "iata": "IVW",
@@ -42542,91 +42542,91 @@
         "state": "Queensland",
         "city": "",
         "airport": "Isisford Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Isisford"
     },
     {
         "iata": "IVR",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Inverell Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Inverell"
     },
     {
         "iata": "JAB",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Jabiru Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Jabiru"
     },
     {
         "iata": "JUN",
         "state": "Queensland",
         "city": "",
         "airport": "Jundah Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Jundah"
     },
     {
         "iata": "QJD",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Jindabyne Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Jindabyne"
     },
     {
         "iata": "JCK",
         "state": "Queensland",
         "city": "",
         "airport": "Julia Creek Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Julia"
     },
     {
         "iata": "JUR",
         "state": "Western-Australia",
         "city": "",
         "airport": "Jurien Bay Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Jurien"
     },
     {
         "iata": "UBU",
         "state": "Western-Australia",
         "city": "",
         "airport": "Kalumburu Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Kalumburu"
     },
     {
         "iata": "KAX",
         "state": "Western-Australia",
         "city": "",
         "airport": "Kalbarri Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Kalbarri"
     },
     {
         "iata": "KBY",
         "state": "South-Australia",
         "city": "",
         "airport": "Streaky Bay Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Streaky"
     },
     {
         "iata": "KCS",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Kings Creek Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Kings"
     },
     {
         "iata": "KRA",
         "state": "Victoria",
         "city": "",
         "airport": "Kerang Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Kerang"
     },
     {
         "iata": "KNS",
         "state": "Tasmania",
         "city": "",
         "airport": "King Island Airport",
-        "stateCity": "Tasmania, "
+        "stateCity": "Tasmania, King Island"
     },
     {
         "iata": "KBB",
@@ -42640,7 +42640,7 @@
         "state": "Northern-Territory",
         "city": "",
         "airport": "Kalkgurung Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Kalkgurung"
     },
     {
         "iata": "KKP",
@@ -42654,28 +42654,28 @@
         "state": "Queensland",
         "city": "",
         "airport": "Karumba Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Karumba"
     },
     {
         "iata": "KML",
         "state": "Queensland",
         "city": "",
         "airport": "Kamileroi Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Kamileroi"
     },
     {
         "iata": "KPS",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Kempsey Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Kempsey"
     },
     {
         "iata": "KNI",
         "state": "Western-Australia",
         "city": "",
         "airport": "Katanning Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Katanning"
     },
     {
         "iata": "KWM",
@@ -42689,35 +42689,35 @@
         "state": "Queensland",
         "city": "",
         "airport": "Kingaroy Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Kingaroy"
     },
     {
         "iata": "KGC",
         "state": "South-Australia",
         "city": "",
         "airport": "Kingscote Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Kingscote"
     },
     {
         "iata": "KUG",
         "state": "Queensland",
         "city": "",
         "airport": "Kubin Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Kubin"
     },
     {
         "iata": "LWH",
         "state": "Queensland",
         "city": "",
         "airport": "Lawn Hill Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Lawn"
     },
     {
         "iata": "LGH",
         "state": "South-Australia",
         "city": "",
         "airport": "Leigh Creek Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Leigh Creek"
     },
     {
         "iata": "LNO",
@@ -42731,7 +42731,7 @@
         "state": "Northern-Territory",
         "city": "",
         "airport": "Lake Evella Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Lake Evella"
     },
     {
         "iata": "LDH",
@@ -42745,7 +42745,7 @@
         "state": "Queensland",
         "city": "",
         "airport": "Lockhart River Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Lockhart"
     },
     {
         "iata": "LTP",
@@ -42780,7 +42780,7 @@
         "state": "Queensland",
         "city": "",
         "airport": "Lorraine Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Lorraine"
     },
     {
         "iata": "LTV",
@@ -42794,14 +42794,14 @@
         "state": "Queensland",
         "city": "",
         "airport": "Laura Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Laura"
     },
     {
         "iata": "LHG",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Lightning Ridge Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Lightning"
     },
     {
         "iata": "LRE",
@@ -42815,35 +42815,35 @@
         "state": "Queensland",
         "city": "",
         "airport": "New Laura Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, New Laura"
     },
     {
         "iata": "LER",
         "state": "Western-Australia",
         "city": "",
         "airport": "Leinster Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Leinster"
     },
     {
         "iata": "LVO",
         "state": "Western-Australia",
         "city": "",
         "airport": "Laverton Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Laverton"
     },
     {
         "iata": "TGN",
         "state": "Victoria",
         "city": "",
         "airport": "Latrobe Valley Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Latrobe"
     },
     {
         "iata": "LZR",
         "state": "Queensland",
         "city": "",
         "airport": "Lizard Island Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Lizard"
     },
     {
         "iata": "UBB",
@@ -42871,35 +42871,35 @@
         "state": "Queensland",
         "city": "",
         "airport": "Mareeba Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Mareeba"
     },
     {
         "iata": "MBB",
         "state": "Western-Australia",
         "city": "",
         "airport": "Marble Bar Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Marble"
     },
     {
         "iata": "XMC",
         "state": "Victoria",
         "city": "",
         "airport": "Mallacoota Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Mallacoota"
     },
     {
         "iata": "MFP",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Manners Creek Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Manners"
     },
     {
         "iata": "MLR",
         "state": "South-Australia",
         "city": "",
         "airport": "Millicent Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Millicent"
     },
     {
         "iata": "DGE",
@@ -42920,14 +42920,14 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Meekatharra Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Meekatharra"
     },
     {
         "iata": "MEB",
         "state": "Victoria",
         "city": "",
         "airport": "Melbourne Essendon Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Melbourne"
     },
     {
         "iata": "MIM",
@@ -42941,7 +42941,7 @@
         "state": "Victoria",
         "city": "",
         "airport": "RAAF Base East Sale",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, RAAF"
     },
     {
         "iata": "MGT",
@@ -42969,14 +42969,14 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Margaret River (Station) Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Station"
     },
     {
         "iata": "MQZ",
         "state": "Western-Australia",
         "city": "",
         "airport": "Margaret River Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Margaret"
     },
     {
         "iata": "HBA",
@@ -42990,7 +42990,7 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Mount House Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Mount"
     },
     {
         "iata": "MCV",
@@ -43011,7 +43011,7 @@
         "state": "South-Australia",
         "city": "",
         "airport": "Minlaton Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Minlaton"
     },
     {
         "iata": "MIH",
@@ -43025,14 +43025,14 @@
         "state": "Queensland",
         "city": "",
         "airport": "Mitchell Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Mitchell"
     },
     {
         "iata": "MJP",
         "state": "Western-Australia",
         "city": "",
         "airport": "Manjimup Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Manjimup"
     },
     {
         "iata": "LST",
@@ -43060,49 +43060,49 @@
         "state": "Queensland",
         "city": "",
         "airport": "Middlemount Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Middlemount"
     },
     {
         "iata": "MTL",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Maitland Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Maitland"
     },
     {
         "iata": "WME",
         "state": "Western-Australia",
         "city": "",
         "airport": "Mount Keith Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia,Mount "
     },
     {
         "iata": "ONR",
         "state": "Queensland",
         "city": "",
         "airport": "Monkira Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Monkira"
     },
     {
         "iata": "OXY",
         "state": "Queensland",
         "city": "",
         "airport": "Morney Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Morney"
     },
     {
         "iata": "MMG",
         "state": "Western-Australia",
         "city": "",
         "airport": "Mount Magnet Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Mount"
     },
     {
         "iata": "OOR",
         "state": "Queensland",
         "city": "",
         "airport": "Mooraberree Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Mooraberree"
     },
     {
         "iata": "MRZ",
@@ -43123,7 +43123,7 @@
         "state": "South-Australia",
         "city": "",
         "airport": "Minnipa Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Minnipa"
     },
     {
         "iata": "MQE",
@@ -43144,14 +43144,14 @@
         "state": "South-Australia",
         "city": "",
         "airport": "Marree Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Marree"
     },
     {
         "iata": "MWB",
         "state": "Western-Australia",
         "city": "",
         "airport": "Morawa Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Morawa"
     },
     {
         "iata": "MYA",
@@ -43165,35 +43165,35 @@
         "state": "Northern-Territory",
         "city": "",
         "airport": "Mount Sanford Station Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Mount"
     },
     {
         "iata": "UTB",
         "state": "Queensland",
         "city": "",
         "airport": "Muttaburra Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Muttaburra"
     },
     {
         "iata": "MGB",
         "state": "South-Australia",
         "city": "",
         "airport": "Mount Gambier Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Mount"
     },
     {
         "iata": "ONG",
         "state": "Queensland",
         "city": "",
         "airport": "Mornington Island Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Mornington"
     },
     {
         "iata": "MNQ",
         "state": "Queensland",
         "city": "",
         "airport": "Monto Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Monto"
     },
     {
         "iata": "MUQ",
@@ -43228,35 +43228,35 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Mullewa Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Mullewa"
     },
     {
         "iata": "MXD",
         "state": "Queensland",
         "city": "",
         "airport": "Marion Downs Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Marion"
     },
     {
         "iata": "MBH",
         "state": "Queensland",
         "city": "",
         "airport": "Maryborough Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Maryborough"
     },
     {
         "iata": "RTY",
         "state": "South-Australia",
         "city": "",
         "airport": "Merty Merty Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Merty"
     },
     {
         "iata": "NMR",
         "state": "Queensland",
         "city": "",
         "airport": "Nappa Merrie Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Nappa"
     },
     {
         "iata": "NRA",
@@ -43277,7 +43277,7 @@
         "state": "Northern-Territory",
         "city": "",
         "airport": "Ngukurr Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Ngukurr"
     },
     {
         "iata": "NBH",
@@ -43291,70 +43291,70 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Nicholson Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Nicholson"
     },
     {
         "iata": "NAC",
         "state": "South-Australia",
         "city": "",
         "airport": "Naracoorte Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Naracoorte"
     },
     {
         "iata": "QRM",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Narromine Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Narromine"
     },
     {
         "iata": "RVT",
         "state": "Western-Australia",
         "city": "",
         "airport": "Ravensthorpe Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Ravensthorpe"
     },
     {
         "iata": "NSV",
         "state": "Queensland",
         "city": "",
         "airport": "Noosa Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Noosa"
     },
     {
         "iata": "NSM",
         "state": "Western-Australia",
         "city": "",
         "airport": "Norseman Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Norseman"
     },
     {
         "iata": "NTN",
         "state": "Queensland",
         "city": "",
         "airport": "Normanton Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Normanton"
     },
     {
         "iata": "NUR",
         "state": "South-Australia",
         "city": "",
         "airport": "Nullabor Motel Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Nullabor"
     },
     {
         "iata": "NLL",
         "state": "Western-Australia",
         "city": "",
         "airport": "Nullagine Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Nullagine"
     },
     {
         "iata": "NUB",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Numbulwar Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Numbulwar"
     },
     {
         "iata": "ZNE",
@@ -43368,21 +43368,21 @@
         "state": "New-South-Wales",
         "city": "",
         "airport": "Nyngan Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Nyngan"
     },
     {
         "iata": "OPI",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Oenpelli Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Oenpelli"
     },
     {
         "iata": "XCO",
         "state": "Victoria",
         "city": "",
         "airport": "Colac Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Colac"
     },
     {
         "iata": "OLP",
@@ -43396,28 +43396,28 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Onslow Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Onslow"
     },
     {
         "iata": "ODD",
         "state": "South-Australia",
         "city": "",
         "airport": "Oodnadatta Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Oodnadatta"
     },
     {
         "iata": "MOO",
         "state": "South-Australia",
         "city": "",
         "airport": "Moomba Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Moomba"
     },
     {
         "iata": "RBS",
         "state": "Victoria",
         "city": "",
         "airport": "Orbost Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Orbost"
     },
     {
         "iata": "OAG",
@@ -43438,14 +43438,14 @@
         "state": "Queensland",
         "city": "",
         "airport": "Osborne Mine Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Osborne"
     },
     {
         "iata": "OYN",
         "state": "Victoria",
         "city": "",
         "airport": "Ouyen Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Ouyen"
     },
     {
         "iata": "ADL",
@@ -43459,14 +43459,14 @@
         "state": "South-Australia",
         "city": "",
         "airport": "Port Augusta Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Port"
     },
     {
         "iata": "PMK",
         "state": "Queensland",
         "city": "",
         "airport": "Palm Island Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Palm"
     },
     {
         "iata": "PBO",
@@ -43480,14 +43480,14 @@
         "state": "",
         "city": "Cocos (Keeling) Islands",
         "airport": "Cocos (Keeling) Islands Airport",
-        "stateCity": ", Cocos (Keeling) Islands"
+        "stateCity": "Cocos (Keeling) Islands, Air"
     },
     {
         "iata": "PDE",
         "state": "South-Australia",
         "city": "",
         "airport": "Pandie Pandie Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Pandie"
     },
     {
         "iata": "DRW",
@@ -43508,7 +43508,7 @@
         "state": "New-South-Wales",
         "city": "",
         "airport": "Aeropelican Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Aeropelican"
     },
     {
         "iata": "GOV",
@@ -43522,7 +43522,7 @@
         "state": "South-Australia",
         "city": "",
         "airport": "Port Pirie Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Port"
     },
     {
         "iata": "JAD",
@@ -43557,7 +43557,7 @@
         "state": "Northern-Territory",
         "city": "",
         "airport": "Port Keats Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Port"
     },
     {
         "iata": "KNX",
@@ -43585,7 +43585,7 @@
         "state": "Queensland",
         "city": "",
         "airport": "Pormpuraaw Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Pormpuraaw"
     },
     {
         "iata": "PQQ",
@@ -43599,7 +43599,7 @@
         "state": "Victoria",
         "city": "",
         "airport": "Portland Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Portland"
     },
     {
         "iata": "PHE",
@@ -43627,7 +43627,7 @@
         "state": "Northern-Territory",
         "city": "",
         "airport": "Tindal Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Tindal"
     },
     {
         "iata": "UMR",
@@ -43641,56 +43641,56 @@
         "state": "",
         "city": "Christmas Island",
         "airport": "Christmas Island Airport",
-        "stateCity": ", Christmas Island"
+        "stateCity": "Christmas Island, Air"
     },
     {
         "iata": "UIR",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Quirindi Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Quirindi"
     },
     {
         "iata": "ULP",
         "state": "Queensland",
         "city": "",
         "airport": "Quilpie Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Quilpie"
     },
     {
         "iata": "UEE",
         "state": "Tasmania",
         "city": "",
         "airport": "Queenstown Airport",
-        "stateCity": "Tasmania, "
+        "stateCity": "Tasmania, Queenstown"
     },
     {
         "iata": "RMK",
         "state": "South-Australia",
         "city": "",
         "airport": "Renmark Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Renmark"
     },
     {
         "iata": "RCM",
         "state": "Queensland",
         "city": "",
         "airport": "Richmond Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Richmond"
     },
     {
         "iata": "RAM",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Ramingining Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Ramingining"
     },
     {
         "iata": "ROH",
         "state": "Queensland",
         "city": "",
         "airport": "Robinhood Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Robinhood"
     },
     {
         "iata": "RBU",
@@ -43704,7 +43704,7 @@
         "state": "Victoria",
         "city": "",
         "airport": "Robinvale Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Robinvale"
     },
     {
         "iata": "RMA",
@@ -43718,28 +43718,28 @@
         "state": "Queensland",
         "city": "",
         "airport": "Roseberth Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Roseberth"
     },
     {
         "iata": "RTS",
         "state": "Western-Australia",
         "city": "",
         "airport": "Rottnest Island Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Rottnest"
     },
     {
         "iata": "RTP",
         "state": "Queensland",
         "city": "",
         "airport": "Rutland Plains Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Rutland"
     },
     {
         "iata": "RHL",
         "state": "Western-Australia",
         "city": "",
         "airport": "Roy Hill Station Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Roy"
     },
     {
         "iata": "NDS",
@@ -43774,21 +43774,21 @@
         "state": "New-South-Wales",
         "city": "",
         "airport": "Camden Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Camden"
     },
     {
         "iata": "NSO",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Scone Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Scone"
     },
     {
         "iata": "SQC",
         "state": "Western-Australia",
         "city": "",
         "airport": "Southern Cross Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Southern"
     },
     {
         "iata": "DBO",
@@ -43802,7 +43802,7 @@
         "state": "Queensland",
         "city": "",
         "airport": "St George Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, SG"
     },
     {
         "iata": "SIX",
@@ -43816,7 +43816,7 @@
         "state": "Queensland",
         "city": "",
         "airport": "South Galway Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, South Galway"
     },
     {
         "iata": "SGP",
@@ -43837,14 +43837,14 @@
         "state": "Queensland",
         "city": "",
         "airport": "Shute Harbour Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Shute"
     },
     {
         "iata": "SHT",
         "state": "Victoria",
         "city": "",
         "airport": "Shepparton Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Shepparton"
     },
     {
         "iata": "SBR",
@@ -43858,42 +43858,42 @@
         "state": "Tasmania",
         "city": "",
         "airport": "Smithton Airport",
-        "stateCity": "Tasmania, "
+        "stateCity": "Tasmania, Smithton"
     },
     {
         "iata": "SHU",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Smith Point Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Smith"
     },
     {
         "iata": "STH",
         "state": "Queensland",
         "city": "",
         "airport": "Strathmore Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Strathmore"
     },
     {
         "iata": "SNB",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Snake Bay Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Snake"
     },
     {
         "iata": "NLK",
         "state": "",
         "city": "Burnt Pine",
         "airport": "Norfolk Island International Airport",
-        "stateCity": ", Burnt Pine"
+        "stateCity": "Burnt Pine, Norfolk"
     },
     {
         "iata": "NOA",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Nowra Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Nowra"
     },
     {
         "iata": "SLJ",
@@ -43907,35 +43907,35 @@
         "state": "Queensland",
         "city": "",
         "airport": "Stanthorpe Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Stanthorpe"
     },
     {
         "iata": "SCG",
         "state": "Queensland",
         "city": "",
         "airport": "Spring Creek Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Spring"
     },
     {
         "iata": "SHQ",
         "state": "Queensland",
         "city": "",
         "airport": "Southport Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Southport"
     },
     {
         "iata": "KSV",
         "state": "Queensland",
         "city": "",
         "airport": "Springvale Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Springvale"
     },
     {
         "iata": "SRN",
         "state": "Tasmania",
         "city": "",
         "airport": "Strahan Airport",
-        "stateCity": "Tasmania, "
+        "stateCity": "Tasmania, Strahan"
     },
     {
         "iata": "SYD",
@@ -43949,7 +43949,7 @@
         "state": "Tasmania",
         "city": "",
         "airport": "St Helens Airport",
-        "stateCity": "Tasmania, "
+        "stateCity": "Tasmania, St Helens"
     },
     {
         "iata": "TMW",
@@ -43970,35 +43970,35 @@
         "state": "Victoria",
         "city": "",
         "airport": "Swan Hill Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Swan"
     },
     {
         "iata": "SWC",
         "state": "Victoria",
         "city": "",
         "airport": "Stawell Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Stawell"
     },
     {
         "iata": "XTR",
         "state": "Queensland",
         "city": "",
         "airport": "Tara Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Tara"
     },
     {
         "iata": "TBL",
         "state": "Western-Australia",
         "city": "",
         "airport": "Tableland Homestead Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Tableland"
     },
     {
         "iata": "XTO",
         "state": "Queensland",
         "city": "",
         "airport": "Taroom Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Taroom"
     },
     {
         "iata": "TAQ",
@@ -44012,56 +44012,56 @@
         "state": "Northern-Territory",
         "city": "",
         "airport": "Timber Creek Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Timber"
     },
     {
         "iata": "TDR",
         "state": "Queensland",
         "city": "",
         "airport": "Theodore Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Theodore"
     },
     {
         "iata": "TEF",
         "state": "Western-Australia",
         "city": "",
         "airport": "Telfer Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Telfer"
     },
     {
         "iata": "TEM",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Temora Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Temora"
     },
     {
         "iata": "TAN",
         "state": "Queensland",
         "city": "",
         "airport": "Tangalooma Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Tangalooma"
     },
     {
         "iata": "XTG",
         "state": "Queensland",
         "city": "",
         "airport": "Thargomindah Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Thargomindah"
     },
     {
         "iata": "TYG",
         "state": "Queensland",
         "city": "",
         "airport": "Thylungra Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Thylungra"
     },
     {
         "iata": "TYB",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Tibooburra Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Tibooburra"
     },
     {
         "iata": "TKY",
@@ -44082,7 +44082,7 @@
         "state": "New-South-Wales",
         "city": "",
         "airport": "Tumut Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Tumut"
     },
     {
         "iata": "TYP",
@@ -44110,7 +44110,7 @@
         "state": "New-South-Wales",
         "city": "",
         "airport": "Tocumwal Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Tocumwal"
     },
     {
         "iata": "TRO",
@@ -44124,42 +44124,42 @@
         "state": "Queensland",
         "city": "",
         "airport": "Toowoomba Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Toowoomba"
     },
     {
         "iata": "UDA",
         "state": "Queensland",
         "city": "",
         "airport": "Undara Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Undara"
     },
     {
         "iata": "CZY",
         "state": "Queensland",
         "city": "",
         "airport": "Cluny Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Cluny"
     },
     {
         "iata": "USL",
         "state": "Western-Australia",
         "city": "",
         "airport": "Useless Loop Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Useless Loop"
     },
     {
         "iata": "VCD",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Victoria River Downs Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Victoria River"
     },
     {
         "iata": "VNR",
         "state": "Queensland",
         "city": "",
         "airport": "Vanrook Station Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Vanrook"
     },
     {
         "iata": "WLA",
@@ -44173,14 +44173,14 @@
         "state": "Northern-Territory",
         "city": "",
         "airport": "Wave Hill Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Wave Hill"
     },
     {
         "iata": "WMB",
         "state": "Victoria",
         "city": "",
         "airport": "Warrnambool Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Warrnambool"
     },
     {
         "iata": "SYU",
@@ -44194,42 +44194,42 @@
         "state": "New-South-Wales",
         "city": "",
         "airport": "Wilcannia Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Wilcannia"
     },
     {
         "iata": "WLC",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Walcha Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Walcha"
     },
     {
         "iata": "WAZ",
         "state": "Queensland",
         "city": "",
         "airport": "Warwick Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Warwick"
     },
     {
         "iata": "WND",
         "state": "Western-Australia",
         "city": "",
         "airport": "Windarra Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Windarra"
     },
     {
         "iata": "WNR",
         "state": "Queensland",
         "city": "",
         "airport": "Windorah Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Windorah"
     },
     {
         "iata": "WGT",
         "state": "Victoria",
         "city": "",
         "airport": "Wangaratta Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Wangaratta"
     },
     {
         "iata": "WYA",
@@ -44243,21 +44243,21 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Wittenoom Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Wittenoom"
     },
     {
         "iata": "WKB",
         "state": "Victoria",
         "city": "",
         "airport": "Warracknabeal Airport",
-        "stateCity": "Victoria, "
+        "stateCity": "Victoria, Warracknabeal"
     },
     {
         "iata": "WGE",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Walgett Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Walgett"
     },
     {
         "iata": "NTL",
@@ -44271,70 +44271,70 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Wiluna Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Wiluna"
     },
     {
         "iata": "WPK",
         "state": "Queensland",
         "city": "",
         "airport": "Wrotham Park Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Wrotham"
     },
     {
         "iata": "WDI",
         "state": "Queensland",
         "city": "",
         "airport": "Wondai Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Wondai"
     },
     {
         "iata": "WOL",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Wollongong Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Wollongong"
     },
     {
         "iata": "QRR",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Warren Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Warren"
     },
     {
         "iata": "WLO",
         "state": "Northern-Territory",
         "city": "",
         "airport": "Waterloo Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Waterloo"
     },
     {
         "iata": "WIN",
         "state": "Queensland",
         "city": "",
         "airport": "Winton Airport",
-        "stateCity": "Queensland, "
+        "stateCity": "Queensland, Winton"
     },
     {
         "iata": "WUD",
         "state": "South-Australia",
         "city": "",
         "airport": "Wudinna Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Wudinna"
     },
     {
         "iata": "WEW",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Wee Waa Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Wee Waa"
     },
     {
         "iata": "WRW",
         "state": "Western-Australia",
         "city": "",
         "airport": "Warrawagine Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Warrawagine"
     },
     {
         "iata": "WWI",
@@ -44348,7 +44348,7 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Wyndham Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Wyndham"
     },
     {
         "iata": "BWT",
@@ -44376,7 +44376,7 @@
         "state": "Western-Australia",
         "city": "",
         "airport": "Yeelirrie Airport",
-        "stateCity": "Western-Australia, "
+        "stateCity": "Western-Australia, Yeelirrie"
     },
     {
         "iata": "XMY",
@@ -44390,21 +44390,21 @@
         "state": "Northern-Territory",
         "city": "",
         "airport": "Yuendumu Airport",
-        "stateCity": "Northern-Territory, "
+        "stateCity": "Northern-Territory, Yuendumu"
     },
     {
         "iata": "NGA",
         "state": "New-South-Wales",
         "city": "",
         "airport": "Young Airport",
-        "stateCity": "New-South-Wales, "
+        "stateCity": "New-South-Wales, Young"
     },
     {
         "iata": "ORR",
         "state": "South-Australia",
         "city": "",
         "airport": "Yorketown Airport",
-        "stateCity": "South-Australia, "
+        "stateCity": "South-Australia, Yorketown"
     },
     {
         "iata": "KYI",
@@ -44775,7 +44775,7 @@
         "state": "Hamgyong-bukto",
         "city": "",
         "airport": "Orang Airport",
-        "stateCity": "Hamgyong-bukto, "
+        "stateCity": "Hamgyong-bukto, Orang"
     },
     {
         "iata": "FNJ",
@@ -44789,7 +44789,7 @@
         "state": "Hamgyong-namdo",
         "city": "",
         "airport": "Sondok Airport",
-        "stateCity": "Hamgyong-namdo, "
+        "stateCity": "Hamgyong-namdo, Sondok"
     },
     {
         "iata": "YJS",
@@ -44964,21 +44964,21 @@
         "state": "Hovd",
         "city": "",
         "airport": "Bulgan Sum Airport",
-        "stateCity": "Hovd, "
+        "stateCity": "Hovd, Bulgan"
     },
     {
         "iata": "UUN",
         "state": "Suehbaatar",
         "city": "",
         "airport": "Baruun Urt Airport",
-        "stateCity": "Suehbaatar, "
+        "stateCity": "Suehbaatar, Baruun"
     },
     {
         "iata": "COQ",
         "state": "East-Aimak",
         "city": "",
         "airport": "Choibalsan Airport",
-        "stateCity": "East-Aimak, "
+        "stateCity": "East-Aimak, Choibalsan"
     },
     {
         "iata": "DLZ",
@@ -44992,7 +44992,7 @@
         "state": "Oevorhangay",
         "city": "",
         "airport": "Kharkhorin Airport",
-        "stateCity": "Oevorhangay, "
+        "stateCity": "Oevorhangay, Kharkhorin"
     },
     {
         "iata": "HVD",
@@ -45020,21 +45020,21 @@
         "state": "Uvs",
         "city": "",
         "airport": "Ulaangom Airport",
-        "stateCity": "Uvs, "
+        "stateCity": "Uvs, Ulaangom"
     },
     {
         "iata": "ULG",
         "state": "Bayan-Oelgiy",
         "city": "",
         "airport": "Ulgii Mongolei Airport",
-        "stateCity": "Bayan-Oelgiy, "
+        "stateCity": "Bayan-Oelgiy, Ulgii"
     },
     {
         "iata": "BSD",
         "state": "Yunnan",
         "city": "",
         "airport": "Baoshan Yunduan Airport",
-        "stateCity": "Yunnan, "
+        "stateCity": "Yunnan, Baoshan"
     },
     {
         "iata": "DLU",
@@ -45510,7 +45510,7 @@
         "state": "Hunan",
         "city": "",
         "airport": "Tongren Fenghuang Airport",
-        "stateCity": "Hunan, "
+        "stateCity": "Hunan, Tongren"
     },
     {
         "iata": "CTU",
@@ -45790,7 +45790,7 @@
         "state": "Liaoning",
         "city": "",
         "airport": "Xingcheng Air Base",
-        "stateCity": "Liaoning, "
+        "stateCity": "Liaoning, Xingcheng"
     },
     {
         "iata": "YNJ",
