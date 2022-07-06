@@ -6,6 +6,8 @@ export class VuelosService {
   }
 
   getAirports() {
-    return fetch("dataMock/airports.json").then((res) => res.json());
+    return fetch("dataMock/airports.json")
+    .then((res) => res.json())
+    .then((d) => d.data);
   }
 }

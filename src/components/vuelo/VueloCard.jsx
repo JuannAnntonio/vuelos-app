@@ -3,6 +3,7 @@ import { Card } from "primereact/card";
 import { Fieldset } from "primereact/fieldset";
 import { Button } from "primereact/button";
 import { Divider } from "primereact/divider";
+import { ProgressSpinner } from 'primereact/progressspinner';
 
 import { FaPlaneDeparture, FaPlaneArrival } from "react-icons/fa";
 
@@ -13,13 +14,12 @@ import { getAirportByIata, formatDate } from "./Util";
 export default function VueloCard(props) {
   const [airports, setAirports] = useState([]);
   const [status, setStatus] = useState("loading");
-  const vuelosService = new VuelosService();
-
+  
   useEffect(() => {
     async function loadAirports() {
       try {
-        const data = await vuelosService.getAirports();
-        setAirports(data);
+        const data = await new VuelosService().getAirports();
+         setAirports(data);
         setStatus("success");
       } catch (error) {
         setStatus("error");
@@ -27,7 +27,7 @@ export default function VueloCard(props) {
     }
     loadAirports();
   }, []);
-
+  
   var endCityDepart =
     props.itinerariesDepart.segments[
       props.itinerariesDepart.segments.length - 1
@@ -88,8 +88,9 @@ export default function VueloCard(props) {
     </div>
   );
 
-  if (status === "loading") return <span>Loading</span>;
+  if (status === "loading") return <ProgressSpinner style={{width: '20px', height: '20px'}} strokeWidth="5"/>
   if (status === "error") return <span>Error</span>;
+  
 
   return (
     <>

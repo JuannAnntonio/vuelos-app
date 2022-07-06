@@ -28,11 +28,10 @@ export function formatTime(cadena) {
 }
 
 export function getAirportByIata(airports, iata) {
-    var airport = {};
-    Object.keys(airports).forEach(function (key) {
-        if (airports[key]["iata"] === iata) {
-            airport = airports[key];
-        }
-    });
-    return airport;
+    let obj = {}
+    airports.filter((air, index) => {
+        if (air.iata === iata)
+            obj = airports[index]
+    })
+    return obj;
 }

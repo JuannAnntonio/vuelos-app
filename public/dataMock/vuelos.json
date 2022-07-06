@@ -1,423 +1,1964 @@
 {
-  "meta": {
-      "count": 2
-  },
-  "data": [
-      {
-          "type": "flight-offer",
-          "id": "1",
-          "source": "GDS",
-          "instantTicketingRequired": false,
-          "nonHomogeneous": false,
-          "oneWay": false,
-          "lastTicketingDate": "2022-07-07",
-          "numberOfBookableSeats": 9,
-          "itineraries": [
-              {
-                  "duration": "PT15H50M",
-                  "segments": [
-                      {
-                          "departure": {
-                              "iataCode": "GIG",
-                              "terminal": "2",
-                              "at": "2022-11-01T21:50:00"
-                          },
-                          "arrival": {
-                              "iataCode": "MUC",
-                              "terminal": "2",
-                              "at": "2022-11-02T13:10:00"
-                          },
-                          "carrierCode": "LH",
-                          "number": "501",
-                          "aircraft": {
-                              "code": "359"
-                          },
-                          "operating": {
-                              "carrierCode": "LH"
-                          },
-                          "duration": "PT11H20M",
-                          "id": "3",
-                          "numberOfStops": 0,
-                          "blacklistedInEU": false
-                      },
-                      {
-                          "departure": {
-                              "iataCode": "MUC",
-                              "terminal": "2",
-                              "at": "2022-11-02T15:00:00"
-                          },
-                          "arrival": {
-                              "iataCode": "MAD",
-                              "terminal": "2",
-                              "at": "2022-11-02T17:40:00"
-                          },
-                          "carrierCode": "LH",
-                          "number": "1804",
-                          "aircraft": {
-                              "code": "320"
-                          },
-                          "operating": {
-                              "carrierCode": "LH"
-                          },
-                          "duration": "PT2H40M",
-                          "id": "4",
-                          "numberOfStops": 0,
-                          "blacklistedInEU": false
-                      }
-                  ]
-              },
-              {
-                  "duration": "PT29H40M",
-                  "segments": [
-                      {
-                          "departure": {
-                              "iataCode": "MAD",
-                              "terminal": "2",
-                              "at": "2022-12-25T18:25:00"
-                          },
-                          "arrival": {
-                              "iataCode": "MUC",
-                              "terminal": "2",
-                              "at": "2022-12-25T21:00:00"
-                          },
-                          "carrierCode": "LH",
-                          "number": "1805",
-                          "aircraft": {
-                              "code": "320"
-                          },
-                          "operating": {
-                              "carrierCode": "LH"
-                          },
-                          "duration": "PT2H35M",
-                          "id": "5",
-                          "numberOfStops": 0,
-                          "blacklistedInEU": false
-                      },
-                      {
-                          "departure": {
-                              "iataCode": "MUC",
-                              "terminal": "2",
-                              "at": "2022-12-26T12:15:00"
-                          },
-                          "arrival": {
-                              "iataCode": "GIG",
-                              "terminal": "2",
-                              "at": "2022-12-26T20:05:00"
-                          },
-                          "carrierCode": "LH",
-                          "number": "500",
-                          "aircraft": {
-                              "code": "359"
-                          },
-                          "operating": {
-                              "carrierCode": "LH"
-                          },
-                          "duration": "PT11H50M",
-                          "id": "6",
-                          "numberOfStops": 0,
-                          "blacklistedInEU": false
-                      }
-                  ]
-              }
-          ],
-          "price": {
-              "currency": "USD",
-              "total": "1741.10",
-              "base": "1635.00",
-              "fees": [
-                  {
-                      "amount": "0.00",
-                      "type": "SUPPLIER"
-                  },
-                  {
-                      "amount": "0.00",
-                      "type": "TICKETING"
-                  }
-              ],
-              "grandTotal": "1741.10"
-          },
-          "pricingOptions": {
-              "fareType": [
-                  "PUBLISHED"
-              ],
-              "includedCheckedBagsOnly": true
-          },
-          "validatingAirlineCodes": [
-              "LH"
-          ],
-          "travelerPricings": [
-              {
-                  "travelerId": "1",
-                  "fareOption": "STANDARD",
-                  "travelerType": "ADULT",
-                  "price": {
-                      "currency": "USD",
-                      "total": "1741.10",
-                      "base": "1635.00"
-                  },
-                  "fareDetailsBySegment": [
-                      {
-                          "segmentId": "3",
-                          "cabin": "BUSINESS",
-                          "fareBasis": "PRC5BR",
-                          "class": "P",
-                          "includedCheckedBags": {
-                              "quantity": 2
-                          }
-                      },
-                      {
-                          "segmentId": "4",
-                          "cabin": "ECONOMY",
-                          "fareBasis": "PRC5BR",
-                          "brandedFare": "BUSBASE",
-                          "class": "Y",
-                          "includedCheckedBags": {
-                              "quantity": 2
-                          }
-                      },
-                      {
-                          "segmentId": "5",
-                          "cabin": "ECONOMY",
-                          "fareBasis": "VNCBR",
-                          "class": "V",
-                          "includedCheckedBags": {
-                              "quantity": 1
-                          }
-                      },
-                      {
-                          "segmentId": "6",
-                          "cabin": "ECONOMY",
-                          "fareBasis": "VNCBR",
-                          "brandedFare": "ECOSAVER",
-                          "class": "V",
-                          "includedCheckedBags": {
-                              "quantity": 1
-                          }
-                      }
-                  ]
-              }
-          ]
-      },
-      {
-          "type": "flight-offer",
-          "id": "2",
-          "source": "GDS",
-          "instantTicketingRequired": false,
-          "nonHomogeneous": false,
-          "oneWay": false,
-          "lastTicketingDate": "2022-07-07",
-          "numberOfBookableSeats": 9,
-          "itineraries": [
-              {
-                  "duration": "PT21H35M",
-                  "segments": [
-                      {
-                          "departure": {
-                              "iataCode": "GIG",
-                              "terminal": "2",
-                              "at": "2022-11-01T21:50:00"
-                          },
-                          "arrival": {
-                              "iataCode": "MUC",
-                              "terminal": "2",
-                              "at": "2022-11-02T13:10:00"
-                          },
-                          "carrierCode": "LH",
-                          "number": "501",
-                          "aircraft": {
-                              "code": "359"
-                          },
-                          "operating": {
-                              "carrierCode": "LH"
-                          },
-                          "duration": "PT11H20M",
-                          "id": "1",
-                          "numberOfStops": 0,
-                          "blacklistedInEU": false
-                      },
-                      {
-                          "departure": {
-                              "iataCode": "MUC",
-                              "terminal": "2",
-                              "at": "2022-11-02T20:45:00"
-                          },
-                          "arrival": {
-                              "iataCode": "MAD",
-                              "terminal": "2",
-                              "at": "2022-11-02T23:25:00"
-                          },
-                          "carrierCode": "LH",
-                          "number": "1806",
-                          "aircraft": {
-                              "code": "320"
-                          },
-                          "operating": {
-                              "carrierCode": "LH"
-                          },
-                          "duration": "PT2H40M",
-                          "id": "2",
-                          "numberOfStops": 0,
-                          "blacklistedInEU": false
-                      }
-                  ]
-              },
-              {
-                  "duration": "PT29H40M",
-                  "segments": [
-                      {
-                          "departure": {
-                              "iataCode": "MAD",
-                              "terminal": "2",
-                              "at": "2022-12-25T18:25:00"
-                          },
-                          "arrival": {
-                              "iataCode": "MUC",
-                              "terminal": "2",
-                              "at": "2022-12-25T21:00:00"
-                          },
-                          "carrierCode": "LH",
-                          "number": "1805",
-                          "aircraft": {
-                              "code": "320"
-                          },
-                          "operating": {
-                              "carrierCode": "LH"
-                          },
-                          "duration": "PT2H35M",
-                          "id": "5",
-                          "numberOfStops": 0,
-                          "blacklistedInEU": false
-                      },
-                      {
-                          "departure": {
-                              "iataCode": "MUC",
-                              "terminal": "2",
-                              "at": "2022-12-26T12:15:00"
-                          },
-                          "arrival": {
-                              "iataCode": "GIG",
-                              "terminal": "2",
-                              "at": "2022-12-26T20:05:00"
-                          },
-                          "carrierCode": "LH",
-                          "number": "500",
-                          "aircraft": {
-                              "code": "359"
-                          },
-                          "operating": {
-                              "carrierCode": "LH"
-                          },
-                          "duration": "PT11H50M",
-                          "id": "6",
-                          "numberOfStops": 0,
-                          "blacklistedInEU": false
-                      }
-                  ]
-              }
-          ],
-          "price": {
-              "currency": "USD",
-              "total": "1741.10",
-              "base": "1635.00",
-              "fees": [
-                  {
-                      "amount": "0.00",
-                      "type": "SUPPLIER"
-                  },
-                  {
-                      "amount": "0.00",
-                      "type": "TICKETING"
-                  }
-              ],
-              "grandTotal": "1741.10"
-          },
-          "pricingOptions": {
-              "fareType": [
-                  "PUBLISHED"
-              ],
-              "includedCheckedBagsOnly": true
-          },
-          "validatingAirlineCodes": [
-              "LH"
-          ],
-          "travelerPricings": [
-              {
-                  "travelerId": "1",
-                  "fareOption": "STANDARD",
-                  "travelerType": "ADULT",
-                  "price": {
-                      "currency": "USD",
-                      "total": "1741.10",
-                      "base": "1635.00"
-                  },
-                  "fareDetailsBySegment": [
-                      {
-                          "segmentId": "1",
-                          "cabin": "BUSINESS",
-                          "fareBasis": "PRC5BR",
-                          "class": "P",
-                          "includedCheckedBags": {
-                              "quantity": 2
-                          }
-                      },
-                      {
-                          "segmentId": "2",
-                          "cabin": "BUSINESS",
-                          "fareBasis": "PRC5BR",
-                          "brandedFare": "BUSBASE",
-                          "class": "P",
-                          "includedCheckedBags": {
-                              "quantity": 2
-                          }
-                      },
-                      {
-                          "segmentId": "5",
-                          "cabin": "ECONOMY",
-                          "fareBasis": "VNCBR",
-                          "class": "V",
-                          "includedCheckedBags": {
-                              "quantity": 1
-                          }
-                      },
-                      {
-                          "segmentId": "6",
-                          "cabin": "ECONOMY",
-                          "fareBasis": "VNCBR",
-                          "brandedFare": "ECOSAVER",
-                          "class": "V",
-                          "includedCheckedBags": {
-                              "quantity": 1
-                          }
-                      }
-                  ]
-              }
-          ]
-      }
-  ],
-  "dictionaries": {
-      "locations": {
-          "MAD": {
-              "cityCode": "MAD",
-              "countryCode": "ES"
-          },
-          "GIG": {
-              "cityCode": "RIO",
-              "countryCode": "BR"
-          },
-          "MUC": {
-              "cityCode": "MUC",
-              "countryCode": "DE"
-          }
-      },
-      "aircraft": {
-          "320": "AIRBUS A320",
-          "359": "AIRBUS A350-900"
-      },
-      "currencies": {
-          "USD": "US DOLLAR"
-      },
-      "carriers": {
-          "LH": "LUFTHANSA"
-      }
-  }
+    "meta": {
+        "count": 10
+    },
+    "data": [
+        {
+            "type": "flight-offer",
+            "id": "1",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "lastTicketingDate": "2022-07-08",
+            "numberOfBookableSeats": 7,
+            "itineraries": [
+                {
+                    "duration": "PT12H25M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "SDU",
+                                "at": "2022-11-10T12:50:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T13:50:00"
+                            },
+                            "carrierCode": "LA",
+                            "number": "3633",
+                            "aircraft": {
+                                "code": "319"
+                            },
+                            "duration": "PT1H",
+                            "id": "1",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T15:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-11T05:15:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "58",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H10M",
+                            "id": "2",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT15H5M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-25T23:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T06:35:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "57",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H50M",
+                            "id": "7",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T09:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GIG",
+                                "terminal": "2",
+                                "at": "2022-11-26T10:50:00"
+                            },
+                            "carrierCode": "G3",
+                            "number": "1092",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "G3"
+                            },
+                            "duration": "PT55M",
+                            "id": "8",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "USD",
+                "total": "2029.50",
+                "base": "1985.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "2029.50"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "UX"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "USD",
+                        "total": "2029.50",
+                        "base": "1985.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "1",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "IY9RAE",
+                            "class": "H",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "2",
+                            "cabin": "BUSINESS",
+                            "fareBasis": "IY9RAE",
+                            "brandedFare": "BUSSTAND",
+                            "class": "I",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "7",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "class": "N",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        },
+                        {
+                            "segmentId": "8",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "brandedFare": "STANDARD",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "2",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "lastTicketingDate": "2022-07-08",
+            "numberOfBookableSeats": 7,
+            "itineraries": [
+                {
+                    "duration": "PT12H25M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "SDU",
+                                "at": "2022-11-10T12:50:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T13:50:00"
+                            },
+                            "carrierCode": "LA",
+                            "number": "3633",
+                            "aircraft": {
+                                "code": "319"
+                            },
+                            "duration": "PT1H",
+                            "id": "1",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T15:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-11T05:15:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "58",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H10M",
+                            "id": "2",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT15H40M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-25T23:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T06:35:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "57",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H50M",
+                            "id": "11",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T10:20:00"
+                            },
+                            "arrival": {
+                                "iataCode": "SDU",
+                                "at": "2022-11-26T11:25:00"
+                            },
+                            "carrierCode": "G3",
+                            "number": "1078",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "G3"
+                            },
+                            "duration": "PT1H5M",
+                            "id": "12",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "USD",
+                "total": "2029.50",
+                "base": "1985.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "2029.50"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "UX"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "USD",
+                        "total": "2029.50",
+                        "base": "1985.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "1",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "IY9RAE",
+                            "class": "H",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "2",
+                            "cabin": "BUSINESS",
+                            "fareBasis": "IY9RAE",
+                            "brandedFare": "BUSSTAND",
+                            "class": "I",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "11",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "class": "N",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        },
+                        {
+                            "segmentId": "12",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "brandedFare": "STANDARD",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "3",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "lastTicketingDate": "2022-07-08",
+            "numberOfBookableSeats": 7,
+            "itineraries": [
+                {
+                    "duration": "PT12H25M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "SDU",
+                                "at": "2022-11-10T12:50:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T13:50:00"
+                            },
+                            "carrierCode": "LA",
+                            "number": "3633",
+                            "aircraft": {
+                                "code": "319"
+                            },
+                            "duration": "PT1H",
+                            "id": "1",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T15:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-11T05:15:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "58",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H10M",
+                            "id": "2",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT20H30M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-25T23:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T06:35:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "57",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H50M",
+                            "id": "9",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T15:10:00"
+                            },
+                            "arrival": {
+                                "iataCode": "SDU",
+                                "at": "2022-11-26T16:15:00"
+                            },
+                            "carrierCode": "G3",
+                            "number": "1062",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "G3"
+                            },
+                            "duration": "PT1H5M",
+                            "id": "10",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "USD",
+                "total": "2029.50",
+                "base": "1985.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "2029.50"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "UX"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "USD",
+                        "total": "2029.50",
+                        "base": "1985.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "1",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "IY9RAE",
+                            "class": "H",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "2",
+                            "cabin": "BUSINESS",
+                            "fareBasis": "IY9RAE",
+                            "brandedFare": "BUSSTAND",
+                            "class": "I",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "9",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "class": "N",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        },
+                        {
+                            "segmentId": "10",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "brandedFare": "STANDARD",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "4",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "lastTicketingDate": "2022-07-08",
+            "numberOfBookableSeats": 7,
+            "itineraries": [
+                {
+                    "duration": "PT12H25M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "SDU",
+                                "at": "2022-11-10T12:50:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T13:50:00"
+                            },
+                            "carrierCode": "LA",
+                            "number": "3633",
+                            "aircraft": {
+                                "code": "319"
+                            },
+                            "duration": "PT1H",
+                            "id": "1",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T15:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-11T05:15:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "58",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H10M",
+                            "id": "2",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT25H",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-25T23:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T06:35:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "57",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H50M",
+                            "id": "5",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T19:40:00"
+                            },
+                            "arrival": {
+                                "iataCode": "SDU",
+                                "at": "2022-11-26T20:45:00"
+                            },
+                            "carrierCode": "G3",
+                            "number": "1084",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "G3"
+                            },
+                            "duration": "PT1H5M",
+                            "id": "6",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "USD",
+                "total": "2029.50",
+                "base": "1985.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "2029.50"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "UX"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "USD",
+                        "total": "2029.50",
+                        "base": "1985.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "1",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "IY9RAE",
+                            "class": "H",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "2",
+                            "cabin": "BUSINESS",
+                            "fareBasis": "IY9RAE",
+                            "brandedFare": "BUSSTAND",
+                            "class": "I",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "5",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "class": "N",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        },
+                        {
+                            "segmentId": "6",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "brandedFare": "STANDARD",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "5",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "lastTicketingDate": "2022-07-08",
+            "numberOfBookableSeats": 7,
+            "itineraries": [
+                {
+                    "duration": "PT12H25M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "SDU",
+                                "at": "2022-11-10T12:50:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T13:50:00"
+                            },
+                            "carrierCode": "LA",
+                            "number": "3633",
+                            "aircraft": {
+                                "code": "319"
+                            },
+                            "duration": "PT1H",
+                            "id": "1",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T15:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-11T05:15:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "58",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H10M",
+                            "id": "2",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT25H55M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-25T23:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T06:35:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "57",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H50M",
+                            "id": "13",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T20:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GIG",
+                                "terminal": "2",
+                                "at": "2022-11-26T21:40:00"
+                            },
+                            "carrierCode": "G3",
+                            "number": "1098",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "G3"
+                            },
+                            "duration": "PT55M",
+                            "id": "14",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "USD",
+                "total": "2029.50",
+                "base": "1985.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "2029.50"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "UX"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "USD",
+                        "total": "2029.50",
+                        "base": "1985.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "1",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "IY9RAE",
+                            "class": "H",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "2",
+                            "cabin": "BUSINESS",
+                            "fareBasis": "IY9RAE",
+                            "brandedFare": "BUSSTAND",
+                            "class": "I",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "13",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "class": "N",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        },
+                        {
+                            "segmentId": "14",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "brandedFare": "STANDARD",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "6",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "lastTicketingDate": "2022-07-08",
+            "numberOfBookableSeats": 7,
+            "itineraries": [
+                {
+                    "duration": "PT13H25M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "GIG",
+                                "terminal": "2",
+                                "at": "2022-11-10T11:50:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T13:00:00"
+                            },
+                            "carrierCode": "G3",
+                            "number": "1093",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "G3"
+                            },
+                            "duration": "PT1H10M",
+                            "id": "3",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T15:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-11T05:15:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "58",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H10M",
+                            "id": "4",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT15H5M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-25T23:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T06:35:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "57",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H50M",
+                            "id": "7",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T09:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GIG",
+                                "terminal": "2",
+                                "at": "2022-11-26T10:50:00"
+                            },
+                            "carrierCode": "G3",
+                            "number": "1092",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "G3"
+                            },
+                            "duration": "PT55M",
+                            "id": "8",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "USD",
+                "total": "2029.50",
+                "base": "1985.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "2029.50"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "UX"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "USD",
+                        "total": "2029.50",
+                        "base": "1985.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "3",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "IY9RAE",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "4",
+                            "cabin": "BUSINESS",
+                            "fareBasis": "IY9RAE",
+                            "brandedFare": "BUSSTAND",
+                            "class": "I",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "7",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "class": "N",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        },
+                        {
+                            "segmentId": "8",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "brandedFare": "STANDARD",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "7",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "lastTicketingDate": "2022-07-08",
+            "numberOfBookableSeats": 7,
+            "itineraries": [
+                {
+                    "duration": "PT13H25M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "GIG",
+                                "terminal": "2",
+                                "at": "2022-11-10T11:50:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T13:00:00"
+                            },
+                            "carrierCode": "G3",
+                            "number": "1093",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "G3"
+                            },
+                            "duration": "PT1H10M",
+                            "id": "3",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T15:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-11T05:15:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "58",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H10M",
+                            "id": "4",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT15H40M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-25T23:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T06:35:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "57",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H50M",
+                            "id": "11",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T10:20:00"
+                            },
+                            "arrival": {
+                                "iataCode": "SDU",
+                                "at": "2022-11-26T11:25:00"
+                            },
+                            "carrierCode": "G3",
+                            "number": "1078",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "G3"
+                            },
+                            "duration": "PT1H5M",
+                            "id": "12",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "USD",
+                "total": "2029.50",
+                "base": "1985.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "2029.50"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "UX"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "USD",
+                        "total": "2029.50",
+                        "base": "1985.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "3",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "IY9RAE",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "4",
+                            "cabin": "BUSINESS",
+                            "fareBasis": "IY9RAE",
+                            "brandedFare": "BUSSTAND",
+                            "class": "I",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "11",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "class": "N",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        },
+                        {
+                            "segmentId": "12",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "brandedFare": "STANDARD",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "8",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "lastTicketingDate": "2022-07-08",
+            "numberOfBookableSeats": 7,
+            "itineraries": [
+                {
+                    "duration": "PT13H25M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "GIG",
+                                "terminal": "2",
+                                "at": "2022-11-10T11:50:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T13:00:00"
+                            },
+                            "carrierCode": "G3",
+                            "number": "1093",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "G3"
+                            },
+                            "duration": "PT1H10M",
+                            "id": "3",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T15:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-11T05:15:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "58",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H10M",
+                            "id": "4",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT20H30M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-25T23:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T06:35:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "57",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H50M",
+                            "id": "9",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T15:10:00"
+                            },
+                            "arrival": {
+                                "iataCode": "SDU",
+                                "at": "2022-11-26T16:15:00"
+                            },
+                            "carrierCode": "G3",
+                            "number": "1062",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "G3"
+                            },
+                            "duration": "PT1H5M",
+                            "id": "10",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "USD",
+                "total": "2029.50",
+                "base": "1985.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "2029.50"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "UX"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "USD",
+                        "total": "2029.50",
+                        "base": "1985.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "3",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "IY9RAE",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "4",
+                            "cabin": "BUSINESS",
+                            "fareBasis": "IY9RAE",
+                            "brandedFare": "BUSSTAND",
+                            "class": "I",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "9",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "class": "N",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        },
+                        {
+                            "segmentId": "10",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "brandedFare": "STANDARD",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "9",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "lastTicketingDate": "2022-07-08",
+            "numberOfBookableSeats": 7,
+            "itineraries": [
+                {
+                    "duration": "PT13H25M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "GIG",
+                                "terminal": "2",
+                                "at": "2022-11-10T11:50:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T13:00:00"
+                            },
+                            "carrierCode": "G3",
+                            "number": "1093",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "G3"
+                            },
+                            "duration": "PT1H10M",
+                            "id": "3",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T15:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-11T05:15:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "58",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H10M",
+                            "id": "4",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT25H",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-25T23:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T06:35:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "57",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H50M",
+                            "id": "5",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T19:40:00"
+                            },
+                            "arrival": {
+                                "iataCode": "SDU",
+                                "at": "2022-11-26T20:45:00"
+                            },
+                            "carrierCode": "G3",
+                            "number": "1084",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "G3"
+                            },
+                            "duration": "PT1H5M",
+                            "id": "6",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "USD",
+                "total": "2029.50",
+                "base": "1985.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "2029.50"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "UX"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "USD",
+                        "total": "2029.50",
+                        "base": "1985.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "3",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "IY9RAE",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "4",
+                            "cabin": "BUSINESS",
+                            "fareBasis": "IY9RAE",
+                            "brandedFare": "BUSSTAND",
+                            "class": "I",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "5",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "class": "N",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        },
+                        {
+                            "segmentId": "6",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "brandedFare": "STANDARD",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "10",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "lastTicketingDate": "2022-07-08",
+            "numberOfBookableSeats": 7,
+            "itineraries": [
+                {
+                    "duration": "PT13H25M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "GIG",
+                                "terminal": "2",
+                                "at": "2022-11-10T11:50:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T13:00:00"
+                            },
+                            "carrierCode": "G3",
+                            "number": "1093",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "G3"
+                            },
+                            "duration": "PT1H10M",
+                            "id": "3",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-10T15:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-11T05:15:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "58",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H10M",
+                            "id": "4",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                },
+                {
+                    "duration": "PT25H55M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "MAD",
+                                "terminal": "1",
+                                "at": "2022-11-25T23:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T06:35:00"
+                            },
+                            "carrierCode": "UX",
+                            "number": "57",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "UX"
+                            },
+                            "duration": "PT10H50M",
+                            "id": "13",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "GRU",
+                                "terminal": "2",
+                                "at": "2022-11-26T20:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "GIG",
+                                "terminal": "2",
+                                "at": "2022-11-26T21:40:00"
+                            },
+                            "carrierCode": "G3",
+                            "number": "1098",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "G3"
+                            },
+                            "duration": "PT55M",
+                            "id": "14",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "USD",
+                "total": "2029.50",
+                "base": "1985.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "2029.50"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "UX"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "USD",
+                        "total": "2029.50",
+                        "base": "1985.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "3",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "IY9RAE",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "4",
+                            "cabin": "BUSINESS",
+                            "fareBasis": "IY9RAE",
+                            "brandedFare": "BUSSTAND",
+                            "class": "I",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "13",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "class": "N",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        },
+                        {
+                            "segmentId": "14",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "NLYRAE",
+                            "brandedFare": "STANDARD",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "dictionaries": {
+        "locations": {
+            "MAD": {
+                "cityCode": "MAD",
+                "countryCode": "ES"
+            },
+            "GIG": {
+                "cityCode": "RIO",
+                "countryCode": "BR"
+            },
+            "SDU": {
+                "cityCode": "RIO",
+                "countryCode": "BR"
+            },
+            "GRU": {
+                "cityCode": "SAO",
+                "countryCode": "BR"
+            }
+        },
+        "aircraft": {
+            "789": "BOEING 787-9",
+            "319": "AIRBUS A319",
+            "738": "BOEING 737-800"
+        },
+        "currencies": {
+            "USD": "US DOLLAR"
+        },
+        "carriers": {
+            "UX": "AIR EUROPA",
+            "LA": "LATAM AIRLINES GROUP",
+            "G3": "GOL LINHAS AEREAS S/A"
+        }
+    }
 }
