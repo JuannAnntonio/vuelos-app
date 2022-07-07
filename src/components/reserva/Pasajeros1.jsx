@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { InputText } from 'primereact/inputtext';
 import { InputNumber } from 'primereact/inputnumber';
 import { Button } from 'primereact/button';
-import { Checkbox } from 'primereact/checkbox';
-import { RadioButton } from 'primereact/radiobutton';
 
 const InputGroupDemo = () => {
     const [checked1, setChecked1] = useState(false);
@@ -21,100 +19,55 @@ const InputGroupDemo = () => {
                             <span className="p-inputgroup-addon">
                                 <i className="pi pi-user"></i>
                             </span>
-                            <InputText placeholder="Username" />
+                            <InputText placeholder="NOMBRES" />
                         </div>
                     </div>
-
-                    <div className="col-12 md:col-4">
-                        <div className="p-inputgroup">
-                            <span className="p-inputgroup-addon">$</span>
-                            <InputNumber placeholder="Price" />
-                            <span className="p-inputgroup-addon">.00</span>
-                        </div>
-                    </div>
-
-                    <div className="col-12 md:col-4">
-                        <div className="p-inputgroup">
-                            <span className="p-inputgroup-addon">www</span>
-                            <InputText placeholder="Website" />
-                        </div>
-                    </div>
-                </div>
-
-                <h5>Multiple Addons</h5>
-                <div className="grid">
-                    <div className="col-12">
+					
+					
+					<div className="col-12 md:col-4">
                         <div className="p-inputgroup">
                             <span className="p-inputgroup-addon">
-                                <i className="pi pi-clock"></i>
+                                <i className="pi pi-user"></i>
                             </span>
-                            <span className="p-inputgroup-addon">
-                                <i className="pi pi-star-fill"></i>
-                            </span>
-                            <InputNumber placeholder="Price" />
-                            <span className="p-inputgroup-addon">$</span>
-                            <span className="p-inputgroup-addon">.00</span>
-                        </div>
-                    </div>
-                </div>
-
-                <h5>Button Addons</h5>
-                <div className="grid p-fluid">
-                    <div className="col-12 md:col-4">
-                        <div className="p-inputgroup">
-                            <Button label="Search"/>
-                            <InputText placeholder="Keyword"/>
+                            <InputText placeholder="APELLIDOS" />
                         </div>
                     </div>
 
-                    <div className="col-12 md:col-4">
-                        <div className="p-inputgroup">
-                            <InputText placeholder="Keyword"/>
-                            <Button icon="pi pi-search" className="p-button-warning"/>
-                        </div>
-                    </div>
-
-                    <div className="col-12 md:col-4">
-                        <div className="p-inputgroup">
-                            <Button icon="pi pi-check" className="p-button-success"/>
-                            <InputText placeholder="Vote"/>
-                            <Button icon="pi pi-times" className="p-button-danger"/>
-                        </div>
-                    </div>
-                </div>
-
-                <h5>Checkbox and RadioButton</h5>
-                <div className="grid p-fluid">
-                    <div className="col-12">
+                    
+					<div className="col-12 md:col-4">
                         <div className="p-inputgroup">
                             <span className="p-inputgroup-addon">
-                                <Checkbox checked={checked1} onChange={(e) => setChecked1(!checked1)} />
+                                <i className="pi pi-user"></i>
                             </span>
-                            <InputText placeholder="Username"/>
+                            <InputText placeholder="PAÍS DE RESIDENCIA" />
                         </div>
                     </div>
-
-                    <div className="col-12">
-                        <div className="p-inputgroup">
-                            <InputText placeholder="Price"/>
-                            <span className="p-inputgroup-addon">
-                                <RadioButton name="rb1" value="rb1" checked={radioValue1 === 'rb1'} onChange={(e) => setRadioValue1(e.value)} />
-                            </span>
-                        </div>
-                    </div>
-
-                    <div className="col-12">
+					
+					<div className="col-12 md:col-4">
                         <div className="p-inputgroup">
                             <span className="p-inputgroup-addon">
-                                <Checkbox checked={checked2} onChange={(e) => setChecked2(!checked2)} />
+                                <i className="pi pi-user"></i>
                             </span>
-                            <InputText placeholder="Website"/>
-                            <span className="p-inputgroup-addon">
-                                <RadioButton name="rb2" value="rb2" checked={radioValue2 === 'rb2'} onChange={(e) => setRadioValue2(e.value)} />
-                            </span>
+                            <InputText placeholder="FECHA DE NACIMIENTO" />
                         </div>
                     </div>
-                </div>
+					
+					<div className="col-12 md:col-4">
+                        <div className="p-inputgroup">
+                            <span className="p-inputgroup-addon">
+                                <i className="pi pi-user"></i>
+                            </span>
+                            <InputText placeholder="SEXO" />
+                            <li><label id="gender">Sexo:</label></li>
+                            <li><input type="radio" name="msex" value="Male" /><span>Masculino</span></li>
+                            <li><input type="radio" name="fsex" value="Female" /><span>Femenino</span></li>
+                            <li><input type="submit" name="submit" value="Enviar" /></li>
+                        </div>
+                    </div>
+					
+
+                         
+                  </div>
             </div>
         </div>
     );
