@@ -2,20 +2,24 @@ import React, { useState } from "react";
 
 import { Divider } from "primereact/divider";
 import Pasajeros1 from "./Pasajeros1";
+import EnvioVaucher2 from "./EnvioVaucher2";
+import DatosContacto3 from "./DatosContacto3";
+import DatosTarjeta4 from "./DatosTarjeta4";
+import DatosIngresados5 from "./DatosIngresados5";
 
-export default function Rserva() {
+export default function Reserva() {
   return (
     <div className="grid align-items-center justify-content-center">
       <div className="col-8">
         <Pasajeros1 />
         <Divider/>
-        <Pasajeros1 />
+        <EnvioVaucher2 />
         <Divider/>
-        <Pasajeros1 />
+        <DatosContacto3 />
         <Divider/>
-        <Pasajeros1 />
+        <DatosTarjeta4 />
         <Divider/>
-        <Pasajeros1 />
+        <DatosIngresados5 />
       </div>
 
       <Divider layout="vertical" />
