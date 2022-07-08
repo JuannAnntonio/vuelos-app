@@ -28,7 +28,7 @@ export default function Reserva() {
 
       <Divider layout="vertical" />
       <div className="col-3">
-        <Precio precioVuelo={props?.precioVuelo} styleButton='none' />
+        <Precio precioVuelo={props['precioVuelo']} styleButton='none' />
       </div>
     </div>
   );

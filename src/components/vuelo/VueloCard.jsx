@@ -101,14 +101,14 @@ export default function VueloCard(props) {
       <Card>
         <div className="grid flex align-items-center justify-content-center">
           <div className="col-8">
-            <Fieldset legend={headerIda} toggleable collapsed={'true'}>
+            <Fieldset legend={headerIda} toggleable collapsed={true}>
               <DetalleVuelo
                 segments={props.itinerariesDepart.segments}
                 airports={airports}
               />
             </Fieldset>
 
-            <Fieldset legend={headerRegreso} toggleable collapsed={'true'}>
+            <Fieldset legend={headerRegreso} toggleable collapsed={true}>
               <DetalleVuelo
                 segments={props.itinerariesArrive.segments}
                 airports={airports}
