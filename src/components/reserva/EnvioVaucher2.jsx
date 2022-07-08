@@ -8,7 +8,6 @@ import { Dialog } from 'primereact/dialog';
 import { Divider } from 'primereact/divider';
 import { classNames } from 'primereact/utils';
 
-
 export default function EnvioVaucher2() {
     const [showMessage, setShowMessage] = useState(false);
     const [formData, setFormData] = useState({});
@@ -46,12 +45,6 @@ export default function EnvioVaucher2() {
 
     return (
         <div className="form-demo">
-            <Dialog visible={showMessage} onHide={() => setShowMessage(false)} position="top"  showHeader={false} breakpoints={{ '960px': '80vw' }} style={{ width: '30vw' }}>
-                <div className="flex align-items-center flex-column pt-6 px-3">
-                    <i className="pi pi-check-circle" style={{ fontSize: '5rem', color: 'var(--green-500)' }}></i>
-                </div>
-            </Dialog>
-
             <div className="flex justify-content-center">
                 <div className="card">
                     <h5 className="text-center">
