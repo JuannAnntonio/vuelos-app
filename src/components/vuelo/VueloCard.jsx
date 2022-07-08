@@ -1,25 +1,24 @@
 import React, { useState, useEffect } from "react";
 import { Card } from "primereact/card";
 import { Fieldset } from "primereact/fieldset";
-import { Button } from "primereact/button";
-import { Divider } from "primereact/divider";
-import { ProgressSpinner } from 'primereact/progressspinner';
+import { ProgressSpinner } from "primereact/progressspinner";
 
 import { FaPlaneDeparture, FaPlaneArrival } from "react-icons/fa";
 
 import { VuelosService } from "../../services/VuelosService";
 import DetalleVuelo from "./DetalleVuelo";
 import { getAirportByIata, formatDate } from "./Util";
+import Precio from "./Precio";
 
 export default function VueloCard(props) {
   const [airports, setAirports] = useState([]);
   const [status, setStatus] = useState("loading");
-  
+
   useEffect(() => {
     async function loadAirports() {
       try {
         const data = await new VuelosService().getAirports();
-         setAirports(data);
+        setAirports(data);
         setStatus("success");
       } catch (error) {
         setStatus("error");
@@ -27,7 +26,7 @@ export default function VueloCard(props) {
     }
     loadAirports();
   }, []);
-  
+
   var endCityDepart =
     props.itinerariesDepart.segments[
       props.itinerariesDepart.segments.length - 1
@@ -88,34 +87,37 @@ export default function VueloCard(props) {
     </div>
   );
 
-  if (status === "loading") return <ProgressSpinner style={{width: '20px', height: '20px'}} strokeWidth="5"/>
+  if (status === "loading")
+    return (
+      <ProgressSpinner
+        style={{ width: "20px", height: "20px" }}
+        strokeWidth="5"
+      />
+    );
   if (status === "error") return <span>Error</span>;
-  
 
   return (
     <>
       <Card>
-        <div className="grid">
-          <div className="col-9">
-            <Fieldset legend={headerIda} toggleable collapsed={true}>
+        <div className="grid flex align-items-center justify-content-center">
+          <div className="col-8">
+            <Fieldset legend={headerIda} toggleable collapsed={'true'}>
               <DetalleVuelo
                 segments={props.itinerariesDepart.segments}
                 airports={airports}
               />
             </Fieldset>
-            <Divider />
-            <Fieldset legend={headerRegreso} toggleable collapsed={true}>
+
+            <Fieldset legend={headerRegreso} toggleable collapsed={'true'}>
               <DetalleVuelo
                 segments={props.itinerariesArrive.segments}
                 airports={airports}
               />
             </Fieldset>
           </div>
-          <div className="col-1">
-            <Divider layout="vertical" />
-          </div>
-          <div className="col-2 flex align-items-center justify-content-center">
-            <Button label="Comprar" />
+
+          <div className="col-3 flex align-items-center justify-content-center">
+            <Precio precioVuelo={props.precioVuelo} styleButton={'block'} />
           </div>
         </div>
       </Card>
