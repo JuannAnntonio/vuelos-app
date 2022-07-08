@@ -38,7 +38,7 @@ export default function Vuelos() {
         </div>
       </div>
       
-        <Divider layout="vertical" />
+          <Divider layout="vertical" />
       
       <div className="col-9 flex align-items-center justify-content-center">
         <DataScroller

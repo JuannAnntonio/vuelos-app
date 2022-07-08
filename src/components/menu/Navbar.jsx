@@ -26,6 +26,12 @@ export default function Navbar() {
       cName: "nav-text"
     },
     {
+      title: "Reserva",
+      path: "/reserva",
+      icon: <IoIcons.IoIosAirplane />,
+      cName: "nav-text"
+    },
+    {
       title: "Team",
       path: "/team",
       icon: <IoIcons.IoMdPeople />,
