@@ -126,7 +126,7 @@ export default function Pasajeros1() {
   const [sexo, setSexo] = useState(null);
   return (
     <div className="card">
-      <h5>Addons</h5>
+      <h5>Pasajeros</h5>
       <div className="grid p-fluid">
         <div className="p-inputgroup">
           <span className="p-inputgroup-addon">
