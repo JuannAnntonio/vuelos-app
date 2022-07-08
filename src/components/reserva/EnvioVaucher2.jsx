@@ -7,7 +7,7 @@ import { Checkbox } from 'primereact/checkbox';
 import { Dialog } from 'primereact/dialog';
 import { Divider } from 'primereact/divider';
 import { classNames } from 'primereact/utils';
-import './FormDemo.css';
+
 
 export default function EnvioVaucher2() {
     const [showMessage, setShowMessage] = useState(false);
@@ -37,7 +37,7 @@ export default function EnvioVaucher2() {
         }
     });
 
-    const isFormFieldValid = (ConfirmaEmail) => !!(formik.touched[name] && formik.errors[name]);
+    const isFormFieldValid = (ConfirmaEmail) => !!(formik.touched.name && formik.errors.name);
     const getFormErrorMessage = (ConfirmaEmail) => {
         return isFormFieldValid(ConfirmaEmail) && <small className="p-error">{formik.errors[ConfirmaEmail]}</small>;
     };
@@ -46,7 +46,7 @@ export default function EnvioVaucher2() {
 
     return (
         <div className="form-demo">
-            <Dialog visible={showMessage} onHide={() => setShowMessage(false)} position="top" footer={dialogFooter} showHeader={false} breakpoints={{ '960px': '80vw' }} style={{ width: '30vw' }}>
+            <Dialog visible={showMessage} onHide={() => setShowMessage(false)} position="top"  showHeader={false} breakpoints={{ '960px': '80vw' }} style={{ width: '30vw' }}>
                 <div className="flex align-items-center flex-column pt-6 px-3">
                     <i className="pi pi-check-circle" style={{ fontSize: '5rem', color: 'var(--green-500)' }}></i>
                 </div>
@@ -84,7 +84,7 @@ export default function EnvioVaucher2() {
 }
 
 
-/* FormDemo.css */
+/* FormDemo.css 
 
 .form-demo .card {
   min-width: 450px;
@@ -105,4 +105,4 @@ export default function EnvioVaucher2() {
       width: 100%;
       min-width: 0;
   }
-}
+}*/

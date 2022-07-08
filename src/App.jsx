@@ -1,5 +1,5 @@
 import Navbar from "./components/menu/Navbar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 //Pages
 import Team from './pages/Team';
@@ -12,12 +12,13 @@ export default function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/vuelos" component={Vuelos} />
-          <Route path="/reserva" component={Reserva} />
-          <Route path="/team" component={Team} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/home" element={<Home/>} />
+          <Route path="/vuelos" element={<Vuelos/>} />
+          <Route path="/reserva" element={<Reserva/>} />
+          <Route path="/team" element={<Team/>} />
+        </Routes>
       </Router>
     </div>
   );

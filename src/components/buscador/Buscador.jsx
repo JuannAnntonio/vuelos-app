@@ -66,7 +66,7 @@ export default function Buscador() {
      <TabView >
      
      <TabPanel header="Ida y Vuelta">
-     <div class="surface-500 card:bg-cyan-500  flex align-items-center justify-content-center">
+     <div className="surface-500 card:bg-cyan-500  flex align-items-center justify-content-center">
       <Card  align="center" title="" colorstyle="purpure" style={{ width: '25em' }} footer={footer} >
       <div className="field">
         <h1> <FaPlaneDeparture/> --  Vuelos -- <FaPlaneArrival/>  </h1>
