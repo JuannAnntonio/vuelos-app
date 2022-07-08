@@ -5,7 +5,7 @@ import { Button } from "primereact/button";
 import { Divider } from "primereact/divider";
 import { RadioButton } from "primereact/radiobutton";
 
-<<<<<<< HEAD
+/*<<<<<<< HEAD
 export default const InputGroupDemo = () => {
     const [checked1, setChecked1] = useState(false);
     const [checked2, setChecked2] = useState(false);
@@ -117,7 +117,7 @@ export default const InputGroupDemo = () => {
                     </div>
                 </div>
             </div>
-=======
+=======*/
 export default function Pasajeros1() {
   const [checked1, setChecked1] = useState(false);
   const [checked2, setChecked2] = useState(false);

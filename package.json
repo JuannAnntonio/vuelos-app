@@ -4,6 +4,7 @@
   "main": "src/index.jsx",
   "dependencies": {
     "bootstrap": "^5.1.3",
+    "formik": "^2.2.9",
     "primeflex": "^3.2.1",
     "primeicons": "^5.0.0",
     "primereact": "^8.1.1",
