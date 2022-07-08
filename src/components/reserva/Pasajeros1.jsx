@@ -5,7 +5,7 @@ import { Button } from 'primereact/button';
 import { Checkbox } from 'primereact/checkbox';
 import { RadioButton } from 'primereact/radiobutton';
 
-const InputGroupDemo = () => {
+export default const InputGroupDemo = () => {
     const [checked1, setChecked1] = useState(false);
     const [checked2, setChecked2] = useState(false);
     const [radioValue1, setRadioValue1] = useState('');

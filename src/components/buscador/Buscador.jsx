@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from "primereact/button";
-import { InputText } from "primereact/inputtext";
 import { AutoComplete } from 'primereact/autocomplete';
 import { VuelosService } from '../../services/VuelosService';
+import { FaPlaneDeparture, FaPlaneArrival } from "react-icons/fa";
+import { Card } from 'primereact/card';
+import { TabView, TabPanel } from 'primereact/tabview';
+//import  from 'react/style-prop-object';
+
 
 export default function Buscador() {
     const [countries, setCountries] = useState([]);
@@ -43,11 +47,31 @@ export default function Buscador() {
       //setSelectedCountry1(e.value);
       console.log("VAL:", selectedCountry);
     };
+
+
+  /*const header = (
+      <img alt="Card" src="images/usercard.png" onError={(e) => e.target.src='https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png'} />
+  );*/
+  const footer = (
+      <span>
+          <Button label="Buscar " icon="pi pi-check" />
+      </span>
+  );
+
+
   return (
     <>
+     
+     <div>
+     <TabView >
+     
+     <TabPanel header="Ida y Vuelta">
+     <div class="surface-500 card:bg-cyan-500  flex align-items-center justify-content-center">
+      <Card  align="center" title="" colorstyle="purpure" style={{ width: '25em' }} footer={footer} >
       <div className="field">
-        <h1>Vuelos</h1>
+        <h1> <FaPlaneDeparture/> --  Vuelos -- <FaPlaneArrival/>  </h1>
       </div>
+     
       <div className="field">
       Origen:
           <AutoComplete
@@ -57,17 +81,61 @@ export default function Buscador() {
         field="stateCity"
         onChange={(e) => setSelectedCountry(e.value)}
         onHide={(e) => setObject2(e)}
-        aria-label="Countries"
+        aria-label="Countries o"
       />
       </div>
-      <div className="field">
-        <span className="p-input-icon-left">
-          <i className="pi pi-search" />
-          {/* <InputText value={value3} onChange={(e) => setValue3(e.target.value)} placeholder="Search" /> */}
-          <InputText placeholder="Destino" />
-        </span>
+      <div className="field2">
+      Destino:
+          <AutoComplete
+        value={selectedCountry}
+        suggestions={filteredCountries}
+        completeMethod={searchCountry}
+        field="stateCityd"
+        onChange={(e) => setSelectedCountry(e.value)}
+        onHide={(e) => setObject2(e)}
+        aria-label="Countries d"
+      />
       </div>
-      <Button label="Buscar" />
+      </Card>
+      </div>
+      </TabPanel>
+
+      <TabPanel header="Solo Ida">
+      <Card  align="center" title="" colorstyle="purpure" style={{ width: '25em' }} footer={footer} >
+      <div className="field">
+        <h1> <FaPlaneDeparture/> --  Vuelos  </h1>
+      </div>
+     
+      <div className="field">
+      Origen:
+          <AutoComplete
+        value={selectedCountry}
+        suggestions={filteredCountries}
+        completeMethod={searchCountry}
+        field="stateCity"
+        onChange={(e) => setSelectedCountry(e.value)}
+        onHide={(e) => setObject2(e)}
+        aria-label="Countries o"
+      />
+      </div>
+      <div className="field2">
+      Destino:
+          <AutoComplete
+        value={selectedCountry}
+        suggestions={filteredCountries}
+        completeMethod={searchCountry}
+        field="stateCityd"
+        onChange={(e) => setSelectedCountry(e.value)}
+        onHide={(e) => setObject2(e)}
+        aria-label="Countries d"
+      />
+      </div>
+      </Card>
+    
+      </TabPanel>
+ 
+      </TabView>
+      </div>
     </>
   );
 }
