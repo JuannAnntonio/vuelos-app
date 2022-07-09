@@ -2,7 +2,7 @@ import React, { useRef,useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { SlideMenu } from "primereact/slidemenu";
 import { Button } from "primereact/button";
-import Navbar from "./components/menu/Navbar";
+//import Navbar from "./components/menu/Navbar";
 //Pages
 import Team from "./pages/Team";
 import Vuelos from "./pages/Vuelos";
