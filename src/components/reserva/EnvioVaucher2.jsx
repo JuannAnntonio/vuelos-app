@@ -46,10 +46,10 @@ export default function EnvioVaucher2() {
         <div className="form-demo">
             <div className="flex justify-content-center">
                 <div className="card">
-                    <h5 className="text-center">
+                    <h1>
 					¿A dónde enviamos tus vouchers?
-                    El email que elijas será fundamental para que gestiones tu reserva y recibas información importante sobre tu viaje.
-					</h5>
+                    </h1>
+                    <h2 className="text-center">El email que elijas será fundamental para que gestiones tu reserva y recibas información importante sobre tu viaje.</h2>
                     <form onSubmit={formik.handleSubmit} className="p-fluid">
                         
                         <div className="field">

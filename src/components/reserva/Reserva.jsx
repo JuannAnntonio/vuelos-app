@@ -6,6 +6,7 @@ import EnvioVaucher2 from "./EnvioVaucher2";
 import DatosContacto3 from "./DatosContacto3";
 import DatosTarjeta4 from "./DatosTarjeta4";
 import DatosIngresados5 from "./DatosIngresados5";
+import DatosFinales6 from "./DatosFinales6";
 import Precio from "../vuelo/Precio";
 
 export default function Reserva() {
@@ -24,6 +25,9 @@ export default function Reserva() {
         <DatosTarjeta4 />
         <Divider />
         <DatosIngresados5 />
+        <Divider />
+        <DatosFinales6 />
+        <Divider />
       </div>
 
       <Divider layout="vertical" />
