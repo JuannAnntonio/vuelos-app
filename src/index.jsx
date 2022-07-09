@@ -1,5 +1,5 @@
-import { StrictMode } from "react";
-import * as ReactDOMClient from "react-dom/client";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 //import "primereact/resources/themes/lara-light-blue/theme.css"; //theme
 //import "primereact/resources/themes/lara-dark-blue/theme.css" //theme dark
@@ -9,11 +9,9 @@ import "primeflex/primeflex.css";
 
 import App from "./App";
 
-const rootElement = document.getElementById("root");
-const root = ReactDOMClient.createRoot(rootElement);
-
-root.render(
-  <StrictMode>
+ReactDOM.render(
+  <React.StrictMode>
     <App />
-  </StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );

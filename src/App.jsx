@@ -2,6 +2,7 @@ import React, { useRef,useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { SlideMenu } from "primereact/slidemenu";
 import { Button } from "primereact/button";
+
 //import Navbar from "./components/menu/Navbar";
 //Pages
 import Team from "./pages/Team";
@@ -14,10 +15,12 @@ import * as IoIcons from "react-icons/io";
 import * as BsIcons from "react-icons/bs";
 import * as FcIcons from "react-icons/fc";
 
-import sagaBlue from './theme-lara-light-blue.scss';
-
+//import sagaBlue from './theme-lara-light-blue.scss';
+//import laraBlue from "primereact/resources/themes/lara-light-blue/theme.css"; //theme
+//import laraDark from "primereact/resources/themes/lara-dark-blue/theme.css" //theme dark
 export default function App() {
-  const [selectedTheme, setSelectedTheme] = useState(sagaBlue);
+  
+  //const [selectedTheme, setSelectedTheme] = useState(laraBlue);
   const menu = useRef(null);
   const items = [
     {
@@ -49,7 +52,7 @@ export default function App() {
           label: "Claro",
           icon: <BsIcons.BsSun />,
           command: () => {
-            changeTheme('theme-lara-light-blue');
+            changeTheme('laraBlue');
           },
         },
         {
@@ -59,50 +62,39 @@ export default function App() {
           label: "Obscuro",
           icon: <BsIcons.BsFillMoonStarsFill />,
           command: () => {
-            changeTheme('theme-lara-dark-blue');
+            changeTheme('laraDark');
           },
         },
       ],
     },
   ];
 
-  useEffect(() => {
-    const temaActual = localStorage.getItem('theme-app');
-    if(temaActual){
-      setSelectedTheme(temaActual);
-    }
-    /*if(selectedTheme){
-      console.log(selectedTheme);
-      selectedTheme.use();
-      return () => { selectedTheme.unuse() };
-    }*/
-  }, []); 
+ 
 
-  function changeTheme(theme) {
-    console.log("CLIC TEMA,"+ theme);
+  function changeTheme(themeNew) {
+    
+    
     /*import(`./${theme}.scss`).then((module) => {
       if (selectedTheme) {
         selectedTheme.unuse();
       }
       module.use();
       setSelectedTheme(module);
-    });*/
+    });
+    */
     /*let themeLink = document.getElementById('app-theme');
 console.log('themeLink',themeLink);
     if (themeLink) {
       themeLink.href = theme + '.css';
     }*/
-    import(`./${theme}.scss`).then(() => {
-           if (selectedTheme) {
-        setSelectedTheme(theme);
-        localStorage.setItem('theme-app',theme)
-      }
-      
-    });
-
+    
+   
+    console.log("CLIC TEMA,"+ themeNew);
+    
   }
 
   return (
+
     <div className="App">
       <div className="card">
         <SlideMenu
@@ -129,5 +121,6 @@ console.log('themeLink',themeLink);
         </Routes>
       </Router>
     </div>
+
   );
 }
