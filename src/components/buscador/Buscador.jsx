@@ -53,9 +53,9 @@ export default function Buscador() {
       <img alt="Card" src="images/usercard.png" onError={(e) => e.target.src='https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png'} />
   );*/
   const footer = (
-    <span>
-      <Button label="Buscar " icon="pi pi-check" />
-    </span>
+    
+      <Button className="p-button-rounded p-button-lg" label="Buscar " icon="pi pi-check" />
+    
   );
 
   return (

@@ -45,7 +45,8 @@ export default function Precio(props) {
           </div>
           <div className="col-12 flex align-items-center justify-content-center">
             <Button
-              style={{ display: props.styleButton}}
+              className="p-button-rounded"
+              style={{ display: props.styleButton }}
               label="Comprar"
               onClick={() =>
                 navigate("/reserva", {

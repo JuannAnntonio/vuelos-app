@@ -5,7 +5,7 @@ import { Button } from "primereact/button";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 import * as BsIcons from "react-icons/bs";
-import * as FcIcons from "react-icons/fc";
+import "./MenuApp.css";
 
 export default function MenuApp() {
     
@@ -34,8 +34,7 @@ export default function MenuApp() {
       },
     },
     {
-      label: "Config",
-      icon: <FcIcons.FcSettings />,
+      icon: <IoIcons.IoMdSettings />,
       items: [
         {
           label: "Claro",
@@ -94,6 +93,7 @@ export default function MenuApp() {
         popup
         viewportHeight={220}
         menuWidth={175}
+        backLabel="Regresar"
       ></SlideMenu>
       <Button
         type="button"

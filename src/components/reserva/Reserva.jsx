@@ -14,7 +14,8 @@ export default function Reserva() {
   console.log(props);
 
   return (
-    <div className="grid flex justify-content-center">
+    
+    <div className="grid flex justify-content-center" style={{ marginTop: '3.5px' }}>
       <div className="col-8 align-items-center justify-content-center">
         <Pasajeros1 />
         <Divider />

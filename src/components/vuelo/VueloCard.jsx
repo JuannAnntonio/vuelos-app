@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Card } from "primereact/card";
 import { Fieldset } from "primereact/fieldset";
 import { ProgressSpinner } from "primereact/progressspinner";
+import { Divider } from "primereact/divider";
 
 import { FaPlaneDeparture, FaPlaneArrival } from "react-icons/fa";
 
@@ -38,13 +39,13 @@ export default function VueloCard(props) {
 
   const headerIda = (
     <div className="grid">
-      <div className="col-6">
+      <div className="col-6" style={{ fontSize: "18px"}}>
         <FaPlaneDeparture /> IDA
         <br />
         {formatDate(props.dateDepart)}
       </div>
       <div
-        style={{ textAlign: "center" }}
+        style={{ textAlign: "center", fontSize: "16px" }}
         className="col-3 flex align-items-center justify-content-center"
       >
         {props.startIda}
@@ -52,7 +53,7 @@ export default function VueloCard(props) {
         {getAirportByIata(airports, props.startIda).city}
       </div>
       <div
-        style={{ textAlign: "center" }}
+        style={{ textAlign: "center", fontSize: "16px" }}
         className="col-3 flex align-items-center justify-content-center"
       >
         {endCityDepart}
@@ -115,11 +116,12 @@ export default function VueloCard(props) {
               />
             </Fieldset>
           </div>
-
+          <Divider layout="vertical" />
           <div className="col-3 flex align-items-center justify-content-center">
             <Precio precioVuelo={props.precioVuelo} styleButton={'block'} />
           </div>
         </div>
+        <Divider />
       </Card>
     </>
   );

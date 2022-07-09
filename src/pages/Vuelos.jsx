@@ -29,7 +29,7 @@ export default function Vuelos() {
   };
   return (
     <div className="grid align-items-center justify-content-center">
-      <div className="col-2 flex align-items-center justify-content-center">
+      <div className="col-3 flex align-items-center justify-content-center">
         <div className="p-fluid">
           <Buscador />
         </div>
@@ -37,7 +37,7 @@ export default function Vuelos() {
 
       <Divider layout="vertical" />
 
-      <div className="col-9 flex align-items-center justify-content-center">
+      <div className="col-8 flex align-items-center justify-content-center">
         <DataScroller
           value={vuelos}
           itemTemplate={itemTemplate}

@@ -1,0 +1,19 @@
+.p-slidemenu .p-slidemenu-wrapper {
+    height: 190px;
+    width: 170px;
+}
+
+.p-slidemenu.p-slidemenu-overlay {
+    height: 230px;
+    width: 180px;
+}
+
+.p-button-label {
+    color: var(--primary-color-text);
+    font-weight: 650;
+}
+
+.p-button-icon-left {
+    color: var(--primary-color-text);
+    font-weight: 650;
+}
