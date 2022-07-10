@@ -9,6 +9,7 @@ import { Divider } from 'primereact/divider';
 import { classNames } from 'primereact/utils';
 import { InputNumber } from "primereact/inputnumber";
 import { RadioButton } from "primereact/radiobutton";
+import { Card } from "primereact/card";
 
 export default function DatosContacto3() {
   const [checked1, setChecked1] = useState(false);
@@ -18,11 +19,12 @@ export default function DatosContacto3() {
   const [acepto, setAcepto] = useState(null);
     
   return (
-    <div className="card">
-         <h1>DatosContacto3</h1>
-         <h2>¿A qué número podemos llamarte?</h2>
-          <div className="grid p-fluid">
-         <div className="p-inputgroup">
+    <Card>
+         <h2 className="text-center">¿A qué número podemos llamarte?</h2>
+
+         <div className="grid">
+          <div className="col-12" style={{ fontSize: "18px" }}>
+          <div className="p-inputgroup">
            <span className="p-inputgroup-addon">
            <i className="pi pi-user"></i>
            </span>
@@ -30,7 +32,8 @@ export default function DatosContacto3() {
          </div>
       </div>
 
-      <div className="grid p-fluid">
+      <div className="grid">
+          <div className="col-12" style={{ fontSize: "18px" }}>
          <div className="p-inputgroup">
            <span className="p-inputgroup-addon">
            <i className="pi pi-user"></i>
@@ -39,7 +42,8 @@ export default function DatosContacto3() {
          </div>
       </div>
 
-      <div className="grid p-fluid">
+      <div className="grid">
+          <div className="col-12" style={{ fontSize: "18px" }}>
          <div className="p-inputgroup">
            <span className="p-inputgroup-addon">
            <i className="pi pi-user"></i>
@@ -48,7 +52,8 @@ export default function DatosContacto3() {
         </div>
       </div>
 
-      <div className="grid p-fluid">
+      <div className="grid">
+          <div className="col-12" style={{ fontSize: "18px" }}>
          <div className="p-inputgroup">
            <span className="p-inputgroup-addon">
            <i className="pi pi-user"></i>
@@ -57,6 +62,8 @@ export default function DatosContacto3() {
          </div>
       </div>
 
+      <div className="grid">
+          <div className="col-12" style={{ fontSize: "18px" }}>
       <div className="p-inputgroup">
           <span className="p-inputgroup-addon">
             <i className="pi pi-user"></i>
@@ -66,13 +73,19 @@ export default function DatosContacto3() {
             <RadioButton
               inputId="city1"
               name="city"
-              value="MantenmeInformadoWhatsAppSMS"
+              value="Mantenme_Informado_vía_WhatsApp_y_SMS"
               onChange={(e) => setAcepto(e.value)}
-              checked={acepto === "MantenmeInformadoWhatsAppSMS"}
+              checked={acepto === "Mantenme_Informado_vía_WhatsApp_y_SMS"}
             />
-            <label htmlFor="city1">MantenmeInformadoWhatsAppSMS</label>
+            <label htmlFor="city1">Mantenme_Informado_vía_WhatsApp_y_SMS</label>
           </div>
         </div>
       </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </Card>
   );
 };

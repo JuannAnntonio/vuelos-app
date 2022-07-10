@@ -3,79 +3,38 @@ import { InputText } from "primereact/inputtext";
 import { InputNumber } from "primereact/inputnumber";
 import { Button } from "primereact/button";
 import { Divider } from "primereact/divider";
-import { RadioButton } from "primereact/radiobutton";
+import { SelectButton } from "primereact/selectbutton";
+import { Card } from "primereact/card";
 
 export default function DatosTarjeta4() {
-  const [checked1, setChecked1] = useState(false);
-  const [checked2, setChecked2] = useState(false);
-  const [radioValue1, setRadioValue1] = useState("");
-  const [radioValue2, setRadioValue2] = useState("");
   const [pago, setPago] = useState(null);
+  const optionPago = ["Tarjeta de crédito", "Tarjeta de débito", "Transferencia electrónica", "Transferencia bancaria", "Efectivo en tiendas"];
   
   return (
-    <div className="card">
-      <h1>DatosTarjeta4</h1>
-      <h2>¿Cómo deseas pagar?</h2>
+    <Card>
+      <h2 className="text-center">¿Cómo deseas pagar?</h2>
+      <h3 className="text-center">Forma de Pago</h3>
       
-      <div className="p-inputgroup">
-          <span className="p-inputgroup-addon">
-            <i className="pi pi-user"></i>
-          </span>
-          <InputText placeholder="PAGO" />
-          <div className="field-radiobutton">
-            <RadioButton>
-              inputId="city1"
-              name="city"
-              value="Tarjeta de crédito"
-              onChange={(e) => setPago(e.value)}
-              checked={pago === "Tarjeta de crédito"}
-            </RadioButton>
-            <label htmlFor="city1">Tarjeta de crédito</label>
-          </div>
-          
-          <div className="field-radiobutton">
-            <RadioButton>
-              inputId="city1"
-              name="city"
-              value="Tarjeta de débito"
-              onChange={(e) => setPago(e.value)}
-              checked={pago === "Tarjeta de débito"}
-            </RadioButton>
-            <label htmlFor="city1">Tarjeta de débito</label>
-          </div>
-
-          <div className="field-radiobutton">
-            <RadioButton>
-              inputId="city1"
-              name="city"
-              value="Transferencia electrónica"
-              onChange={(e) => setPago(e.value)}
-              checked={pago === "Transferencia electrónica"}
-            </RadioButton>
-            <label htmlFor="city1">Transferencia electrónica</label>
-          </div>
-
-          <div className="field-radiobutton">
-          <RadioButton>
-              inputId="city1"
-              name="city"
-              value="Transferencia bancaria"
-              onChange={(e) => setPago(e.value)}
-              checked={pago === "Transferencia bancaria"}
-          </RadioButton>
-            <label htmlFor="city1">Transferencia bancaria</label>
-          </div>
-
-          <div className="field-radiobutton">
-         <RadioButton>
-              inputId="city1"
-              name="city"
-              value="Efectivo en tiendas"
-              onChange={(e) => setPago(e.value)}
-              checked={pago === "Efectivo en tiendas"}
-        </RadioButton>
-            <label htmlFor="city1">Efectivo en tiendas</label>
-          </div>
+      <div className="grid">
+          <div className="col-12" style={{ fontSize: "18px" }}>
+             <div className="p-inputgroup">
+              <span className="p-inputgroup-addon">
+                 <i className="pi pi-user"></i>
+              </span>
+              <InputText placeholder="PAGO" />
+              <div
+          className="col-1 flex align-items-center"
+          style={{ fontSize: "18px", fontWeight: "bold" }}
+        >
+        PAGO:
+        </div>
+        <div className="col-4">
+          <SelectButton
+            value={pago}
+            options={optionPago}
+            onChange={(e) => setPago(e.value)}
+          />
+        </div>
 
 
     <div className="grid p-fluid">
@@ -89,5 +48,7 @@ export default function DatosTarjeta4() {
     </div>
     </div>
     </div>
+    </div>
+    </Card>
     );
 };

@@ -7,6 +7,7 @@ import { Checkbox } from 'primereact/checkbox';
 import { Dialog } from 'primereact/dialog';
 import { Divider } from 'primereact/divider';
 import { classNames } from 'primereact/utils';
+import { Card } from "primereact/card";
 
 export default function EnvioVaucher2() {
     const [showMessage, setShowMessage] = useState(false);
@@ -43,13 +44,12 @@ export default function EnvioVaucher2() {
     
 
     return (
+        <Card>
         <div className="form-demo">
             <div className="flex justify-content-center">
                 <div className="card">
-                    <h1>
-					¿A dónde enviamos tus vouchers?
-                    </h1>
-                    <h2 className="text-center">El email que elijas será fundamental para que gestiones tu reserva y recibas información importante sobre tu viaje.</h2>
+                    <h2>¿A dónde enviamos tus vouchers?</h2>
+                    <h3 className="text-center">El email que elijas será fundamental para que gestiones tu reserva y recibas información importante sobre tu viaje.</h3>
                     <form onSubmit={formik.handleSubmit} className="p-fluid">
                         
                         <div className="field">
@@ -72,6 +72,7 @@ export default function EnvioVaucher2() {
                 </div>
             </div>
         </div>
+        </Card>
     );
 }
 
