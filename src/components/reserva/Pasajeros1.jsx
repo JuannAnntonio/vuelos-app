@@ -10,8 +10,8 @@ export default function Pasajeros1() {
   const optionSexo = ["Masculino", "Femenino"];
   return (
     <Card>
-      <h2>¿Quiénes viajan?</h2>
-      <h3 className="text-center">Pasajeros</h3>
+      <h2 className="text-center">¿Quiénes viajan?</h2>
+      <h3>Pasajeros:</h3>
 
       <div className="grid">
         <div className="col-12" style={{ fontSize: "18px" }}>
@@ -42,7 +42,7 @@ export default function Pasajeros1() {
 
         <div
           className="col-3 flex align-items-center"
-          style={{ fontSize: "18px", fontWeight: "bold" }}
+          style={{ fontSize: "17px" }}
         >
           FECHA DE NACIMIENTO:
         </div>
@@ -57,7 +57,7 @@ export default function Pasajeros1() {
 
         <div
           className="col-1 flex align-items-center"
-          style={{ fontSize: "18px", fontWeight: "bold" }}
+          style={{ fontSize: "17px" }}
         >
           SEXO:
         </div>

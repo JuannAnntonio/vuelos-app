@@ -4,18 +4,21 @@ import { Divider } from "primereact/divider";
 import Pasajeros1 from "./Pasajeros1";
 import EnvioVaucher2 from "./EnvioVaucher2";
 import DatosContacto3 from "./DatosContacto3";
-import DatosTarjeta4 from "./DatosTarjeta4";
-import DatosIngresados5 from "./DatosIngresados5";
 import DatosFinales6 from "./DatosFinales6";
 import Precio from "../vuelo/Precio";
+
+import "./Reserva.css";
+import DatosTarjeta from "./DatosTarjeta";
 
 export default function Reserva() {
   const props = useLocation().state;
   console.log(props);
 
   return (
-    
-    <div className="grid flex justify-content-center" style={{ marginTop: '3.5px' }}>
+    <div
+      className="grid flex justify-content-center"
+      style={{ marginTop: "3.5px" }}
+    >
       <div className="col-8 align-items-center justify-content-center">
         <Pasajeros1 />
         <Divider />
@@ -23,9 +26,8 @@ export default function Reserva() {
         <Divider />
         <DatosContacto3 />
         <Divider />
-        <DatosTarjeta4 />
+        <DatosTarjeta />
         <Divider />
-        <DatosIngresados5 />
         <Divider />
         <DatosFinales6 />
         <Divider />
@@ -33,7 +35,7 @@ export default function Reserva() {
 
       <Divider layout="vertical" />
       <div className="col-3">
-        <Precio precioVuelo={props['precioVuelo']} styleButton='none' />
+        <Precio precioVuelo={props["precioVuelo"]} styleButton="none" />
       </div>
     </div>
   );
