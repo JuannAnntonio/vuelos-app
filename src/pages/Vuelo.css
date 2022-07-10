@@ -3,7 +3,7 @@
 }
 
 .p-fieldset .p-fieldset-legend {
-    width: 35rem;
+    width: 38rem;
 }
 .p-fieldset.p-fieldset-toggleable .p-fieldset-legend a {
     padding-top: 10px;
@@ -25,4 +25,8 @@
 .grid {
     margin-left: 0px;
     margin-right: 0px;
+}
+
+.p-divider.p-divider-vertical .p-divider-content{
+    padding: 8rem 0;
 }
