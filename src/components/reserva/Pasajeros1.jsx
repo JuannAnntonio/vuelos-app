@@ -19,7 +19,7 @@ export default function Pasajeros1() {
             <span className="p-inputgroup-addon">
               <i className="pi pi-user"></i>
             </span>
-            <InputText placeholder="NOMBRES" />
+            <InputText placeholder="Nombres" />
           </div>
         </div>
         <div className="col-12" style={{ fontSize: "18px" }}>
@@ -27,7 +27,7 @@ export default function Pasajeros1() {
             <span className="p-inputgroup-addon">
               <i className="pi pi-user"></i>
             </span>
-            <InputText placeholder="APELLIDOS" />
+            <InputText placeholder="Apellidos" />
           </div>
         </div>
 
@@ -36,7 +36,7 @@ export default function Pasajeros1() {
             <span className="p-inputgroup-addon">
               <i className="pi pi-user"></i>
             </span>
-            <InputText placeholder="PAÍS DE RESIDENCIA" />
+            <InputText placeholder="País de Residencia" />
           </div>
         </div>
 
@@ -44,7 +44,7 @@ export default function Pasajeros1() {
           className="col-3 flex align-items-center"
           style={{ fontSize: "17px" }}
         >
-          FECHA DE NACIMIENTO:
+          Fecha de Nacimiento:
         </div>
         <div className="col-4">
           <Calendar
@@ -59,7 +59,7 @@ export default function Pasajeros1() {
           className="col-1 flex align-items-center"
           style={{ fontSize: "17px" }}
         >
-          SEXO:
+          Sexo:
         </div>
         <div className="col-4">
           <SelectButton

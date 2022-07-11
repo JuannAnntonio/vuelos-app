@@ -21,55 +21,55 @@ export default function DatosContacto3() {
   return (
     <Card>
          <h2 className="text-center">¿A qué número podemos llamarte?</h2>
+         <br />
+         <div className="grid">
+          <div className="col-12" style={{ fontSize: "18px" }}>
+           <div className="p-inputgroup">
+            <span className="p-inputgroup-addon">
+             <i className="pi pi-user"></i>
+            </span>
+             <InputText placeholder="Celular o Particular" />
+           </div>
+         </div>
 
          <div className="grid">
           <div className="col-12" style={{ fontSize: "18px" }}>
-          <div className="p-inputgroup">
-           <span className="p-inputgroup-addon">
-           <i className="pi pi-user"></i>
-           </span>
-           <InputText placeholder="Celular o Particular" />
+           <div className="p-inputgroup">
+            <span className="p-inputgroup-addon">
+             <i className="pi pi-user"></i>
+            </span>
+             <InputText placeholder="Código de País" />
+            </div>
          </div>
-      </div>
 
-      <div className="grid">
-          <div className="col-12" style={{ fontSize: "18px" }}>
-         <div className="p-inputgroup">
-           <span className="p-inputgroup-addon">
-           <i className="pi pi-user"></i>
-           </span>
-           <InputText placeholder="Código de País" />
+         <div className="grid">
+           <div className="col-12" style={{ fontSize: "18px" }}>
+            <div className="p-inputgroup">
+             <span className="p-inputgroup-addon">
+              <i className="pi pi-user"></i>
+             </span>
+              <InputText placeholder="Área" />
+           </div>
          </div>
-      </div>
 
-      <div className="grid">
+         <div className="grid">
           <div className="col-12" style={{ fontSize: "18px" }}>
-         <div className="p-inputgroup">
-           <span className="p-inputgroup-addon">
-           <i className="pi pi-user"></i>
-           </span>
-           <InputText placeholder="Área" />
-        </div>
-      </div>
-
-      <div className="grid">
-          <div className="col-12" style={{ fontSize: "18px" }}>
-         <div className="p-inputgroup">
-           <span className="p-inputgroup-addon">
-           <i className="pi pi-user"></i>
-           </span>
-           <InputText placeholder="Número" />
+           <div className="p-inputgroup">
+            <span className="p-inputgroup-addon">
+             <i className="pi pi-user"></i>
+            </span>
+             <InputText placeholder="Número" />
+           </div>
          </div>
-      </div>
 
-      <div className="grid">
+         <div className="grid">
           <div className="col-12" style={{ fontSize: "18px" }}>
-      <div className="p-inputgroup">
-          <span className="p-inputgroup-addon">
-            <i className="pi pi-user"></i>
-          </span>
-          <InputText placeholder="ACEPTO" />
-          <div className="field-radiobutton">
+           <div className="p-inputgroup">
+            <span className="p-inputgroup-addon">
+             <i className="pi pi-user"></i>
+            </span>
+             <InputText placeholder="Acepto" />
+           <div className="field-radiobutton">
             <RadioButton
               inputId="city1"
               name="city"

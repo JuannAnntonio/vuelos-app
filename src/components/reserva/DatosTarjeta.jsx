@@ -60,65 +60,7 @@ export default function DatosTarjeta() {
           </div>
         </div>
 
-        <div className="col-12" style={{ fontSize: "18px" }}>
-          <div className="p-inputgroup">
-            <span className="p-inputgroup-addon">
-              <i className="pi pi-user"></i>
-            </span>
-            <InputText placeholder="Dirección de entrega del resumen de la tarjeta" />
-          </div>
-        </div>
-
-        <div className="col-12" style={{ fontSize: "18px" }}>
-          <div className="p-inputgroup">
-            <span className="p-inputgroup-addon">
-              <i className="pi pi-user"></i>
-            </span>
-            <InputText placeholder="Ciudad" />
-          </div>
-        </div>
-        <div className="col-12" style={{ fontSize: "18px" }}>
-          <div className="p-inputgroup">
-            <span className="p-inputgroup-addon">
-              <i className="pi pi-user"></i>
-            </span>
-            <InputText placeholder="Calle" />
-          </div>
-        </div>
-        <div className="col-12" style={{ fontSize: "18px" }}>
-          <div className="p-inputgroup">
-            <span className="p-inputgroup-addon">
-              <i className="pi pi-user"></i>
-            </span>
-            <InputNumber placeholder="Número" />
-          </div>
-        </div>
-
-        <div className="col-12" style={{ fontSize: "18px" }}>
-          <div className="p-inputgroup">
-            <span className="p-inputgroup-addon">
-              <i className="pi pi-user"></i>
-            </span>
-            <InputNumber placeholder="Piso" />
-          </div>
-        </div>
-        <div className="col-12" style={{ fontSize: "18px" }}>
-          <div className="p-inputgroup">
-            <span className="p-inputgroup-addon">
-              <i className="pi pi-user"></i>
-            </span>
-            <InputNumber placeholder="Departamento" />
-          </div>
-        </div>
-        <div className="col-12" style={{ fontSize: "18px" }}>
-          <div className="p-inputgroup">
-            <span className="p-inputgroup-addon">
-              <i className="pi pi-user"></i>
-            </span>
-            <InputNumber placeholder="Código Postal" />
-          </div>
-        </div>
-      </div>
+    </div>
     </Card>
   );
 }

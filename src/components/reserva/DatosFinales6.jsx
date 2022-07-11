@@ -5,6 +5,7 @@ export default function DatosFinales6() {
   return (
     <Card>
       <h2 className="text-center">Antes de finalizar revisa los datos ingresados</h2>
+      <br />
       <h3>Fecha</h3>
       <h3>Ida:</h3>
       <h3>Vuelta:</h3>
