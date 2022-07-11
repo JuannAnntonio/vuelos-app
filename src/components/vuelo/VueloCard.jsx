@@ -8,8 +8,9 @@ import { FaPlaneDeparture, FaPlaneArrival } from "react-icons/fa";
 
 import { VuelosService } from "../../services/VuelosService";
 import DetalleVuelo from "./DetalleVuelo";
-import { getAirportByIata, formatDate } from "./Util";
+import { getAirportByIata, formatDate, formatTimeHM } from "./Util";
 import Precio from "./Precio";
+import Header from "./Header";
 
 export default function VueloCard(props) {
   const [airports, setAirports] = useState([]);
@@ -28,65 +29,44 @@ export default function VueloCard(props) {
     loadAirports();
   }, []);
 
-  var endCityDepart =
-    props.itinerariesDepart.segments[
-      props.itinerariesDepart.segments.length - 1
-    ].arrival.iataCode;
-  var endCityArrive =
-    props.itinerariesArrive.segments[
-      props.itinerariesArrive.segments.length - 1
-    ].arrival.iataCode;
+  var jsonHeaderIda = {
+    titulo: "IDA",
+    icono: <FaPlaneDeparture />,
+    fecha: formatDate(props.dateDepart),
+    start: {
+      codigo: props.startIda,
+      aeropuerto: getAirportByIata(airports, props.startIda).city
+    },
+    end: {
+      codigo: props.itinerariesDepart.segments[
+        props.itinerariesDepart.segments.length - 1
+      ].arrival.iataCode,
+      aeropuerto: getAirportByIata(airports, props.itinerariesDepart.segments[
+        props.itinerariesDepart.segments.length - 1
+      ].arrival.iataCode).city
+    },
+    tiempo: formatTimeHM(props.itinerariesDepart.duration)
+  };
 
-  const headerIda = (
-    <div className="grid">
-      <div className="col-6" style={{ fontSize: "18px"}}>
-        <FaPlaneDeparture /> IDA
-        <br />
-        {formatDate(props.dateDepart)}
-      </div>
-      <div
-        style={{ textAlign: "center", fontSize: "16px" }}
-        className="col-3 flex align-items-center justify-content-center"
-      >
-        {props.startIda}
-        <br />
-        {getAirportByIata(airports, props.startIda).city}
-      </div>
-      <div
-        style={{ textAlign: "center", fontSize: "16px" }}
-        className="col-3 flex align-items-center justify-content-center"
-      >
-        {endCityDepart}
-        <br />
-        {getAirportByIata(airports, endCityDepart).city}
-      </div>
-    </div>
-  );
-  const headerRegreso = (
-    <div className="grid">
-      <div className="col-6">
-        <FaPlaneArrival /> REGRESO
-        <br />
-        {formatDate(props.dateArrive)}
-      </div>
-      <div
-        style={{ textAlign: "center" }}
-        className="col-3 flex align-items-center justify-content-center"
-      >
-        {props.startRegreso}
-        <br />
-        {getAirportByIata(airports, props.startRegreso).city}
-      </div>
-      <div
-        style={{ textAlign: "center" }}
-        className="col-3 flex align-items-center justify-content-center"
-      >
-        {endCityArrive}
-        <br />
-        {getAirportByIata(airports, endCityArrive).city}
-      </div>
-    </div>
-  );
+  var jsonHeaderVuelta = {
+    titulo: "REGRESO",
+    icono: <FaPlaneArrival />,
+    fecha: formatDate(props.dateArrive),
+    start: {
+      codigo: props.startRegreso,
+      aeropuerto: getAirportByIata(airports, props.startRegreso).city
+    },
+    end: {
+      codigo: props.itinerariesArrive.segments[
+        props.itinerariesArrive.segments.length - 1
+      ].arrival.iataCode,
+      aeropuerto: getAirportByIata(airports, props.itinerariesArrive.segments[
+        props.itinerariesArrive.segments.length - 1
+      ].arrival.iataCode).city
+    },
+    tiempo: formatTimeHM(props.itinerariesArrive.duration)
+  };
+
 
   if (status === "loading")
     return (
@@ -102,14 +82,18 @@ export default function VueloCard(props) {
       <Card>
         <div className="grid flex align-items-center justify-content-center">
           <div className="col-8">
-            <Fieldset legend={headerIda} toggleable collapsed={true}>
+            <Fieldset
+              legend={<Header atr={jsonHeaderIda} />}
+              toggleable
+              collapsed={true}
+            >
               <DetalleVuelo
                 segments={props.itinerariesDepart.segments}
                 airports={airports}
               />
             </Fieldset>
 
-            <Fieldset legend={headerRegreso} toggleable collapsed={true}>
+            <Fieldset legend={<Header atr={jsonHeaderVuelta} />} toggleable collapsed={true}>
               <DetalleVuelo
                 segments={props.itinerariesArrive.segments}
                 airports={airports}
@@ -118,7 +102,7 @@ export default function VueloCard(props) {
           </div>
           <Divider layout="vertical" />
           <div className="col-3 flex align-items-center justify-content-center">
-            <Precio precioVuelo={props.precioVuelo} styleButton={'block'} />
+            <Precio precioVuelo={props.precioVuelo} styleButton={"block"} />
           </div>
         </div>
         <Divider />

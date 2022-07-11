@@ -27,6 +27,12 @@ export function formatTime(cadena) {
     return hora.substring(0, 5);
 }
 
+export function formatTimeHM(cadena) {
+    var [, tiempo] = separateDate(cadena);
+    var [hora, minutos] = tiempo.substring(0, 5).split("H");
+    return hora + ':'+minutos;
+}
+
 export function getAirportByIata(airports, iata) {
     let obj = {}
     airports.filter((air, index) => {

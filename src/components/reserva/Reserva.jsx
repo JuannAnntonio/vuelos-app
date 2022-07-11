@@ -9,6 +9,7 @@ import Precio from "../vuelo/Precio";
 
 import "./Reserva.css";
 import DatosTarjeta from "./DatosTarjeta";
+import ResumenVuelo from "../vuelo/ResumenVuelo";
 
 export default function Reserva() {
   const props = useLocation().state;
@@ -36,6 +37,8 @@ export default function Reserva() {
       <Divider layout="vertical" />
       <div className="col-3">
         <Precio precioVuelo={props["precioVuelo"]} styleButton="none" />
+        <Divider />
+        <ResumenVuelo />
       </div>
     </div>
   );

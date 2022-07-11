@@ -1,6 +1,6 @@
 import React from "react";
 import { Divider } from "primereact/divider";
-import { getAirportByIata, formatTime, formatDateShort } from "./Util";
+import { getAirportByIata, formatTime, formatDateShort,formatTimeHM } from "./Util";
 import "./DetalleVuelo.css";
 
 export default function DetalleVuelo(props) {
@@ -19,9 +19,6 @@ export default function DetalleVuelo(props) {
               {getAirportByIata(props.airports, segment.departure.iataCode).city}
               <br />
               {getAirportByIata(props.airports, segment.departure.iataCode).name}
-            </div>
-            <div className="col-2" style={{ textAlign: "center" }}>
-              DURACION
             </div>
             <div className="col-5" style={{ textAlign: "center" }}>
               <h4>{formatDateShort(segment.arrival.at)}</h4>
