@@ -8,8 +8,9 @@ import * as BsIcons from "react-icons/bs";
 import "./MenuApp.css";
 
 export default function MenuApp() {
-    
-  const [selectedTheme, setSelectedTheme] = useState(document.getElementById("app-theme"));
+  const [selectedTheme, setSelectedTheme] = useState(
+    document.getElementById("app-theme")
+  );
   const menu = useRef(null);
   const items = [
     {
@@ -57,31 +58,24 @@ export default function MenuApp() {
     },
   ];
 
-  
   useEffect(() => {
-    const temaActual = localStorage.getItem('theme-app');
-    console.log(temaActual);
-    if(temaActual){
-        setSelectedTheme(document.getElementById("app-theme"));
-        selectedTheme.href = "/themes/" + temaActual + ".css";
-            //setSelectedTheme(selectedTheme);
-        localStorage.setItem('theme-app',temaActual);
-        
-    }else{
-        setSelectedTheme(document.getElementById("app-theme"));
-        selectedTheme.href = "/themes/lara-blue.css";
-        localStorage.setItem('theme-app','lara-blue');
+    const temaActual = localStorage.getItem("theme-app");
+    if (temaActual) {
+      setSelectedTheme(document.getElementById("app-theme"));
+      selectedTheme.href = "/themes/" + temaActual + ".css";
+      localStorage.setItem("theme-app", temaActual);
+    } else {
+      setSelectedTheme(document.getElementById("app-theme"));
+      selectedTheme.href = "/themes/lara-blue.css";
+      localStorage.setItem("theme-app", "lara-blue");
     }
-  }, []); 
-
+  }, []);
 
   function changeTheme(themeNew) {
-    //console.log("CLIC TEMA," + themeNew);
     setSelectedTheme(document.getElementById("app-theme"));
     if (selectedTheme) {
-        selectedTheme.href = "/themes/" + themeNew + ".css";
-        //setSelectedTheme(selectedTheme);
-        localStorage.setItem('theme-app',themeNew);
+      selectedTheme.href = "/themes/" + themeNew + ".css";
+      localStorage.setItem("theme-app", themeNew);
     }
   }
 

@@ -45,6 +45,7 @@ export default function VueloCard(props) {
         props.itinerariesDepart.segments.length - 1
       ].arrival.iataCode).city
     },
+    escalas:props.itinerariesDepart.segments,
     tiempo: formatTimeHM(props.itinerariesDepart.duration)
   };
 
@@ -64,6 +65,7 @@ export default function VueloCard(props) {
         props.itinerariesArrive.segments.length - 1
       ].arrival.iataCode).city
     },
+    escalas:props.itinerariesArrive.segments,
     tiempo: formatTimeHM(props.itinerariesArrive.duration)
   };
 
@@ -102,7 +104,10 @@ export default function VueloCard(props) {
           </div>
           <Divider layout="vertical" />
           <div className="col-3 flex align-items-center justify-content-center">
-            <Precio precioVuelo={props.precioVuelo} styleButton={"block"} />
+            <Precio precioVuelo={props.precioVuelo}
+            ida={jsonHeaderIda}
+            vuelta={jsonHeaderVuelta} 
+            styleButton={"block"} />
           </div>
         </div>
         <Divider />
