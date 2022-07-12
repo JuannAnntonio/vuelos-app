@@ -3,10 +3,13 @@ import { InputText } from "primereact/inputtext";
 import { InputNumber } from "primereact/inputnumber";
 import { Card } from "primereact/card";
 import { SelectButton } from "primereact/selectbutton";
+import { InputMask } from "primereact/inputmask";
 
 export default function DatosTarjeta() {
   const [pago, setPago] = useState(null);
   const optionPago = ["Tarjeta de crédito", "Tarjeta de débito"];
+  const [vencimiento, setVencimiento]= ["Mm/yy"];
+ 
   return (
     <Card>
       <h2 className="text-center">Datos de la tarjeta</h2>
@@ -47,7 +50,7 @@ export default function DatosTarjeta() {
             <span className="p-inputgroup-addon">
               <i className="pi pi-user"></i>
             </span>
-            <InputText placeholder="Vencimiento MM/AA" />
+            <InputMask placeholder="Vencimiento Mm/yy" />
           </div>
         </div>
 
