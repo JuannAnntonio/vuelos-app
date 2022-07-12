@@ -10,8 +10,12 @@ import "./Vuelo.css";
 export default function Vuelos() {
   const [vuelos, setVuelos] = useState([]);
   const vuelosService = new VuelosService();
+  const [dictionariesRes, setDictionariesRes] = useState([]);
   useEffect(() => {
-    vuelosService.getVuelos().then((data) => setVuelos(data));
+    vuelosService.getVuelos().then((data) =>{
+      setDictionariesRes(data.dictionaries);
+      setVuelos(data.data);
+    } );
   }, []);
 
   const itemTemplate = (data) => {
@@ -24,6 +28,7 @@ export default function Vuelos() {
         dateArrive={data.itineraries[1].segments[0].departure.at}
         itinerariesDepart={data.itineraries[0]}
         itinerariesArrive={data.itineraries[1]}
+        dictionaries={dictionariesRes}
       />
     );
   };

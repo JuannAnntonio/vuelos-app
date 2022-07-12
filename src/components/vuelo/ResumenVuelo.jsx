@@ -11,11 +11,66 @@ export default function ResumenVuelo(props) {
   const ida = props.detalleIda;
   const vuelta = props.detalleVuelta;
 
+  function printAirLines(vuelo) {
+    return vuelo.escalas.map((segment, index) => {
+      var keyRandom = "IMG_" + segment.carrierCode + "_" + index;
+      return (
+        <>
+          <img
+            id={keyRandom}
+            key={keyRandom}
+            style={{ width: "30px", height: "30px" }}
+            src={"/img/" + segment.carrierCode + ".png"}
+          />
+          {segment.carrierCode}
+          <br />
+        </>
+      );
+    });
+  }
+
+  function htmlVuelta () {
+    if(!vuelta){
+      return <></>
+    }
+    return <>
+      <div className="col-12">
+        <h3>
+          {" "}
+          {vuelta.start.aeropuerto} - {vuelta.end.aeropuerto}{" "}
+        </h3>
+      </div>
+      <div className="col-12">
+        {vuelta.titulo}
+        <br />
+        {vuelta.fecha}
+      </div>
+      <div className="col-6">{printAirLines(vuelta)}</div>
+      <div className="col-6" style={{ textAlign: "right" }}>
+        Duración<h4>{vuelta.tiempo}</h4>
+      </div>
+
+      <div className="col-4" style={{ textAlign: "center" }}>
+        <h3>{vuelta.start.codigo}</h3>
+      </div>
+
+      <div className="col-4" style={{ textAlign: "center" }}>
+        <h4>{vuelta.escalas.length} escala(s)</h4>
+        <IoEllipsisHorizontalOutline />
+      </div>
+      <div className="col-4" style={{ textAlign: "center" }}>
+        <h3>{vuelta.end.codigo}</h3>
+      </div>
+
+      <Divider />
+    </>
+  }
+
   return (
     <Card>
       <div className="grid flex align-items-center justify-content-center">
         <div className="col-2">
-          <ImAirplane size="25"/>
+          <ImAirplane size="25" />
         </div>
         <div className="col-10">
           <h2 className="text-center"> Detalle de la compra</h2>
@@ -31,21 +86,7 @@ export default function ResumenVuelo(props) {
           <br />
           {ida.fecha}
         </div>
-        <div className="col-6">
-          {ida.escalas.map((segment, index) => {
-            return (
-              <>
-                <img
-                  key={"IMG" + segment.carrierCode + index}
-                  style={{ width: "30px", height: "30px" }}
-                  src={"/img/" + segment.carrierCode + ".png"}
-                />
-                {segment.carrierCode}
-                <br />
-              </>
-            );
-          })}
-        </div>
+        <div className="col-6">{printAirLines(ida)}</div>
         <div className="col-6" style={{ textAlign: "right" }}>
           Duración<h4>{ida.tiempo}</h4>
         </div>
@@ -64,49 +105,7 @@ export default function ResumenVuelo(props) {
 
         <Divider />
 
-        <div className="col-12">
-          <h3>
-            {" "}
-            {vuelta.start.aeropuerto} - {vuelta.end.aeropuerto}{" "}
-          </h3>
-        </div>
-        <div className="col-12">
-          {vuelta.titulo}
-          <br />
-          {vuelta.fecha}
-        </div>
-        <div className="col-6">
-          {vuelta.escalas.map((segment, index) => {
-            return (
-              <>
-                <img
-                  key={"IMG" + segment.carrierCode + index}
-                  style={{ width: "30px", height: "30px" }}
-                  src={"/img/" + segment.carrierCode + ".png"}
-                />
-                {segment.carrierCode}
-                <br />
-              </>
-            );
-          })}
-        </div>
-        <div className="col-6" style={{ textAlign: "right" }}>
-          Duración<h4>{vuelta.tiempo}</h4>
-        </div>
-
-        <div className="col-4" style={{ textAlign: "center" }}>
-          <h3>{vuelta.start.codigo}</h3>
-        </div>
-
-        <div className="col-4" style={{ textAlign: "center" }}>
-          <h4>{vuelta.escalas.length} escala(s)</h4>
-          <IoEllipsisHorizontalOutline />
-        </div>
-        <div className="col-4" style={{ textAlign: "center" }}>
-          <h3>{vuelta.end.codigo}</h3>
-        </div>
-
-        <Divider />
+        {htmlVuelta()}
 
         <div className="col-12">
           <h3> Política de cambios y cancelaciones</h3>

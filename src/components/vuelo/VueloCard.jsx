@@ -91,6 +91,7 @@ export default function VueloCard(props) {
             >
               <DetalleVuelo
                 segments={props.itinerariesDepart.segments}
+                dictionaries={props.dictionaries}
                 airports={airports}
               />
             </Fieldset>
@@ -98,6 +99,7 @@ export default function VueloCard(props) {
             <Fieldset legend={<Header atr={jsonHeaderVuelta} />} toggleable collapsed={true}>
               <DetalleVuelo
                 segments={props.itinerariesArrive.segments}
+                dictionaries={props.dictionaries}
                 airports={airports}
               />
             </Fieldset>
