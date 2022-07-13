@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { DataScroller } from "primereact/datascroller";
 import { Divider } from "primereact/divider";
 
@@ -8,14 +9,16 @@ import Buscador from "../components/buscador/Buscador";
 import "./Vuelo.css";
 
 export default function Vuelos() {
+  const data = useLocation().state;
+
   const [vuelos, setVuelos] = useState([]);
   const vuelosService = new VuelosService();
   const [dictionariesRes, setDictionariesRes] = useState([]);
   useEffect(() => {
-    vuelosService.getVuelos().then((data) =>{
+    vuelosService.getVuelos().then((data) => {
       setDictionariesRes(data.dictionaries);
       setVuelos(data.data);
-    } );
+    });
   }, []);
 
   const itemTemplate = (data) => {
@@ -36,7 +39,7 @@ export default function Vuelos() {
     <div className="grid align-items-center justify-content-center">
       <div className="col-3 flex align-items-center justify-content-center">
         <div className="p-fluid">
-          <Buscador />
+          <Buscador source={data} />
         </div>
       </div>
 
