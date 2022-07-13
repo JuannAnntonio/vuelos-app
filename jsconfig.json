@@ -3,11 +3,7 @@
     "module": "ES6",
     "jsx": "preserve",
     "checkJs": true,
-<<<<<<< HEAD
     "moduleResolution": "node"
-=======
-    "moduleResolution":"node"
->>>>>>> ac28e6929ede17fe90ca30743e524ff806948d0b
   },
   "exclude": ["node_modules", "**/node_modules/*"]
 }
