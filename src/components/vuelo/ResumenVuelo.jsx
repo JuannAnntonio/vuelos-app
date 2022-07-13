@@ -7,7 +7,7 @@ import { IoEllipsisHorizontalOutline } from "react-icons/io5";
 import { BsCheckLg, BsXLg } from "react-icons/bs";
 
 export default function ResumenVuelo(props) {
-  console.log("ResumenVuelo", props);
+  //console.log("ResumenVuelo", props);
   const ida = props.detalleIda;
   const vuelta = props.detalleVuelta;
 
@@ -15,16 +15,14 @@ export default function ResumenVuelo(props) {
     return vuelo.escalas.map((segment, index) => {
       var keyRandom = "IMG_" + segment.carrierCode + "_" + index;
       return (
-        <>
+        <div key={keyRandom}>
           <img
-            id={keyRandom}
-            key={keyRandom}
             style={{ width: "30px", height: "30px" }}
             src={"/img/" + segment.carrierCode + ".png"}
           />
           {segment.carrierCode}
           <br />
-        </>
+        </div>
       );
     });
   }

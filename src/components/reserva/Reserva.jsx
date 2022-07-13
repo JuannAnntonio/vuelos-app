@@ -2,18 +2,14 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import { Divider } from "primereact/divider";
 import Pasajeros1 from "./Pasajeros1";
-import EnvioVaucher2 from "./EnvioVaucher2";
-import DatosContacto3 from "./DatosContacto3";
-import DatosFinales6 from "./DatosFinales6";
-import Precio from "../vuelo/Precio";
 
-import "./Reserva.css";
-import DatosTarjeta from "./DatosTarjeta";
+import Precio from "../vuelo/Precio";
 import ResumenVuelo from "../vuelo/ResumenVuelo";
 
+import "./Reserva.css";
+
 export default function Reserva() {
- const props = useLocation().state["props"];
-  console.log("RESERVA",props);
+  const props = useLocation().state["props"];
 
   return (
     <div
@@ -22,23 +18,16 @@ export default function Reserva() {
     >
       <div className="col-8 align-items-center justify-content-center">
         <Pasajeros1 />
-        <Divider />
-        <EnvioVaucher2 />
-        <Divider />
-        <DatosContacto3 />
-        <Divider />
-        <DatosTarjeta />
-        <Divider />
-        <Divider />
-        <DatosFinales6 />
-        <Divider />
       </div>
 
       <Divider layout="vertical" />
       <div className="col-3">
         <Precio precioVuelo={props["precioVuelo"]} styleButton="none" />
         <Divider />
-        <ResumenVuelo detalleIda={props["detalleIda"]} detalleVuelta={props["detalleVuelta"]}/>
+        <ResumenVuelo
+          detalleIda={props["detalleIda"]}
+          detalleVuelta={props["detalleVuelta"]}
+        />
       </div>
     </div>
   );
