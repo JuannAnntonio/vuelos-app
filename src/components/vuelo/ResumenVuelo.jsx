@@ -3,9 +3,13 @@ import { Card } from "primereact/card";
 import { Divider } from "primereact/divider";
 
 import { ImAirplane } from "react-icons/im";
-import { IoEllipsisHorizontalOutline } from "react-icons/io5";
+import {
+  IoEllipsisHorizontalOutline,
+  IoGitCommitOutline,
+} from "react-icons/io5";
+
 import { BsCheckLg, BsXLg } from "react-icons/bs";
-import { getAirLineByCode, getAirCraftByCode } from "./Util";
+import { getAirLineByCode } from "./Util";
 
 export default function ResumenVuelo(props) {
   console.log("ResumenVuelo", props);
@@ -26,6 +30,13 @@ export default function ResumenVuelo(props) {
           </h6>
         </div>
       );
+    });
+  }
+
+  function printEscalas(vuelo) {
+    return vuelo.escalas.map((segment, index) => {
+      var keyRandom = "ICO_" + segment.carrierCode + "_" + index;
+      return <IoGitCommitOutline key={keyRandom} />;
     });
   }
 
@@ -57,7 +68,7 @@ export default function ResumenVuelo(props) {
 
         <div className="col-4" style={{ textAlign: "center" }}>
           <h4>{vuelta.escalas.length} escala(s)</h4>
-          <IoEllipsisHorizontalOutline />
+          {printEscalas(vuelta)}
         </div>
         <div className="col-4" style={{ textAlign: "center" }}>
           <h3>{vuelta.end.codigo}</h3>
@@ -99,7 +110,7 @@ export default function ResumenVuelo(props) {
 
         <div className="col-4" style={{ textAlign: "center" }}>
           <h4>{ida.escalas.length} escala(s)</h4>
-          <IoEllipsisHorizontalOutline />
+          {printEscalas(ida)}
         </div>
         <div className="col-4" style={{ textAlign: "center" }}>
           <h3>{ida.end.codigo}</h3>
