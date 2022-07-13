@@ -1,23 +1,22 @@
-import React, { useState, useEffect } from "react";
-import { Button } from "primereact/button";
-import { AutoComplete } from "primereact/autocomplete";
-import { VuelosService } from "../../services/VuelosService";
-import { FaPlaneDeparture, FaPlaneArrival } from "react-icons/fa";
-import { Card } from "primereact/card";
-import { TabView, TabPanel } from "primereact/tabview";
+import React, { useState, useEffect } from "react"
+import { useNavigate } from "react-router-dom"
+import { useFormik } from "formik"
+import { VuelosService } from "../../services/VuelosService"
+import { classNames } from "primereact/utils"
+import { Card } from "primereact/card"
+import { RadioButton } from "primereact/radiobutton";
+import { AutoComplete } from "primereact/autocomplete"
+import { Calendar } from "primereact/calendar"
+import { InputNumber } from "primereact/inputnumber"
+import { Button } from "primereact/button"
+import './Buscador.css'
 //import  from 'react/style-prop-object';
 
-export default function Buscador() {
+export default function Buscador(props) {
+  const navigate = useNavigate()
   const [countries, setCountries] = useState([]);
-  const [selectOrigen, setSelectOrigen] = useState(null);
-  const [selectDestino, setSelectDestino] = useState(null);
   const [filteredCountries, setFilteredCountries] = useState(null);
-
-  /*
-    useEffect(() => {
-      new VuelosService().getAirports().then((data) => setCountries(data));
-    }, []); 
-*/
+  const [typeOfFlight, setTypeOfFlight] = useState('Ida y vuelta');
 
   useEffect(() => {
     async function loadAirports() {
@@ -27,134 +26,195 @@ export default function Buscador() {
     loadAirports();
   }, []);
 
+  const flightForm = useFormik({
+    initialValues: {
+      origin: '',
+      destination: '',
+      departureDate: null,
+      returnDate: null,
+      adults: 1,
+      children: 0
+    },
+    validate: (data) => {
+      let errors = {};
+
+      if (!data.origin) {
+        errors.origin = 'Ingresa un origen';
+      }
+
+      if (!data.destination) {
+        errors.destination = 'Ingresa un destino';
+      }
+
+      if (!data.departureDate) {
+        errors.departureDate = 'Ingresa una fecha de partida';
+      }
+
+      return errors;
+    },
+    onSubmit: (data) => {
+      navigate("/vuelos", {
+        state: {...data}
+      })
+      // flightForm.resetForm();
+    }
+  })
+
+  const isFormFieldValid = (name) => !!(flightForm.touched[name] && flightForm.errors[name]);
+  const getFormErrorMessage = (name) => {
+    return isFormFieldValid(name) && <small className="p-error">{flightForm.errors[name]}</small>;
+  };
+
   const searchCountry = (event) => {
     setTimeout(() => {
       let _filteredCountries;
       if (!event.query.trim().length) {
         _filteredCountries = [...countries];
-      } else {
+      }
+      else {
         _filteredCountries = countries.filter((country) => {
-          return country.stateCity
-            .toLowerCase()
-            .startsWith(event.query.toLowerCase());
+          return country.stateCity.toLowerCase().startsWith(event.query.toLowerCase());
         });
       }
+
       setFilteredCountries(_filteredCountries);
-    }, 25);
-  };
-
-  const setObject2 = (e) => {
-    //setSelectedCountry1(e.value);
-    console.log("Origen:", selectOrigen);
-    console.log("Destino:", selectDestino);
-  };
-
-  /*const header = (
-      <img alt="Card" src="images/usercard.png" onError={(e) => e.target.src='https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png'} />
-  );*/
-  const footer = (
-    
-      <Button className="p-button-rounded p-button-lg" label="Buscar " icon="pi pi-check" />
-    
-  );
+    }, 250);
+  }
 
   return (
     <>
-      <div>
-        <TabView>
-          <TabPanel header="Ida y Vuelta">
-            <div className="surface-500 card:bg-cyan-500  flex align-items-center justify-content-center">
-              <Card
-                align="center"
-                title=""
-                colorstyle="purpure"
-                style={{ width: "25em" }}
-                footer={footer}
-              >
-                <div className="field">
-                  <h1>
-                    {" "}
-                    <FaPlaneDeparture /> -- Vuelos -- <FaPlaneArrival />{" "}
-                  </h1>
-                </div>
+      <Card title="Buscar vuelos" style={{ maxWidth: '425px', margin: '0 auto' }}>
+        <div className="flex">
+          <div className="field-radiobutton col">
+            <RadioButton
+              inputId="roundTrip"
+              name="typeOfFlight"
+              value="Ida y vuelta"
+              onChange={(e) => { setTypeOfFlight(e.value) }}
+              checked={typeOfFlight === 'Ida y vuelta'}
+            />
+            <label htmlFor="roundTrip">Ida y vuelta</label>
+          </div>
 
-                <div className="field">
-                  <div className="grid">
-                    <div className="col-3">
-                      <h3>Origen:</h3>
-                    </div>
-                    <div className="col-9">
-                      <AutoComplete
-                        value={selectOrigen}
-                        suggestions={filteredCountries}
-                        completeMethod={searchCountry}
-                        field="stateCity"
-                        onChange={(e) => setSelectOrigen(e.value)}
-                        onHide={(e) => setObject2(e)}
-                        aria-label="Countries o"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="field">
-                  Destino:
-                  <AutoComplete
-                    value={selectDestino}
-                    suggestions={filteredCountries}
-                    completeMethod={searchCountry}
-                    field="stateCityd"
-                    onChange={(e) => setSelectDestino(e.value)}
-                    onHide={(e) => setObject2(e)}
-                    aria-label="Countries d"
-                  />
-                </div>
-              </Card>
-            </div>
-          </TabPanel>
+          <div className="field-radiobutton col">
+            <RadioButton
+              inputId="oneWayTrip"
+              name="typeOfFlight"
+              value="Ida"
+              onChange={(e) => setTypeOfFlight(e.value)}
+              checked={typeOfFlight === 'Ida'}
+            />
+            <label htmlFor="oneWayTrip">Sólo ida</label>
+          </div>
+        </div>
 
-          <TabPanel header="Solo Ida">
-            <Card
-              align="center"
-              title=""
-              colorstyle="purpure"
-              style={{ width: "25em" }}
-              footer={footer}
-            >
-              <div className="field">
-                <h1>
-                  {" "}
-                  <FaPlaneDeparture /> -- Vuelos -- <FaPlaneArrival />{" "}
-                </h1>
-              </div>
+        <form onSubmit={flightForm.handleSubmit} className="p-fluid">
+          <div className="field mt-5">
+            <span className="p-float-label">
+              <AutoComplete
+                name="origin"
+                value={flightForm.values.origin}
+                suggestions={filteredCountries}
+                completeMethod={searchCountry}
+                field="stateCity"
+                onChange={flightForm.handleChange}
+                className={classNames({ 'p-invalid': isFormFieldValid('origin') })}
+              />
+              <label htmlFor="origin" className={classNames({ 'p-error': isFormFieldValid('origin') })}>Origen*</label>
+            </span>
+            {getFormErrorMessage('origin')}
+          </div>
 
-              <div className="field">
-                Origen:
-                <AutoComplete
-                  value={selectOrigen}
-                  suggestions={filteredCountries}
-                  completeMethod={searchCountry}
-                  field="stateCity"
-                  onChange={(e) => setSelectOrigen(e.value)}
-                  onHide={(e) => setObject2(e)}
-                  aria-label="Countries o"
-                />
-              </div>
-              <div className="field">
-                Destino:
-                <AutoComplete
-                  value={selectDestino}
-                  suggestions={filteredCountries}
-                  completeMethod={searchCountry}
-                  field="stateCityd"
-                  onChange={(e) => setSelectDestino(e.value)}
-                  onHide={(e) => setObject2(e)}
-                  aria-label="Countries d"
-                />
-              </div>
-            </Card>
-          </TabPanel>
-        </TabView>
-      </div>
+          <div className="field mt-5">
+            <span className="p-float-label">
+              <AutoComplete
+                name="destination"
+                value={flightForm.values.destination}
+                suggestions={filteredCountries}
+                completeMethod={searchCountry}
+                field="stateCity"
+                onChange={flightForm.handleChange}
+                className={classNames({ 'p-invalid': isFormFieldValid('destination') })}
+              />
+              <label htmlFor="origin" className={classNames({ 'p-error': isFormFieldValid('destination') })}>Destino*</label>
+            </span>
+            {getFormErrorMessage('destination')}
+          </div>
+
+          <div className="field mt-5">
+            <span className="p-float-label">
+              <Calendar
+                name="departureDate"
+                value={flightForm.values.departureDate}
+                onChange={flightForm.handleChange}
+                dateFormat="yy-mm-dd"
+                readOnlyInput
+                className={classNames({ 'p-invalid': isFormFieldValid('departureDate') })}
+              />
+              <label htmlFor="departureDate" className={classNames({ 'p-error': isFormFieldValid('departureDate') })}>Ida</label>
+            </span>
+            {getFormErrorMessage('departureDate')}
+          </div>
+
+
+          <div className="field mt-5">
+            <span className="p-float-label">
+              <Calendar
+                name="returnDate"
+                value={flightForm.values.returnDate}
+                onChange={flightForm.handleChange}
+                dateFormat="yy-mm-dd"
+                readOnlyInput
+                disabled={typeOfFlight === 'Ida'}
+                inputStyle={typeOfFlight === 'Ida' ? { background: '#ccc' } : null}
+              />
+              <label htmlFor="arrivalDate">Vuelta</label >
+            </span>
+          </div>
+
+
+          <div className="field mt-5">
+            <span className="p-float-label">
+              <InputNumber
+                name="adults"
+                value={flightForm.values.adults}
+                onValueChange={flightForm.handleChange} min={1} max={8}
+                showButtons
+                buttonLayout="horizontal"
+                incrementButtonClassName="p-button-success p-inputnumber-button-up"
+                decrementButtonClassName="p-button-danger p-inputnumber-button-down"
+                incrementButtonIcon="pi pi-plus"
+                decrementButtonIcon="pi pi-minus"
+                mode="decimal"
+              />
+              <label htmlFor="adults">Adultos</label>
+            </span>
+            {getFormErrorMessage('name')}
+          </div>
+
+          <div className="field mt-5">
+            <span className="p-float-label">
+              <InputNumber
+                name="children"
+                value={flightForm.values.children}
+                onValueChange={flightForm.handleChange} min={0} max={4}
+                showButtons
+                buttonLayout="horizontal"
+                incrementButtonClassName="p-button-success p-inputnumber-button-up"
+                decrementButtonClassName="p-button-danger p-inputnumber-button-down"
+                incrementButtonIcon="pi pi-plus"
+                decrementButtonIcon="pi pi-minus"
+                mode="decimal"
+              />
+              <label htmlFor="children">Niños</label>
+            </span>
+            {getFormErrorMessage('name')}
+          </div>
+
+          <Button type="submit" label="Buscar vuelos" className="mt-2" />
+        </form>
+
+      </Card>
     </>
   );
 }
