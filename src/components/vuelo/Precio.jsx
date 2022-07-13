@@ -7,12 +7,29 @@ import { FcMoneyTransfer } from "react-icons/fc";
 export default function Precio(props) {
   const navigate = useNavigate();
 
+  var detalleIda = {};
+  var detalleVuelta = {};
+  if(props.ida){
+    delete props.ida.icono;
+    detalleIda = props.ida;
+  }
+  if(props.vuelta){
+    delete props.vuelta.icono;
+    detalleVuelta = props.vuelta;
+  }
+   //console.log("A-PRECIO",props);
+  const values = {precioVuelo: props.precioVuelo,
+    detalleIda: detalleIda,
+    detalleVuelta: detalleVuelta};
+
+   // console.log("PRECIO",values);
+
   return (
     <>
       <Card>
         <div className="grid flex align-items-center justify-content-center">
           <div className="col-2">
-            <FcMoneyTransfer />
+            <FcMoneyTransfer size="25"/>
           </div>
           <div className="col-10">
             <h2 className="text-center"> Detalles del pago</h2>
@@ -58,7 +75,7 @@ export default function Precio(props) {
               onClick={() =>
                 navigate("/reserva", {
                   state: {
-                    precioVuelo: props.precioVuelo,
+                    props: values
                   },
                 })
               }

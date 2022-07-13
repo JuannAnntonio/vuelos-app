@@ -12,8 +12,8 @@ import DatosTarjeta from "./DatosTarjeta";
 import ResumenVuelo from "../vuelo/ResumenVuelo";
 
 export default function Reserva() {
-  const props = useLocation().state;
-  console.log(props);
+ const props = useLocation().state["props"];
+  console.log("RESERVA",props);
 
   return (
     <div
@@ -38,7 +38,7 @@ export default function Reserva() {
       <div className="col-3">
         <Precio precioVuelo={props["precioVuelo"]} styleButton="none" />
         <Divider />
-        <ResumenVuelo />
+        <ResumenVuelo detalleIda={props["detalleIda"]} detalleVuelta={props["detalleVuelta"]}/>
       </div>
     </div>
   );

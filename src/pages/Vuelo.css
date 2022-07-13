@@ -6,8 +6,10 @@
     width: 40rem;
 }
 .p-fieldset.p-fieldset-toggleable .p-fieldset-legend a {
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 15px;
 }
 .p-fieldset-content{
     padding-top: 5px;
