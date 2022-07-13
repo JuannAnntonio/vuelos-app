@@ -9,27 +9,31 @@ export default function Precio(props) {
 
   var detalleIda = {};
   var detalleVuelta = {};
-  if(props.ida){
+  var dictionaries = {};
+  if (props.ida) {
     delete props.ida.icono;
     detalleIda = props.ida;
   }
-  if(props.vuelta){
+  if (props.vuelta) {
     delete props.vuelta.icono;
     detalleVuelta = props.vuelta;
   }
-   //console.log("A-PRECIO",props);
-  const values = {precioVuelo: props.precioVuelo,
+  if (props.dictionaries) {
+    dictionaries = props.dictionaries;
+  }
+  const values = {
+    precioVuelo: props.precioVuelo,
     detalleIda: detalleIda,
-    detalleVuelta: detalleVuelta};
-
-   // console.log("PRECIO",values);
+    detalleVuelta: detalleVuelta,
+    dictionaries: dictionaries,
+  };
 
   return (
     <>
       <Card>
         <div className="grid flex align-items-center justify-content-center">
           <div className="col-2">
-            <FcMoneyTransfer size="25"/>
+            <FcMoneyTransfer size="25" />
           </div>
           <div className="col-10">
             <h2 className="text-center"> Detalles del pago</h2>
@@ -75,7 +79,7 @@ export default function Precio(props) {
               onClick={() =>
                 navigate("/reserva", {
                   state: {
-                    props: values
+                    props: values,
                   },
                 })
               }

@@ -5,9 +5,10 @@ import { Divider } from "primereact/divider";
 import { ImAirplane } from "react-icons/im";
 import { IoEllipsisHorizontalOutline } from "react-icons/io5";
 import { BsCheckLg, BsXLg } from "react-icons/bs";
+import { getAirLineByCode, getAirCraftByCode } from "./Util";
 
 export default function ResumenVuelo(props) {
-  //console.log("ResumenVuelo", props);
+  console.log("ResumenVuelo", props);
   const ida = props.detalleIda;
   const vuelta = props.detalleVuelta;
 
@@ -20,48 +21,51 @@ export default function ResumenVuelo(props) {
             style={{ width: "30px", height: "30px" }}
             src={"/img/" + segment.carrierCode + ".png"}
           />
-          {segment.carrierCode}
-          <br />
+          <h6>
+            {getAirLineByCode(props.dictionaries.carriers, segment.carrierCode)}
+          </h6>
         </div>
       );
     });
   }
 
-  function htmlVuelta () {
-    if(!vuelta){
-      return <></>
+  function htmlVuelta() {
+    if (!vuelta) {
+      return <></>;
     }
-    return <>
-      <div className="col-12">
-        <h3>
-          {" "}
-          {vuelta.start.aeropuerto} - {vuelta.end.aeropuerto}{" "}
-        </h3>
-      </div>
-      <div className="col-12">
-        {vuelta.titulo}
-        <br />
-        {vuelta.fecha}
-      </div>
-      <div className="col-6">{printAirLines(vuelta)}</div>
-      <div className="col-6" style={{ textAlign: "right" }}>
-        Duración<h4>{vuelta.tiempo}</h4>
-      </div>
+    return (
+      <>
+        <div className="col-12">
+          <h3>
+            {" "}
+            {vuelta.start.aeropuerto} - {vuelta.end.aeropuerto}{" "}
+          </h3>
+        </div>
+        <div className="col-12">
+          {vuelta.titulo}
+          <br />
+          {vuelta.fecha}
+        </div>
+        <div className="col-6">{printAirLines(vuelta)}</div>
+        <div className="col-6" style={{ textAlign: "right" }}>
+          Duración<h4>{vuelta.tiempo}</h4>
+        </div>
 
-      <div className="col-4" style={{ textAlign: "center" }}>
-        <h3>{vuelta.start.codigo}</h3>
-      </div>
+        <div className="col-4" style={{ textAlign: "center" }}>
+          <h3>{vuelta.start.codigo}</h3>
+        </div>
 
-      <div className="col-4" style={{ textAlign: "center" }}>
-        <h4>{vuelta.escalas.length} escala(s)</h4>
-        <IoEllipsisHorizontalOutline />
-      </div>
-      <div className="col-4" style={{ textAlign: "center" }}>
-        <h3>{vuelta.end.codigo}</h3>
-      </div>
+        <div className="col-4" style={{ textAlign: "center" }}>
+          <h4>{vuelta.escalas.length} escala(s)</h4>
+          <IoEllipsisHorizontalOutline />
+        </div>
+        <div className="col-4" style={{ textAlign: "center" }}>
+          <h3>{vuelta.end.codigo}</h3>
+        </div>
 
-      <Divider />
-    </>
+        <Divider />
+      </>
+    );
   }
 
   return (

@@ -35,18 +35,22 @@ export default function VueloCard(props) {
     fecha: formatDate(props.dateDepart),
     start: {
       codigo: props.startIda,
-      aeropuerto: getAirportByIata(airports, props.startIda).city
+      aeropuerto: getAirportByIata(airports, props.startIda).city,
     },
     end: {
-      codigo: props.itinerariesDepart.segments[
-        props.itinerariesDepart.segments.length - 1
-      ].arrival.iataCode,
-      aeropuerto: getAirportByIata(airports, props.itinerariesDepart.segments[
-        props.itinerariesDepart.segments.length - 1
-      ].arrival.iataCode).city
+      codigo:
+        props.itinerariesDepart.segments[
+          props.itinerariesDepart.segments.length - 1
+        ].arrival.iataCode,
+      aeropuerto: getAirportByIata(
+        airports,
+        props.itinerariesDepart.segments[
+          props.itinerariesDepart.segments.length - 1
+        ].arrival.iataCode
+      ).city,
     },
-    escalas:props.itinerariesDepart.segments,
-    tiempo: formatTimeHM(props.itinerariesDepart.duration)
+    escalas: props.itinerariesDepart.segments,
+    tiempo: formatTimeHM(props.itinerariesDepart.duration),
   };
 
   var jsonHeaderVuelta = {
@@ -55,20 +59,23 @@ export default function VueloCard(props) {
     fecha: formatDate(props.dateArrive),
     start: {
       codigo: props.startRegreso,
-      aeropuerto: getAirportByIata(airports, props.startRegreso).city
+      aeropuerto: getAirportByIata(airports, props.startRegreso).city,
     },
     end: {
-      codigo: props.itinerariesArrive.segments[
-        props.itinerariesArrive.segments.length - 1
-      ].arrival.iataCode,
-      aeropuerto: getAirportByIata(airports, props.itinerariesArrive.segments[
-        props.itinerariesArrive.segments.length - 1
-      ].arrival.iataCode).city
+      codigo:
+        props.itinerariesArrive.segments[
+          props.itinerariesArrive.segments.length - 1
+        ].arrival.iataCode,
+      aeropuerto: getAirportByIata(
+        airports,
+        props.itinerariesArrive.segments[
+          props.itinerariesArrive.segments.length - 1
+        ].arrival.iataCode
+      ).city,
     },
-    escalas:props.itinerariesArrive.segments,
-    tiempo: formatTimeHM(props.itinerariesArrive.duration)
+    escalas: props.itinerariesArrive.segments,
+    tiempo: formatTimeHM(props.itinerariesArrive.duration),
   };
-
 
   if (status === "loading")
     return (
@@ -96,7 +103,11 @@ export default function VueloCard(props) {
               />
             </Fieldset>
 
-            <Fieldset legend={<Header atr={jsonHeaderVuelta} />} toggleable collapsed={true}>
+            <Fieldset
+              legend={<Header atr={jsonHeaderVuelta} />}
+              toggleable
+              collapsed={true}
+            >
               <DetalleVuelo
                 segments={props.itinerariesArrive.segments}
                 dictionaries={props.dictionaries}
@@ -106,10 +117,13 @@ export default function VueloCard(props) {
           </div>
           <Divider layout="vertical" />
           <div className="col-3 flex align-items-center justify-content-center">
-            <Precio precioVuelo={props.precioVuelo}
-            ida={jsonHeaderIda}
-            vuelta={jsonHeaderVuelta} 
-            styleButton={"block"} />
+            <Precio
+              precioVuelo={props.precioVuelo}
+              ida={jsonHeaderIda}
+              vuelta={jsonHeaderVuelta}
+              dictionaries={props.dictionaries}
+              styleButton={"block"}
+            />
           </div>
         </div>
         <Divider />

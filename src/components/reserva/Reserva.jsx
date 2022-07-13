@@ -27,6 +27,7 @@ export default function Reserva() {
         <ResumenVuelo
           detalleIda={props["detalleIda"]}
           detalleVuelta={props["detalleVuelta"]}
+          dictionaries={props["dictionaries"]}
         />
       </div>
     </div>
