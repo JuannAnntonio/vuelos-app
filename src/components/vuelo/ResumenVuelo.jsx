@@ -20,14 +20,12 @@ export default function ResumenVuelo(props) {
     return vuelo.escalas.map((segment, index) => {
       var keyRandom = "IMG_" + segment.carrierCode + "_" + index;
       return (
-        <div key={keyRandom}>
+        <div key={keyRandom} style={{ fontSize: "11px", fontWeight: "bold" }}>
           <img
             style={{ width: "30px", height: "30px" }}
             src={"/img/" + segment.carrierCode + ".png"}
-          />
-          <h6>
+          />&nbsp;&nbsp;&nbsp;&nbsp;
             {getAirLineByCode(props.dictionaries.carriers, segment.carrierCode)}
-          </h6>
         </div>
       );
     });
@@ -54,7 +52,7 @@ export default function ResumenVuelo(props) {
         </div>
         <div className="col-12">
           {vuelta.titulo}
-          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;
           {vuelta.fecha}
         </div>
         <div className="col-6">{printAirLines(vuelta)}</div>
@@ -96,7 +94,7 @@ export default function ResumenVuelo(props) {
         </div>
         <div className="col-12">
           {ida.titulo}
-          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;
           {ida.fecha}
         </div>
         <div className="col-6">{printAirLines(ida)}</div>
