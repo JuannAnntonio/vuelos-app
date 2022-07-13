@@ -1,22 +1,20 @@
-import React, { useState, useEffect } from "react"
-import { useNavigate } from "react-router-dom"
-import { useFormik } from "formik"
-import { VuelosService } from "../../services/VuelosService"
-import { classNames } from "primereact/utils"
-import { Card } from "primereact/card"
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { useFormik } from "formik";
+import { VuelosService } from "../../services/VuelosService";
+import { classNames } from "primereact/utils";
+import { Card } from "primereact/card";
 import { RadioButton } from "primereact/radiobutton";
-import { AutoComplete } from "primereact/autocomplete"
-import { Calendar } from "primereact/calendar"
-import { InputNumber } from "primereact/inputnumber"
-import { Button } from "primereact/button"
-import './Buscador.css'
-//import  from 'react/style-prop-object';
+import { AutoComplete } from "primereact/autocomplete";
+import { Calendar } from "primereact/calendar";
+import { InputNumber } from "primereact/inputnumber";
+import { Button } from "primereact/button";
+import "./Buscador.css";
 
 export default function Buscador(props) {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const [countries, setCountries] = useState([]);
   const [filteredCountries, setFilteredCountries] = useState(null);
-  const [typeOfFlight, setTypeOfFlight] = useState('Ida y vuelta');
 
   useEffect(() => {
     async function loadAirports() {
@@ -26,43 +24,65 @@ export default function Buscador(props) {
     loadAirports();
   }, []);
 
+  const dataBusqueda = props.source;
+  let values = {};
+  let bandera = "Ida y vuelta";
+  if (dataBusqueda) {
+    bandera = dataBusqueda.typeOfFlight;
+    values = {
+      origin: dataBusqueda.origin,
+      destination: dataBusqueda.destination,
+      departureDate: dataBusqueda.departureDate,
+      returnDate: dataBusqueda.returnDate,
+      adults: dataBusqueda.adults,
+      children: dataBusqueda.children,
+    };
+  }
+  const [typeOfFlight, setTypeOfFlight] = useState(bandera);
   const flightForm = useFormik({
-    initialValues: {
-      origin: '',
-      destination: '',
-      departureDate: null,
-      returnDate: null,
-      adults: 1,
-      children: 0
-    },
+    initialValues: dataBusqueda
+      ? values
+      : {
+          origin: "",
+          destination: "",
+          departureDate: null,
+          returnDate: null,
+          adults: 1,
+          children: 0,
+        },
     validate: (data) => {
       let errors = {};
 
       if (!data.origin) {
-        errors.origin = 'Ingresa un origen';
+        errors.origin = "Ingresa un origen";
       }
 
       if (!data.destination) {
-        errors.destination = 'Ingresa un destino';
+        errors.destination = "Ingresa un destino";
       }
 
       if (!data.departureDate) {
-        errors.departureDate = 'Ingresa una fecha de partida';
+        errors.departureDate = "Ingresa una fecha de partida";
       }
 
       return errors;
     },
     onSubmit: (data) => {
       navigate("/vuelos", {
-        state: {...data}
-      })
+        state: { ...data, typeOfFlight },
+      });
       // flightForm.resetForm();
-    }
-  })
+    },
+  });
 
-  const isFormFieldValid = (name) => !!(flightForm.touched[name] && flightForm.errors[name]);
+  const isFormFieldValid = (name) =>
+    !!(flightForm.touched[name] && flightForm.errors[name]);
   const getFormErrorMessage = (name) => {
-    return isFormFieldValid(name) && <small className="p-error">{flightForm.errors[name]}</small>;
+    return (
+      isFormFieldValid(name) && (
+        <small className="p-error">{flightForm.errors[name]}</small>
+      )
+    );
   };
 
   const searchCountry = (event) => {
@@ -70,28 +90,34 @@ export default function Buscador(props) {
       let _filteredCountries;
       if (!event.query.trim().length) {
         _filteredCountries = [...countries];
-      }
-      else {
+      } else {
         _filteredCountries = countries.filter((country) => {
-          return country.stateCity.toLowerCase().startsWith(event.query.toLowerCase());
+          return country.stateCity
+            .toLowerCase()
+            .startsWith(event.query.toLowerCase());
         });
       }
 
       setFilteredCountries(_filteredCountries);
     }, 250);
-  }
+  };
 
   return (
     <>
-      <Card title="Buscar vuelos" style={{ maxWidth: '425px', margin: '0 auto' }}>
+      <Card
+        title="Buscar vuelos"
+        style={{ maxWidth: "425px", margin: "0 auto" }}
+      >
         <div className="flex">
           <div className="field-radiobutton col">
             <RadioButton
               inputId="roundTrip"
               name="typeOfFlight"
               value="Ida y vuelta"
-              onChange={(e) => { setTypeOfFlight(e.value) }}
-              checked={typeOfFlight === 'Ida y vuelta'}
+              onChange={(e) => {
+                setTypeOfFlight(e.value);
+              }}
+              checked={typeOfFlight === "Ida y vuelta"}
             />
             <label htmlFor="roundTrip">Ida y vuelta</label>
           </div>
@@ -102,7 +128,7 @@ export default function Buscador(props) {
               name="typeOfFlight"
               value="Ida"
               onChange={(e) => setTypeOfFlight(e.value)}
-              checked={typeOfFlight === 'Ida'}
+              checked={typeOfFlight === "Ida"}
             />
             <label htmlFor="oneWayTrip">Sólo ida</label>
           </div>
@@ -118,11 +144,20 @@ export default function Buscador(props) {
                 completeMethod={searchCountry}
                 field="stateCity"
                 onChange={flightForm.handleChange}
-                className={classNames({ 'p-invalid': isFormFieldValid('origin') })}
+                className={classNames({
+                  "p-invalid": isFormFieldValid("origin"),
+                })}
               />
-              <label htmlFor="origin" className={classNames({ 'p-error': isFormFieldValid('origin') })}>Origen*</label>
+              <label
+                htmlFor="origin"
+                className={classNames({
+                  "p-error": isFormFieldValid("origin"),
+                })}
+              >
+                Origen*
+              </label>
             </span>
-            {getFormErrorMessage('origin')}
+            {getFormErrorMessage("origin")}
           </div>
 
           <div className="field mt-5">
@@ -134,11 +169,20 @@ export default function Buscador(props) {
                 completeMethod={searchCountry}
                 field="stateCity"
                 onChange={flightForm.handleChange}
-                className={classNames({ 'p-invalid': isFormFieldValid('destination') })}
+                className={classNames({
+                  "p-invalid": isFormFieldValid("destination"),
+                })}
               />
-              <label htmlFor="origin" className={classNames({ 'p-error': isFormFieldValid('destination') })}>Destino*</label>
+              <label
+                htmlFor="origin"
+                className={classNames({
+                  "p-error": isFormFieldValid("destination"),
+                })}
+              >
+                Destino*
+              </label>
             </span>
-            {getFormErrorMessage('destination')}
+            {getFormErrorMessage("destination")}
           </div>
 
           <div className="field mt-5">
@@ -149,13 +193,21 @@ export default function Buscador(props) {
                 onChange={flightForm.handleChange}
                 dateFormat="yy-mm-dd"
                 readOnlyInput
-                className={classNames({ 'p-invalid': isFormFieldValid('departureDate') })}
+                className={classNames({
+                  "p-invalid": isFormFieldValid("departureDate"),
+                })}
               />
-              <label htmlFor="departureDate" className={classNames({ 'p-error': isFormFieldValid('departureDate') })}>Ida</label>
+              <label
+                htmlFor="departureDate"
+                className={classNames({
+                  "p-error": isFormFieldValid("departureDate"),
+                })}
+              >
+                Ida
+              </label>
             </span>
-            {getFormErrorMessage('departureDate')}
+            {getFormErrorMessage("departureDate")}
           </div>
-
 
           <div className="field mt-5">
             <span className="p-float-label">
@@ -165,20 +217,23 @@ export default function Buscador(props) {
                 onChange={flightForm.handleChange}
                 dateFormat="yy-mm-dd"
                 readOnlyInput
-                disabled={typeOfFlight === 'Ida'}
-                inputStyle={typeOfFlight === 'Ida' ? { background: '#ccc' } : null}
+                disabled={typeOfFlight === "Ida"}
+                inputStyle={
+                  typeOfFlight === "Ida" ? { background: "#ccc" } : null
+                }
               />
-              <label htmlFor="arrivalDate">Vuelta</label >
+              <label htmlFor="arrivalDate">Vuelta</label>
             </span>
           </div>
-
 
           <div className="field mt-5">
             <span className="p-float-label">
               <InputNumber
                 name="adults"
                 value={flightForm.values.adults}
-                onValueChange={flightForm.handleChange} min={1} max={8}
+                onValueChange={flightForm.handleChange}
+                min={1}
+                max={8}
                 showButtons
                 buttonLayout="horizontal"
                 incrementButtonClassName="p-button-success p-inputnumber-button-up"
@@ -189,7 +244,7 @@ export default function Buscador(props) {
               />
               <label htmlFor="adults">Adultos</label>
             </span>
-            {getFormErrorMessage('name')}
+            {getFormErrorMessage("name")}
           </div>
 
           <div className="field mt-5">
@@ -197,7 +252,9 @@ export default function Buscador(props) {
               <InputNumber
                 name="children"
                 value={flightForm.values.children}
-                onValueChange={flightForm.handleChange} min={0} max={4}
+                onValueChange={flightForm.handleChange}
+                min={0}
+                max={4}
                 showButtons
                 buttonLayout="horizontal"
                 incrementButtonClassName="p-button-success p-inputnumber-button-up"
@@ -208,12 +265,11 @@ export default function Buscador(props) {
               />
               <label htmlFor="children">Niños</label>
             </span>
-            {getFormErrorMessage('name')}
+            {getFormErrorMessage("name")}
           </div>
 
           <Button type="submit" label="Buscar vuelos" className="mt-2" />
         </form>
-
       </Card>
     </>
   );
