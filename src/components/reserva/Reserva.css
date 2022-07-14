@@ -1,3 +1,7 @@
 .p-selectbutton .p-button {
     background: var(--primary-100);
 }
+
+.p-fluid .p-button{
+    width: 15%;
+}
