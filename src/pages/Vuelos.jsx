@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { formatToISO8601 } from "../components/vuelo/Util";
 import { DataScroller } from "primereact/datascroller";
 import { Divider } from "primereact/divider";
 
@@ -11,14 +12,91 @@ import "./Vuelo.css";
 export default function Vuelos() {
   const data = useLocation().state;
 
-  const [vuelos, setVuelos] = useState([]);
+  var raw = JSON.stringify({
+    "currencyCode": "USD",
+    "originDestinations": [
+      {
+        "id": "1",
+        "originLocationCode": "RIO",
+        "destinationLocationCode": "MAD",
+        "departureDateTimeRange": {
+          "date": formatToISO8601(data.departureDate),
+          "time": "10:00:00"
+        }
+      },
+      {
+        "id": "2",
+        "originLocationCode": "MAD",
+        "destinationLocationCode": "RIO",
+        "departureDateTimeRange": {
+          "date": formatToISO8601(data.returnDate),
+          "time": "17:00:00"
+        }
+      }
+    ],
+    "travelers": [
+      {
+        "id": "1",
+        "travelerType": "ADULT"
+      },
+      {
+        "id": "2",
+        "travelerType": "CHILD"
+      }
+    ],
+    "sources": [
+      "GDS"
+    ],
+    "searchCriteria": {
+      "maxFlightOffers": 2,
+      "flightFilters": {
+        "cabinRestrictions": [
+          {
+            "cabin": "BUSINESS",
+            "coverage": "MOST_SEGMENTS",
+            "originDestinationIds": [
+              "1"
+            ]
+          }
+        ],
+        "carrierRestrictions": {
+          "excludedCarrierCodes": [
+            "AA",
+            "TP",
+            "AZ"
+          ]
+        }
+      }
+    }
+  });
+
   const vuelosService = new VuelosService();
+  const [vuelos, setVuelos] = useState([]);
   const [dictionariesRes, setDictionariesRes] = useState([]);
   useEffect(() => {
-    vuelosService.getVuelos().then((data) => {
-      setDictionariesRes(data.dictionaries);
-      setVuelos(data.data);
-    });
+    async function get() {
+      try {
+        const data = await vuelosService.getToken().then(data => data)
+        const requestOptions = {
+          method: 'POST',
+          headers: {
+            "Content-Type": "application/json",
+            ...data
+          },
+          body: raw,
+          redirect: 'follow'
+        };
+
+        vuelosService.getVuelos(requestOptions).then(res => {
+          setDictionariesRes(res.dictionaries)
+          setVuelos(res.data)
+        })
+        
+      } catch (error) {
+        console.log(error.status);
+      }
+    }
+    get();
   }, []);
 
   const itemTemplate = (data) => {
