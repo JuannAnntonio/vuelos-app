@@ -565,7 +565,7 @@ export default function Pasajeros(props) {
                   name="codSeguridad"
                   value={formik.values.codSeguridad}
                   onKeyPress={(event) => {
-                    if (!/[0-9]/.test(event.key)) {
+                    if (!/'[0-9]/.test(event.key)) {
                       event.preventDefault();
                     }
                   }}
@@ -596,7 +596,7 @@ export default function Pasajeros(props) {
           Antes de finalizar revisa los datos ingresados
         </h2>
         {printResumen()}
-        <Button className="p-button-danger" type="submit" label="Comprar" />
+        <Button className="p-button-danger" type="submit" label="Comprar" style={{width:'25%'}}/>
       </Card>
     </form>
   );

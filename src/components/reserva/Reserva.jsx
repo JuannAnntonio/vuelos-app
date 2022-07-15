@@ -16,11 +16,12 @@ export default function Reserva() {
       className="grid flex justify-content-center"
       style={{ marginTop: "3.5px" }}
     >
-      <div className="col-8 align-items-center justify-content-center">
+      <div className="col-6 align-items-center justify-content-center">
         <Pasajeros />
       </div>
 
       <Divider layout="vertical" />
+
       <div className="col-3">
         <Precio precioVuelo={props["precioVuelo"]} styleButton="none" />
         <Divider />
