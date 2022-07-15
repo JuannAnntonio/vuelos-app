@@ -28,16 +28,38 @@ export default function Pasajeros(props) {
   });
 
   const isFormFieldValid = (name) => {
-    console.log("formik.touched[name]", formik.touched[name]);
-    console.log("formik.errors[name]", formik.errors[name]);
     return !!(formik.touched[name] && formik.errors[name]);
   };
 
   const getFormErrorMessage = (name) => {
-    console.log("[name]", name);
     return (
       isFormFieldValid(name) && (
         <small className="p-error">{formik.errors[name]}</small>
+      )
+    );
+  };
+
+  const isFormPasajerosValid = (index, name) => {
+    if (
+      index > -1 &&
+      formik.touched &&
+      formik.touched.pasajeros &&
+      formik.errors &&
+      formik.errors.pasajeros
+    ) {
+      return !!(
+        formik.touched.pasajeros[index][name] &&
+        formik.errors.pasajeros[index][name]
+      );
+    }
+    return false;
+  };
+  const getFormPasajerosErrorMessage = (index, name) => {
+    return (
+      isFormPasajerosValid(index, name) && (
+        <small className="p-error">
+          {formik.errors.pasajeros[index][name]}
+        </small>
       )
     );
   };
@@ -56,7 +78,6 @@ export default function Pasajeros(props) {
                   <InputText
                     id={"nombres" + i}
                     name={"nombres" + i}
-                    placeholder="Nombres"
                     value={formik.values.pasajeros[i].nombres}
                     onChange={(e) =>
                       formik.setFieldValue(
@@ -65,52 +86,82 @@ export default function Pasajeros(props) {
                       )
                     }
                     className={classNames({
-                      "p-invalid": isFormFieldValid("pasajeros[0].nombres"),
+                      "p-invalid": isFormPasajerosValid(i, "nombres"),
                     })}
                   />
                   <label
                     htmlFor={"nombres" + i}
                     className={classNames({
-                      "p-error": isFormFieldValid("pasajeros[0].nombres"),
+                      "p-error": isFormPasajerosValid(i, "nombres"),
                     })}
-                  ></label>
+                  >
+                    Nombres*
+                  </label>
                 </span>
-                {getFormErrorMessage("pasajeros[0].nombres")}
+                {getFormPasajerosErrorMessage(i, "nombres")}
               </div>
             </div>
             <div className="col-12" style={{ fontSize: "18px" }}>
-              <div className="p-inputgroup">
-                <span className="p-inputgroup-addon">
-                  <i className="pi pi-user"></i>
+              <div className="field">
+                <span className="p-float-label p-input-icon-right">
+                  <i className="pi pi-envelope" />
+                  <InputText
+                    id={"apellidos" + i}
+                    name={"apellidos" + i}
+                    value={formik.values.pasajeros[i].apellidos}
+                    onChange={(e) =>
+                      formik.setFieldValue(
+                        "pasajeros.[" + i + "].apellidos",
+                        e.target.value
+                      )
+                    }
+                    className={classNames({
+                      "p-invalid": isFormPasajerosValid(i, "apellidos"),
+                    })}
+                  />
+
+                  <label
+                    htmlFor={"apellidos" + i}
+                    className={classNames({
+                      "p-error": isFormPasajerosValid(i, "apellidos"),
+                    })}
+                  >
+                    Apellidos*
+                  </label>
                 </span>
-                <InputText
-                  placeholder="Apellidos"
-                  value={formik.values.pasajeros[i].apellidos}
-                  onChange={(e) =>
-                    formik.setFieldValue(
-                      "pasajeros.[" + i + "].apellidos",
-                      e.target.value
-                    )
-                  }
-                />
+                {getFormPasajerosErrorMessage(i, "apellidos")}
               </div>
             </div>
 
             <div className="col-12" style={{ fontSize: "18px" }}>
-              <div className="p-inputgroup">
-                <span className="p-inputgroup-addon">
-                  <i className="pi pi-user"></i>
+              <div className="field">
+                <span className="p-float-label p-input-icon-right">
+                  <i className="pi pi-envelope" />
+                  <InputText
+                    id={"paisResidencia" + i}
+                    name={"paisResidencia" + i}
+                    value={formik.values.pasajeros[i].paisResidencia}
+                    onChange={(e) =>
+                      formik.setFieldValue(
+                        "pasajeros.[" + i + "].paisResidencia",
+                        e.target.value
+                      )
+                    }
+                    className={classNames({
+                      "p-invalid": isFormPasajerosValid(i, "paisResidencia"),
+                    })}
+                  />
+
+                  <label
+                    htmlFor={"paisResidencia" + i}
+                    className={classNames({
+                      "p-error": isFormPasajerosValid(i, "paisResidencia"),
+                    })}
+                  >
+                    País de Residencia*
+                  </label>
                 </span>
-                <InputText
-                  placeholder="País de Residencia"
-                  value={formik.values.pasajeros[i].paisResidencia}
-                  onChange={(e) =>
-                    formik.setFieldValue(
-                      "pasajeros.[" + i + "].paisResidencia",
-                      e.target.value
-                    )
-                  }
-                />
+                {getFormPasajerosErrorMessage(i, "paisResidencia")}
               </div>
             </div>
 
@@ -118,30 +169,56 @@ export default function Pasajeros(props) {
               className="col-3 flex align-items-center"
               style={{ fontSize: "17px" }}
             >
-              Fecha de Nacimiento:
+              <label
+                htmlFor={"fechaNacimiento" + i}
+                className={classNames({
+                  "p-error": isFormPasajerosValid(i, "fechaNacimiento"),
+                })}
+              >
+                Fecha Nacimiento*:
+              </label>
             </div>
             <div className="col-4">
-              <Calendar
-                id="icon"
-                showIcon
-                value={formik.values.pasajeros[i].fechaNacimiento}
-                onChange={(e) =>
-                  formik.setFieldValue(
-                    "pasajeros.[" + i + "].fechaNacimiento",
-                    e.target.value
-                  )
-                }
-              />
+              <div className="field">
+                <span className="p-float-label p-input-icon-right">
+                  <i className="pi pi-envelope" />
+                  <Calendar
+                    id={"fechaNacimiento" + i}
+                    name={"fechaNacimiento" + i}
+                    showIcon
+                    value={formik.values.pasajeros[i].fechaNacimiento}
+                    onChange={(e) =>
+                      formik.setFieldValue(
+                        "pasajeros.[" + i + "].fechaNacimiento",
+                        e.target.value
+                      )
+                    }
+                    className={classNames({
+                      "p-invalid": isFormPasajerosValid(i, "fechaNacimiento"),
+                    })}
+                  />
+                </span>
+                {getFormPasajerosErrorMessage(i, "fechaNacimiento")}
+              </div>
             </div>
 
             <div
               className="col-1 flex align-items-center"
               style={{ fontSize: "17px" }}
             >
-              Sexo:
+              <label
+                htmlFor={"sexo" + i}
+                className={classNames({
+                  "p-error": isFormPasajerosValid(i, "sexo"),
+                })}
+              >
+                Sexo*:
+              </label>
             </div>
             <div className="col-4">
               <SelectButton
+                id={"sexo" + i}
+                name={"sexo" + i}
                 options={optionSexo}
                 value={formik.values.pasajeros[i].sexo}
                 onChange={(e) =>
@@ -151,6 +228,7 @@ export default function Pasajeros(props) {
                   )
                 }
               />
+              {getFormPasajerosErrorMessage(i, "sexo")}
             </div>
           </div>
           <Divider />
@@ -231,8 +309,6 @@ export default function Pasajeros(props) {
           </span>
           {getFormErrorMessage("confirmaEmail")}
         </div>
-
-        
       </Card>
 
       <Divider />
@@ -488,6 +564,12 @@ export default function Pasajeros(props) {
                   id="codSeguridad"
                   name="codSeguridad"
                   value={formik.values.codSeguridad}
+                  onKeyPress={(event) => {
+                    if (!/[0-9]/.test(event.key)) {
+                      event.preventDefault();
+                    }
+                  }}
+                  maxLength={3}
                   onChange={formik.handleChange}
                   className={classNames({
                     "p-invalid": isFormFieldValid("codSeguridad"),
