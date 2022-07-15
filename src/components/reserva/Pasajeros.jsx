@@ -10,7 +10,6 @@ import { Calendar } from "primereact/calendar";
 
 import { initValues, getValidationSchema } from "./ValidationUtils";
 import { Button } from "primereact/button";
-import * as Yup from "yup";
 
 export default function Pasajeros(props) {
   const [formData, setFormData] = useState({});
@@ -28,12 +27,14 @@ export default function Pasajeros(props) {
     },
   });
 
-  const isFormFieldValid = (name) =>
-    !!(formik.touched[name] && formik.errors[name]);
+  const isFormFieldValid = (name) => {
+    console.log("formik.touched[name]", formik.touched[name]);
+    console.log("formik.errors[name]", formik.errors[name]);
+    return !!(formik.touched[name] && formik.errors[name]);
+  };
+
   const getFormErrorMessage = (name) => {
-    console.log("[name]",name);
-    console.log("isFormFieldValid(name)",isFormFieldValid(name));
-    console.log("formik.errors[name]",formik.errors[name]);
+    console.log("[name]", name);
     return (
       isFormFieldValid(name) && (
         <small className="p-error">{formik.errors[name]}</small>
@@ -64,18 +65,17 @@ export default function Pasajeros(props) {
                       )
                     }
                     className={classNames({
-                      "p-invalid": isFormFieldValid("pasajeros.nombres"),
+                      "p-invalid": isFormFieldValid("pasajeros[0].nombres"),
                     })}
                   />
                   <label
                     htmlFor={"nombres" + i}
                     className={classNames({
-                      "p-error": isFormFieldValid("pasajeros.nombres"),
+                      "p-error": isFormFieldValid("pasajeros[0].nombres"),
                     })}
-                  >
-                  </label>
+                  ></label>
                 </span>
-                {getFormErrorMessage("pasajeros.nombres")}
+                {getFormErrorMessage("pasajeros[0].nombres")}
               </div>
             </div>
             <div className="col-12" style={{ fontSize: "18px" }}>
@@ -208,15 +208,14 @@ export default function Pasajeros(props) {
           </span>
           {getFormErrorMessage("email")}
         </div>
-
         <div className="field">
-          <span className="p-float-label">
+          <span className="p-float-label p-input-icon-right">
+            <i className="pi pi-envelope" />
             <InputText
               id="confirmaEmail"
-              name="ConfirmaEmail"
+              name="confirmaEmail"
               value={formik.values.confirmaEmail}
               onChange={formik.handleChange}
-              autoFocus
               className={classNames({
                 "p-invalid": isFormFieldValid("confirmaEmail"),
               })}
@@ -227,11 +226,13 @@ export default function Pasajeros(props) {
                 "p-error": isFormFieldValid("confirmaEmail"),
               })}
             >
-              ConfirmaEmail*
+              Confirmar Email*
             </label>
           </span>
           {getFormErrorMessage("confirmaEmail")}
         </div>
+
+        
       </Card>
 
       <Divider />
@@ -256,7 +257,6 @@ export default function Pasajeros(props) {
                   options={optionsTipoTel}
                   value={formik.values.optionTelefono}
                   onChange={formik.handleChange}
-                  autoFocus
                   className={classNames({
                     "p-invalid": isFormFieldValid("optionTelefono"),
                   })}
@@ -291,7 +291,7 @@ export default function Pasajeros(props) {
                     "p-error": isFormFieldValid("codigoPais"),
                   })}
                 >
-                  Codigo Pais*
+                  Cód. Pais*
                 </label>
               </span>
               {getFormErrorMessage("codigoPais")}
@@ -317,7 +317,7 @@ export default function Pasajeros(props) {
                     "p-error": isFormFieldValid("area"),
                   })}
                 >
-                  area*
+                  Area*
                 </label>
               </span>
               {getFormErrorMessage("area")}
@@ -343,7 +343,7 @@ export default function Pasajeros(props) {
                     "p-error": isFormFieldValid("numero"),
                   })}
                 >
-                  numero*
+                  Número*
                 </label>
               </span>
               {getFormErrorMessage("numero")}
@@ -377,7 +377,7 @@ export default function Pasajeros(props) {
             className="col-2 flex align-items-center"
             style={{ fontSize: "17px" }}
           >
-            ¿Cómo deseas pagar?
+            ¿Cómo deseas pagar?*
           </div>
           <div className="col-4">
             <div className="field">
@@ -388,7 +388,6 @@ export default function Pasajeros(props) {
                   options={optionPago}
                   value={formik.values.tipoTarjeta}
                   onChange={formik.handleChange}
-                  autoFocus
                   className={classNames({
                     "p-invalid": isFormFieldValid("tipoTarjeta"),
                   })}
@@ -423,7 +422,7 @@ export default function Pasajeros(props) {
                     "p-error": isFormFieldValid("numeroTarjeta"),
                   })}
                 >
-                  numeroTarjeta*
+                  Número Tarjeta*
                 </label>
               </span>
               {getFormErrorMessage("numeroTarjeta")}
@@ -449,7 +448,7 @@ export default function Pasajeros(props) {
                     "p-error": isFormFieldValid("titularTarjeta"),
                   })}
                 >
-                  titularTarjeta*
+                  Titular Tarjeta*
                 </label>
               </span>
               {getFormErrorMessage("titularTarjeta")}
@@ -459,7 +458,7 @@ export default function Pasajeros(props) {
             className="col-2 flex align-items-center"
             style={{ fontSize: "17px" }}
           >
-            Fecha de Vencimiento:
+            Fecha de Vencimiento*:
           </div>
           <div className="col-4">
             <Calendar
@@ -500,7 +499,7 @@ export default function Pasajeros(props) {
                     "p-error": isFormFieldValid("codSeguridad"),
                   })}
                 >
-                  codSeguridad*
+                  Cód. Seguridad*
                 </label>
               </span>
               {getFormErrorMessage("codSeguridad")}

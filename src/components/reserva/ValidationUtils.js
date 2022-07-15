@@ -25,9 +25,11 @@ export function initValues(pasajeros) {
     return {
         pasajeros: array,
         email: '',
+        confirmaEmail: '',
+        codigoPais:'',
         area: '',
         numero: '',
-        tipoTarjeta: null,
+        tipoTarjeta: '',
         numeroTarjeta: '',
         titularTarjeta: '',
         vencimiento: null,
@@ -48,14 +50,16 @@ export function getValidationSchema() {
             })
         ),
         email: Yup.string().required("Email es requerido").email("Ingresa un email valido"),
+        confirmaEmail: Yup.string().required("Confirma email es requerido").email("Ingresa un email valido"),
 
+        codigoPais: Yup.string().required("Cód. País es requerido"),
         area: Yup.string().required("Area es requerida"),
         numero: Yup.string().required("Número es requerido"),
 
         tipoTarjeta: Yup.string().required("Tipo Tarjeta es requerido"),
         numeroTarjeta: Yup.number().required("Número de Tarjeta es requerido"),
         titularTarjeta: Yup.string().required("Titular es requerido"),
-        vencimiento: Yup.date().required("Fecha Vencimiento es requerida"),
+        vencimiento: Yup.date().required("Fecha Vencimiento es requerida").nullable(),
         codSeguridad: Yup.string().required("Cód. Seguridad es requerido"),
     });
 };
