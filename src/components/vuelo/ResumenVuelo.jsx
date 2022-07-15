@@ -12,7 +12,7 @@ import { BsCheckLg, BsXLg } from "react-icons/bs";
 import { getAirLineByCode } from "./Util";
 
 export default function ResumenVuelo(props) {
-  console.log("ResumenVuelo", props);
+  //console.log("ResumenVuelo", props);
   const ida = props.detalleIda;
   const vuelta = props.detalleVuelta;
 

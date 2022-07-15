@@ -1,12 +1,12 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { Divider } from "primereact/divider";
-import Pasajeros1 from "./Pasajeros1";
 
 import Precio from "../vuelo/Precio";
 import ResumenVuelo from "../vuelo/ResumenVuelo";
 
 import "./Reserva.css";
+import Pasajeros from "./Pasajeros";
 
 export default function Reserva() {
   const props = useLocation().state["props"];
@@ -17,7 +17,7 @@ export default function Reserva() {
       style={{ marginTop: "3.5px" }}
     >
       <div className="col-8 align-items-center justify-content-center">
-        <Pasajeros1 />
+        <Pasajeros />
       </div>
 
       <Divider layout="vertical" />
