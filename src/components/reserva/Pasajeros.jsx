@@ -74,7 +74,7 @@ export default function Pasajeros(props) {
             <div className="col-12" style={{ fontSize: "18px" }}>
               <div className="field">
                 <span className="p-float-label p-input-icon-right">
-                  <i className="pi pi-envelope" />
+                  
                   <InputText
                     id={"nombres" + i}
                     name={"nombres" + i}
@@ -104,7 +104,7 @@ export default function Pasajeros(props) {
             <div className="col-12" style={{ fontSize: "18px" }}>
               <div className="field">
                 <span className="p-float-label p-input-icon-right">
-                  <i className="pi pi-envelope" />
+                  
                   <InputText
                     id={"apellidos" + i}
                     name={"apellidos" + i}
@@ -136,7 +136,7 @@ export default function Pasajeros(props) {
             <div className="col-12" style={{ fontSize: "18px" }}>
               <div className="field">
                 <span className="p-float-label p-input-icon-right">
-                  <i className="pi pi-envelope" />
+                  
                   <InputText
                     id={"paisResidencia" + i}
                     name={"paisResidencia" + i}
@@ -181,7 +181,7 @@ export default function Pasajeros(props) {
             <div className="col-4">
               <div className="field">
                 <span className="p-float-label p-input-icon-right">
-                  <i className="pi pi-envelope" />
+                  
                   <Calendar
                     id={"fechaNacimiento" + i}
                     name={"fechaNacimiento" + i}
@@ -265,7 +265,7 @@ export default function Pasajeros(props) {
         </h3>
         <div className="field">
           <span className="p-float-label p-input-icon-right">
-            <i className="pi pi-envelope" />
+            
             <InputText
               id="email"
               name="email"
@@ -288,7 +288,7 @@ export default function Pasajeros(props) {
         </div>
         <div className="field">
           <span className="p-float-label p-input-icon-right">
-            <i className="pi pi-envelope" />
+            
             <InputText
               id="confirmaEmail"
               name="confirmaEmail"
@@ -326,7 +326,7 @@ export default function Pasajeros(props) {
           <div className="col-3" style={{ fontSize: "18px" }}>
             <div className="field">
               <span className="p-float-label p-input-icon-right">
-                <i className="pi pi-envelope" />
+                
                 <SelectButton
                   id="optionTelefono"
                   name="optionTelefono"
@@ -351,7 +351,7 @@ export default function Pasajeros(props) {
           <div className="col-4" style={{ fontSize: "18px" }}>
             <div className="field">
               <span className="p-float-label p-input-icon-right">
-                <i className="pi pi-envelope" />
+                
                 <InputText
                   id="codigoPais"
                   name="codigoPais"
@@ -377,7 +377,7 @@ export default function Pasajeros(props) {
           <div className="col-4" style={{ fontSize: "18px" }}>
             <div className="field">
               <span className="p-float-label p-input-icon-right">
-                <i className="pi pi-envelope" />
+                
                 <InputText
                   id="area"
                   name="area"
@@ -403,7 +403,7 @@ export default function Pasajeros(props) {
           <div className="col-8" style={{ fontSize: "18px" }}>
             <div className="field">
               <span className="p-float-label p-input-icon-right">
-                <i className="pi pi-envelope" />
+                
                 <InputText
                   id="numero"
                   name="numero"
@@ -482,7 +482,7 @@ export default function Pasajeros(props) {
           <div className="col-6" style={{ fontSize: "18px" }}>
             <div className="field">
               <span className="p-float-label p-input-icon-right">
-                <i className="pi pi-envelope" />
+                
                 <InputText
                   id="numeroTarjeta"
                   name="numeroTarjeta"
@@ -508,7 +508,7 @@ export default function Pasajeros(props) {
           <div className="col-6" style={{ fontSize: "18px" }}>
             <div className="field">
               <span className="p-float-label p-input-icon-right">
-                <i className="pi pi-envelope" />
+                
                 <InputText
                   id="titularTarjeta"
                   name="titularTarjeta"
@@ -559,7 +559,7 @@ export default function Pasajeros(props) {
           <div className="col-6" style={{ fontSize: "18px" }}>
             <div className="field">
               <span className="p-float-label p-input-icon-right">
-                <i className="pi pi-envelope" />
+                
                 <InputText
                   id="codSeguridad"
                   name="codSeguridad"
