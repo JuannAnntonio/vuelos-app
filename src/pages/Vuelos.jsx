@@ -1,25 +1,23 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { get } from "../services/getVuelos";
 import { DataScroller } from "primereact/datascroller";
 import { Divider } from "primereact/divider";
 
-import { VuelosService } from "../services/VuelosService";
 import VueloCard from "../components/vuelo/VueloCard";
 import Buscador from "../components/buscador/Buscador";
 import "./Vuelo.css";
 
 export default function Vuelos() {
   const data = useLocation().state;
-
   const [vuelos, setVuelos] = useState([]);
-  const vuelosService = new VuelosService();
   const [dictionariesRes, setDictionariesRes] = useState([]);
   useEffect(() => {
-    vuelosService.getVuelos().then((data) => {
-      setDictionariesRes(data.dictionaries);
-      setVuelos(data.data);
+    get(data).then(res => {
+      setVuelos(res.data)
+      setDictionariesRes(res.dictionaries)
     });
-  }, []);
+  }, [data]);
 
   const itemTemplate = (data) => {
     return (

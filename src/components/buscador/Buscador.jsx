@@ -40,13 +40,12 @@ export default function Buscador(props) {
   }
   const [typeOfFlight, setTypeOfFlight] = useState(bandera);
   const flightForm = useFormik({
-    initialValues: dataBusqueda
+    initialValues: dataBusqueda && bandera === 'Ida y vuelta'
       ? values
       : {
           origin: "",
           destination: "",
           departureDate: null,
-          returnDate: null,
           adults: 1,
           children: 0,
         },
@@ -71,13 +70,11 @@ export default function Buscador(props) {
       navigate("/vuelos", {
         state: { ...data, typeOfFlight },
       });
-      // flightForm.resetForm();
     },
   });
 
-  const isFormFieldValid = (name) =>
-    !!(flightForm.touched[name] && flightForm.errors[name]);
-  const getFormErrorMessage = (name) => {
+  const isFormFieldValid = name => !!(flightForm.touched[name] && flightForm.errors[name]);
+  const getFormErrorMessage = name => {
     return (
       isFormFieldValid(name) && (
         <small className="p-error">{flightForm.errors[name]}</small>
@@ -213,9 +210,10 @@ export default function Buscador(props) {
             <span className="p-float-label">
               <Calendar
                 name="returnDate"
-                value={flightForm.values.returnDate}
+                value={typeOfFlight === "Ida" ? "" : flightForm.values.returnDate}
                 onChange={flightForm.handleChange}
                 dateFormat="yy-mm-dd"
+                minDate={flightForm.values.departureDate}
                 readOnlyInput
                 disabled={typeOfFlight === "Ida"}
                 inputStyle={

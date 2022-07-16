@@ -4,6 +4,10 @@ function separateDate(dateString) {
 
 const meses = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"];
 
+export function formatToISO8601(date) {
+  return date.toISOString().split('T')[0]
+}
+
 export function formatDateShort(cadena) {
     var [fecha, ] = separateDate(cadena);
     const [, month, day] = fecha.split("-");
