@@ -47,13 +47,9 @@ export function getAirportByIata(airports, iata) {
 }
 
 export function getAirLineByCode(carriers, code) {
-    console.log("carriers",carriers);
-    console.log("carriers[code]",carriers[code]);
     return carriers[code];
 }
 
 export function getAirCraftByCode(aircrafts, code) {
-    console.log("carriers",aircrafts);
-    console.log("carriers[code]",aircrafts[code]);
     return aircrafts[code];
 }
