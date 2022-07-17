@@ -40,12 +40,13 @@ export default function Buscador(props) {
   }
   const [typeOfFlight, setTypeOfFlight] = useState(bandera);
   const flightForm = useFormik({
-    initialValues: dataBusqueda && bandera === 'Ida y vuelta'
+    initialValues: dataBusqueda
       ? values
       : {
           origin: "",
           destination: "",
           departureDate: null,
+          returnDate: null,
           adults: 1,
           children: 0,
         },

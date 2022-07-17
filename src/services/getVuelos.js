@@ -6,7 +6,7 @@ const vuelosService = new VuelosService();
 export async function get(props) {
   var raw = JSON.stringify({
     "currencyCode": "USD",
-    "originDestinations": [
+    "originDestinations": props.typeOfFlight === 'Ida y vuelta' ? [
       {
         "id": "1",
         "originLocationCode": "RIO",
@@ -23,6 +23,15 @@ export async function get(props) {
           "date": formatToISO8601(props.returnDate)
         }
       } 
+    ] : [
+      {
+        "id": "1",
+        "originLocationCode": "RIO",
+        "destinationLocationCode": "MAD",
+        "departureDateTimeRange": {
+          "date": formatToISO8601(props.departureDate)
+        }
+      },
     ],
     "travelers": [
       {
