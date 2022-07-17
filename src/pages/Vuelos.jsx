@@ -19,16 +19,19 @@ export default function Vuelos() {
     });
   }, [data]);
 
+  
+
   const itemTemplate = (data) => {
+    let dataVuelta = data.itineraries[1]?data.itineraries[1]:null;
     return (
       <VueloCard
         precioVuelo={data.price}
         startIda={data.itineraries[0].segments[0].departure.iataCode}
-        startRegreso={data.itineraries[1].segments[0].departure.iataCode}
+        startRegreso={dataVuelta?dataVuelta.segments[0].departure.iataCode:null}
         dateDepart={data.itineraries[0].segments[0].departure.at}
-        dateArrive={data.itineraries[1].segments[0].departure.at}
+        dateArrive={dataVuelta?dataVuelta.segments[0].departure.at:null}
         itinerariesDepart={data.itineraries[0]}
-        itinerariesArrive={data.itineraries[1]}
+        itinerariesArrive={dataVuelta}
         dictionaries={dictionariesRes}
       />
     );

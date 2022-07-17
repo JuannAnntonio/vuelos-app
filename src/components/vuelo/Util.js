@@ -1,32 +1,43 @@
 function separateDate(dateString) {
-    return dateString.split("T");
+    if (dateString && dateString != null) {
+        return dateString.split("T");
+    }
+    return "";
 }
 
 const meses = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"];
 
 export function formatToISO8601(date) {
-  if (date) {
-    return (date.toISOString().split('T')[0])
-  }
-  return ''
+    if (date) {
+        return (date.toISOString().split('T')[0])
+    }
+    return ''
 }
 
 export function formatDateShort(cadena) {
-    var [fecha, ] = separateDate(cadena);
-    const [, month, day] = fecha.split("-");
-    return day + ' ' + meses[month - 1];
+    if (cadena && cadena != null) {
+        var [fecha, ] = separateDate(cadena);
+        const [, month, day] = fecha.split("-");
+        return day + ' ' + meses[month - 1];
+    }
+    return "";
+
 }
 
 export function formatDate(cadena) {
-    var [fecha, ] = separateDate(cadena);
-    const [year, month, day] = fecha.split("-");
-    const date = new Date(+year, month - 1, +day);
-    const options = {
-        year: "numeric",
-        month: "long",
-        day: "numeric"
-    };
-    return date.toLocaleDateString("es-ES", options);
+    if (cadena && cadena != null) {
+        var [fecha, ] = separateDate(cadena);
+        const [year, month, day] = fecha.split("-");
+        const date = new Date(+year, month - 1, +day);
+        const options = {
+            year: "numeric",
+            month: "long",
+            day: "numeric"
+        };
+        return date.toLocaleDateString("es-ES", options);
+    }
+    return "";
+
 }
 
 export function formatTime(cadena) {
@@ -37,7 +48,7 @@ export function formatTime(cadena) {
 export function formatTimeHM(cadena) {
     var [, tiempo] = separateDate(cadena);
     var [hora, minutos] = tiempo.substring(0, 5).split("H");
-    return hora + ':'+minutos;
+    return hora + ':' + minutos;
 }
 
 export function getAirportByIata(airports, iata) {

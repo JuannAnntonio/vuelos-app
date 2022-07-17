@@ -45,7 +45,7 @@ export async function get(props) {
       "GDS"
     ],
     "searchCriteria": {
-      "maxFlightOffers": 2,
+      "maxFlightOffers": 15,
       "flightFilters": {
         "cabinRestrictions": [
           {
@@ -55,14 +55,7 @@ export async function get(props) {
               "1"
             ]
           }
-        ],
-        "carrierRestrictions": {
-          "excludedCarrierCodes": [
-            "AA",
-            "TP",
-            "AZ"
-          ]
-        }
+        ]
       }
     }
   });

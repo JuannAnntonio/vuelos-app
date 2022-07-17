@@ -8,7 +8,7 @@ export default function Precio(props) {
   const navigate = useNavigate();
 
   var detalleIda = {};
-  var detalleVuelta = {};
+  var detalleVuelta = null;
   var dictionaries = {};
   if (props.ida) {
     delete props.ida.icono;

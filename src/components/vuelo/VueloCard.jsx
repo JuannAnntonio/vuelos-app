@@ -53,29 +53,31 @@ export default function VueloCard(props) {
     tiempo: formatTimeHM(props.itinerariesDepart.duration),
   };
 
-  var jsonHeaderVuelta = {
-    titulo: "REGRESO",
-    icono: <FaPlaneArrival />,
-    fecha: formatDate(props.dateArrive),
-    start: {
-      codigo: props.startRegreso,
-      aeropuerto: getAirportByIata(airports, props.startRegreso).city,
-    },
-    end: {
-      codigo:
-        props.itinerariesArrive.segments[
-          props.itinerariesArrive.segments.length - 1
-        ].arrival.iataCode,
-      aeropuerto: getAirportByIata(
-        airports,
-        props.itinerariesArrive.segments[
-          props.itinerariesArrive.segments.length - 1
-        ].arrival.iataCode
-      ).city,
-    },
-    escalas: props.itinerariesArrive.segments,
-    tiempo: formatTimeHM(props.itinerariesArrive.duration),
-  };
+  var jsonHeaderVuelta = props.itinerariesArrive
+    ? {
+        titulo: "REGRESO",
+        icono: <FaPlaneArrival />,
+        fecha: formatDate(props.dateArrive),
+        start: {
+          codigo: props.startRegreso,
+          aeropuerto: getAirportByIata(airports, props.startRegreso).city,
+        },
+        end: {
+          codigo:
+            props.itinerariesArrive.segments[
+              props.itinerariesArrive.segments.length - 1
+            ].arrival.iataCode,
+          aeropuerto: getAirportByIata(
+            airports,
+            props.itinerariesArrive.segments[
+              props.itinerariesArrive.segments.length - 1
+            ].arrival.iataCode
+          ).city,
+        },
+        escalas: props.itinerariesArrive.segments,
+        tiempo: formatTimeHM(props.itinerariesArrive.duration),
+      }
+    : null;
 
   if (status === "loading")
     return (
@@ -103,17 +105,21 @@ export default function VueloCard(props) {
               />
             </Fieldset>
 
-            <Fieldset
-              legend={<Header atr={jsonHeaderVuelta} />}
-              toggleable
-              collapsed={true}
-            >
-              <DetalleVuelo
-                segments={props.itinerariesArrive.segments}
-                dictionaries={props.dictionaries}
-                airports={airports}
-              />
-            </Fieldset>
+            {jsonHeaderVuelta ? (
+              <Fieldset
+                legend={<Header atr={jsonHeaderVuelta} />}
+                toggleable
+                collapsed={true}
+              >
+                <DetalleVuelo
+                  segments={props.itinerariesArrive.segments}
+                  dictionaries={props.dictionaries}
+                  airports={airports}
+                />
+              </Fieldset>
+            ) : (
+              ""
+            )}
           </div>
           <Divider layout="vertical" />
           <div className="col-3 flex align-items-center justify-content-center">
