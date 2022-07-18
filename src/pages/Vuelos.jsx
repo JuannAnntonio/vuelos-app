@@ -10,15 +10,17 @@ import "./Vuelo.css";
 
 export default function Vuelos() {
   const data = useLocation().state;
-  console.log("DATA_STATE",data);
+
   const [vuelos, setVuelos] = useState([]);
   const [dictionariesRes, setDictionariesRes] = useState([]);
-  const [status, setStatus] = useState("loading");
+  const [loading, setLoading] = useState(false)
   useEffect(() => {
+    setLoading(true)
+
     get(data).then(res => {
       setVuelos(res.data)
       setDictionariesRes(res.dictionaries)
-      setStatus("success")
+      setLoading(false)
     });
   }, [data]);
 
@@ -53,16 +55,16 @@ export default function Vuelos() {
 
       <div className="col-8 flex align-items-center justify-content-center">
         {
-          status === "loading"
-          ? <ProgressSpinner />
+          loading
+          ? <ProgressSpinner/>
           : <DataScroller
-              value={vuelos}
-              itemTemplate={itemTemplate}
-              rows={5}
-              inline
-              scrollHeight="800px"
-              header="Desliza hacia abajo para cargar más resultados"
-            />
+            value={vuelos}
+            itemTemplate={itemTemplate}
+            rows={5}
+            inline
+            scrollHeight="800px"
+            header="Desliza hacia abajo para cargar más resultados"
+        /> 
         }
       </div>
     </div>
