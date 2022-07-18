@@ -5,17 +5,20 @@
 .p-fieldset .p-fieldset-legend {
     width: 40rem;
 }
+
 .p-fieldset.p-fieldset-toggleable .p-fieldset-legend a {
     padding-top: 15px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 15px;
 }
-.p-fieldset-content{
+
+.p-fieldset-content {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.p-fieldset .p-fieldset-content{
+
+.p-fieldset .p-fieldset-content {
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -29,6 +32,11 @@
     margin-right: 0px;
 }
 
-.p-divider.p-divider-vertical .p-divider-content{
+.p-divider.p-divider-vertical .p-divider-content {
     padding: 8rem 0;
+}
+
+.p-avatar.p-avatar-xl {
+    width: 150px;
+    height: 150px;
 }
