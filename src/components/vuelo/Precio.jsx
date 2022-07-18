@@ -26,6 +26,8 @@ export default function Precio(props) {
     detalleIda: detalleIda,
     detalleVuelta: detalleVuelta,
     dictionaries: dictionaries,
+    adults:props.adults?props.adults:0,
+    children:props.children?props.children:0
   };
 
   return (

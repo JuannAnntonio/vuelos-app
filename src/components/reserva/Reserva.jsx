@@ -17,7 +17,9 @@ export default function Reserva() {
       style={{ marginTop: "3.5px" }}
     >
       <div className="col-6 align-items-center justify-content-center">
-        <Pasajeros />
+        <Pasajeros 
+        adults={props['adults']}
+        children={props['children']}/>
       </div>
 
       <Divider layout="vertical" />
