@@ -12,13 +12,16 @@ import { initValues, getValidationSchema } from "./ValidationUtils";
 import { Button } from "primereact/button";
 
 export default function Pasajeros(props) {
+  let countAdults = props["adults"];
+  let countChildren = props["children"];
+
   const [formData, setFormData] = useState({});
   const optionSexo = ["Masculino", "Femenino"];
   const optionPago = ["Tarjeta de crédito", "Tarjeta de débito"];
   const optionsTipoTel = ["Celular", "Prticular"];
 
   const formik = useFormik({
-    initialValues: initValues(2),
+    initialValues: initValues(countAdults + countChildren),
     validationSchema: getValidationSchema,
     onSubmit: (data) => {
       setFormData(data);
@@ -68,13 +71,14 @@ export default function Pasajeros(props) {
     return formik.values.pasajeros.map((pasajero, i) => {
       return (
         <div key={i}>
-          <h3>Pasajero: {i + 1}</h3>
+          <h3>
+            {i >= countAdults ? "Pasajero-Niño: " : "Pasajero-Adulto: "} {i + 1}
+          </h3>
 
           <div className="grid">
             <div className="col-12" style={{ fontSize: "18px" }}>
               <div className="field">
                 <span className="p-float-label p-input-icon-right">
-                  
                   <InputText
                     id={"nombres" + i}
                     name={"nombres" + i}
@@ -104,7 +108,6 @@ export default function Pasajeros(props) {
             <div className="col-12" style={{ fontSize: "18px" }}>
               <div className="field">
                 <span className="p-float-label p-input-icon-right">
-                  
                   <InputText
                     id={"apellidos" + i}
                     name={"apellidos" + i}
@@ -136,7 +139,6 @@ export default function Pasajeros(props) {
             <div className="col-12" style={{ fontSize: "18px" }}>
               <div className="field">
                 <span className="p-float-label p-input-icon-right">
-                  
                   <InputText
                     id={"paisResidencia" + i}
                     name={"paisResidencia" + i}
@@ -181,7 +183,6 @@ export default function Pasajeros(props) {
             <div className="col-4">
               <div className="field">
                 <span className="p-float-label p-input-icon-right">
-                  
                   <Calendar
                     id={"fechaNacimiento" + i}
                     name={"fechaNacimiento" + i}
@@ -240,7 +241,7 @@ export default function Pasajeros(props) {
     return formik.values.pasajeros.map((pasajero, i) => {
       return (
         <div key={i}>
-          <h3>Pasajero: {i + 1}</h3>
+          <h3>{i >= countAdults ? "Pasajero-Niño: " : "Pasajero-Adulto: "} {i + 1}</h3>
 
           <h3>Nombres :&nbsp;&nbsp;{pasajero.nombres}</h3>
           <h3>Apellidos :&nbsp;&nbsp;{pasajero.apellidos}</h3>
@@ -265,7 +266,6 @@ export default function Pasajeros(props) {
         </h3>
         <div className="field">
           <span className="p-float-label p-input-icon-right">
-            
             <InputText
               id="email"
               name="email"
@@ -288,7 +288,6 @@ export default function Pasajeros(props) {
         </div>
         <div className="field">
           <span className="p-float-label p-input-icon-right">
-            
             <InputText
               id="confirmaEmail"
               name="confirmaEmail"
@@ -326,7 +325,6 @@ export default function Pasajeros(props) {
           <div className="col-3" style={{ fontSize: "18px" }}>
             <div className="field">
               <span className="p-float-label p-input-icon-right">
-                
                 <SelectButton
                   id="optionTelefono"
                   name="optionTelefono"
@@ -351,7 +349,6 @@ export default function Pasajeros(props) {
           <div className="col-4" style={{ fontSize: "18px" }}>
             <div className="field">
               <span className="p-float-label p-input-icon-right">
-                
                 <InputText
                   id="codigoPais"
                   name="codigoPais"
@@ -377,7 +374,6 @@ export default function Pasajeros(props) {
           <div className="col-4" style={{ fontSize: "18px" }}>
             <div className="field">
               <span className="p-float-label p-input-icon-right">
-                
                 <InputText
                   id="area"
                   name="area"
@@ -403,7 +399,6 @@ export default function Pasajeros(props) {
           <div className="col-8" style={{ fontSize: "18px" }}>
             <div className="field">
               <span className="p-float-label p-input-icon-right">
-                
                 <InputText
                   id="numero"
                   name="numero"
@@ -482,7 +477,6 @@ export default function Pasajeros(props) {
           <div className="col-6" style={{ fontSize: "18px" }}>
             <div className="field">
               <span className="p-float-label p-input-icon-right">
-                
                 <InputText
                   id="numeroTarjeta"
                   name="numeroTarjeta"
@@ -508,7 +502,6 @@ export default function Pasajeros(props) {
           <div className="col-6" style={{ fontSize: "18px" }}>
             <div className="field">
               <span className="p-float-label p-input-icon-right">
-                
                 <InputText
                   id="titularTarjeta"
                   name="titularTarjeta"
@@ -559,7 +552,6 @@ export default function Pasajeros(props) {
           <div className="col-6" style={{ fontSize: "18px" }}>
             <div className="field">
               <span className="p-float-label p-input-icon-right">
-                
                 <InputText
                   id="codSeguridad"
                   name="codSeguridad"
@@ -596,7 +588,12 @@ export default function Pasajeros(props) {
           Antes de finalizar revisa los datos ingresados
         </h2>
         {printResumen()}
-        <Button className="p-button-danger" type="submit" label="Comprar" style={{width:'25%'}}/>
+        <Button
+          className="p-button-danger"
+          type="submit"
+          label="Comprar"
+          style={{ width: "25%" }}
+        />
       </Card>
     </form>
   );

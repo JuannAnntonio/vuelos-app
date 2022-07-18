@@ -128,6 +128,8 @@ export default function VueloCard(props) {
               ida={jsonHeaderIda}
               vuelta={jsonHeaderVuelta}
               dictionaries={props.dictionaries}
+              adults={props.adults}
+              children={props.children}
               styleButton={"block"}
             />
           </div>

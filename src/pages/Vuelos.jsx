@@ -10,6 +10,7 @@ import "./Vuelo.css";
 
 export default function Vuelos() {
   const data = useLocation().state;
+  console.log("DATA_STATE",data);
   const [vuelos, setVuelos] = useState([]);
   const [dictionariesRes, setDictionariesRes] = useState([]);
   const [status, setStatus] = useState("loading");
@@ -23,18 +24,20 @@ export default function Vuelos() {
 
   
 
-  const itemTemplate = (data) => {
-    let dataVuelta = data.itineraries[1]?data.itineraries[1]:null;
+  const itemTemplate = (vuelo) => {
+    let dataVuelta = vuelo.itineraries[1]?vuelo.itineraries[1]:null;
     return (
       <VueloCard
-        precioVuelo={data.price}
-        startIda={data.itineraries[0].segments[0].departure.iataCode}
+        precioVuelo={vuelo.price}
+        startIda={vuelo.itineraries[0].segments[0].departure.iataCode}
         startRegreso={dataVuelta?dataVuelta.segments[0].departure.iataCode:null}
-        dateDepart={data.itineraries[0].segments[0].departure.at}
+        dateDepart={vuelo.itineraries[0].segments[0].departure.at}
         dateArrive={dataVuelta?dataVuelta.segments[0].departure.at:null}
-        itinerariesDepart={data.itineraries[0]}
+        itinerariesDepart={vuelo.itineraries[0]}
         itinerariesArrive={dataVuelta}
         dictionaries={dictionariesRes}
+        adults={data['adults']}
+        children={data['children']}
       />
     );
   };
