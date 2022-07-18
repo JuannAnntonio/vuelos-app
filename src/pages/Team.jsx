@@ -19,11 +19,11 @@ export default function Team() {
       <div className="col-3 flex align-items-center justify-content-center">
         <Card>
           <Profile
-            name="Rouse"
+            name="Rosalba Fuentes Soto"
             idImage="RAPR"
-            profession="Ingeniero de Software"
-            linkedIn="https://www.linkedin.com/in/juanperezramos/"
-            github="https://github.com/JuannAnntonio"
+            profession="Cientifíca de Datos"
+            linkedIn="https://www.linkedin.com/in/rosalba-fuentes-85629193/"
+            github="https://github.com/Rosalbafs"
           />
         </Card>
       </div>
