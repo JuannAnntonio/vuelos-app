@@ -33,7 +33,7 @@ export default function Team() {
             name="Pedro Emilio Guzmán García"
             idImage="PEGG"
             profession="Desarrollador Frontend"
-            linkedIn="https://www.linkedin.com/in/guzmanpdro/s/"
+            linkedIn="https://www.linkedin.com/in/guzmanpdro/"
             github="https://github.com/guzmanpdro"
           />
         </Card>
