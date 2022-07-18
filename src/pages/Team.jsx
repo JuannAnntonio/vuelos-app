@@ -30,11 +30,11 @@ export default function Team() {
       <div className="col-3 flex align-items-center justify-content-center">
         <Card>
           <Profile
-            name="Pedro"
-            idImage="PAPR"
-            profession="Ingeniero de Software"
-            linkedIn="https://www.linkedin.com/in/juanperezramos/"
-            github="https://github.com/JuannAnntonio"
+            name="Pedro Emilio Guzmán García"
+            idImage="PEGG"
+            profession="Desarrollador Frontend"
+            linkedIn="https://www.linkedin.com/in/guzmanpdro/s/"
+            github="https://github.com/guzmanpdro"
           />
         </Card>
       </div>
