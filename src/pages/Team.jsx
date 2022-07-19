@@ -2,14 +2,32 @@ import { Card } from "primereact/card";
 import React from "react";
 import Profile from "../components/team/Profile";
 
+import { TbPokeball } from "react-icons/tb";
+const Resume = (props) => {
+  const { resume, icon } = props;
+  return (
+    <>
+      <div>{resume}</div>
+      {icon}
+      {icon}
+    </>
+  );
+};
+
 export default function Team() {
   return (
     <div className="grid align-items-center justify-content-center">
       <div className="col-3 flex align-items-center justify-content-center">
         <Card>
           <Profile
-            name="Juan Antonio Pérez Ramos"
+            name='Juan Antonio Pérez Ramos'
             idImage="JAPR"
+            resume={
+              <Resume
+                resume="Actualmente estudio maestria en Seguridad de TI, pertenezco al equipo de Arquitectura y Cálidad en Mercado Libre ... Amante de los videojuegos, de ver: Better Call Saul, Game of Thrones, DragonBall, Naruto, Attacks of Titans e igual que muchos quiero ver ganar al mostaza en un torneo."
+                icon={<TbPokeball />}
+              />
+            }
             profession="Ingeniero de Software"
             linkedIn="https://www.linkedin.com/in/juanperezramos/"
             github="https://github.com/JuannAnntonio"
@@ -21,6 +39,7 @@ export default function Team() {
           <Profile
             name="Rosalba Fuentes Soto"
             idImage="RAPR"
+            resume=""
             profession="Cientifíca de Datos"
             linkedIn="https://www.linkedin.com/in/rosalba-fuentes-85629193/"
             github="https://github.com/Rosalbafs"
@@ -32,6 +51,7 @@ export default function Team() {
           <Profile
             name="Pedro Emilio Guzmán García"
             idImage="PEGG"
+            resume=""
             profession="Desarrollador Frontend"
             linkedIn="https://www.linkedin.com/in/guzmanpdro/"
             github="https://github.com/guzmanpdro"
