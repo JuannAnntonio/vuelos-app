@@ -29,7 +29,7 @@ export default function VueloCard(props) {
     loadAirports();
   }, []);
 
-  var jsonHeaderIda = {
+  let jsonHeaderIda = {
     titulo: "IDA",
     icono: <FaPlaneDeparture />,
     fecha: formatDate(props.dateDepart),
@@ -53,7 +53,7 @@ export default function VueloCard(props) {
     tiempo: formatTimeHM(props.itinerariesDepart.duration),
   };
 
-  var jsonHeaderVuelta = props.itinerariesArrive
+  let jsonHeaderVuelta = props.itinerariesArrive
     ? {
         titulo: "REGRESO",
         icono: <FaPlaneArrival />,
