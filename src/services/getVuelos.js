@@ -29,24 +29,24 @@ export async function get(props) {
     "currencyCode": "USD",
     "originDestinations": props.typeOfFlight === 'Ida y vuelta' ? [{
         "id": "1",
-        "originLocationCode": "RIO",
-        "destinationLocationCode": "MAD",
+        "originLocationCode": props.origin.iata,
+        "destinationLocationCode": props.destination.iata,
         "departureDateTimeRange": {
           "date": formatToISO8601(props.departureDate)
         }
       },
       {
         "id": "2",
-        "originLocationCode": "MAD",
-        "destinationLocationCode": "RIO",
+        "originLocationCode": props.destination.iata,
+        "destinationLocationCode": props.origin.iata,
         "departureDateTimeRange": {
           "date": formatToISO8601(props.returnDate)
         }
       }
     ] : [{
       "id": "1",
-      "originLocationCode": "RIO",
-      "destinationLocationCode": "MAD",
+      "originLocationCode": props.origin.iata,
+      "destinationLocationCode": props.destination.iata,
       "departureDateTimeRange": {
         "date": formatToISO8601(props.departureDate)
       }
