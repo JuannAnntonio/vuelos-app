@@ -9,9 +9,21 @@ import { AutoComplete } from "primereact/autocomplete";
 import { Calendar } from "primereact/calendar";
 import { InputNumber } from "primereact/inputnumber";
 import { Button } from "primereact/button";
+import { addLocale } from "primereact/api";
 import "./Buscador.css";
 
 export default function Buscador(props) {
+  addLocale('es', {
+    firstDayOfWeek: 1,
+    dayNames: ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+    dayNamesShort: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
+    dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'],
+    monthNames: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
+    monthNamesShort: ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'],
+    today: 'Hoy',
+    clear: 'Limpiar'
+  });
+
   const navigate = useNavigate();
   const [countries, setCountries] = useState([]);
   const [filteredCountries, setFilteredCountries] = useState(null);
@@ -43,13 +55,13 @@ export default function Buscador(props) {
     initialValues: dataBusqueda
       ? values
       : {
-          origin: "",
-          destination: "",
-          departureDate: null,
-          returnDate: null,
-          adults: 1,
-          children: 0,
-        },
+        origin: "",
+        destination: "",
+        departureDate: null,
+        returnDate: null,
+        adults: 1,
+        children: 0,
+      },
     validate: (data) => {
       let errors = {};
 
@@ -186,6 +198,7 @@ export default function Buscador(props) {
           <div className="field mt-5">
             <span className="p-float-label">
               <Calendar
+                locale="es"
                 name="departureDate"
                 value={flightForm.values.departureDate}
                 onChange={flightForm.handleChange}
