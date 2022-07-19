@@ -3,29 +3,26 @@ import { Card } from "primereact/card";
 import { Divider } from "primereact/divider";
 
 import { ImAirplane } from "react-icons/im";
-import {
-  IoEllipsisHorizontalOutline,
-  IoGitCommitOutline,
-} from "react-icons/io5";
+import { IoGitCommitOutline } from "react-icons/io5";
 
 import { BsCheckLg, BsXLg } from "react-icons/bs";
 import { getAirLineByCode } from "./Util";
 
 export default function ResumenVuelo(props) {
-  //console.log("ResumenVuelo", props);
   const ida = props.detalleIda;
   const vuelta = props.detalleVuelta;
 
   function printAirLines(vuelo) {
     return vuelo.escalas.map((segment, index) => {
-      var keyRandom = "IMG_" + segment.carrierCode + "_" + index;
+      let keyRandom = "IMG_" + segment.carrierCode + "_" + index;
       return (
         <div key={keyRandom} style={{ fontSize: "11px", fontWeight: "bold" }}>
           <img
             style={{ width: "30px", height: "30px" }}
             src={"/img/" + segment.carrierCode + ".png"}
-          />&nbsp;&nbsp;&nbsp;&nbsp;
-            {getAirLineByCode(props.dictionaries.carriers, segment.carrierCode)}
+          />
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          {getAirLineByCode(props.dictionaries.carriers, segment.carrierCode)}
         </div>
       );
     });
@@ -33,7 +30,7 @@ export default function ResumenVuelo(props) {
 
   function printEscalas(vuelo) {
     return vuelo.escalas.map((segment, index) => {
-      var keyRandom = "ICO_" + segment.carrierCode + "_" + index;
+      let keyRandom = "ICO_" + segment.carrierCode + "_" + index;
       return <IoGitCommitOutline key={keyRandom} />;
     });
   }

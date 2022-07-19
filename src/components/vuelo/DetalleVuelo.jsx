@@ -5,7 +5,7 @@ import {
   formatTime,
   formatDateShort,
   getAirLineByCode,
-  getAirCraftByCode
+  getAirCraftByCode,
 } from "./Util";
 import "./DetalleVuelo.css";
 
@@ -13,7 +13,7 @@ export default function DetalleVuelo(props) {
   return (
     <>
       {props.segments.map((segment, index) => {
-        var keyRandom = "IMG_" + segment.carrierCode + "_" + index;
+        let keyRandom = "IMG_" + segment.carrierCode + "_" + index;
         return (
           <div
             className="grid flex align-items-center justify-content-center"
@@ -26,7 +26,17 @@ export default function DetalleVuelo(props) {
                 style={{ width: "25px", height: "25px" }}
                 src={"/img/" + segment.carrierCode + ".png"}
               />
-              <h6>{getAirLineByCode(props.dictionaries.carriers,segment.carrierCode)} - {getAirCraftByCode(props.dictionaries.aircraft,segment.aircraft.code)}</h6>
+              <h6>
+                {getAirLineByCode(
+                  props.dictionaries.carriers,
+                  segment.carrierCode
+                )}{" "}
+                -{" "}
+                {getAirCraftByCode(
+                  props.dictionaries.aircraft,
+                  segment.aircraft.code
+                )}
+              </h6>
             </div>
             <div className="col-5" style={{ textAlign: "center" }}>
               <h4>{formatDateShort(segment.departure.at)}</h4>
