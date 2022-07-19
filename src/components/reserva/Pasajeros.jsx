@@ -7,11 +7,23 @@ import { Divider } from "primereact/divider";
 import { RadioButton } from "primereact/radiobutton";
 import { SelectButton } from "primereact/selectbutton";
 import { Calendar } from "primereact/calendar";
+import { addLocale } from "primereact/api";
 
 import { initValues, getValidationSchema } from "./ValidationUtils";
 import { Button } from "primereact/button";
 
 export default function Pasajeros(props) {
+  addLocale('es', {
+    firstDayOfWeek: 1,
+    dayNames: ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+    dayNamesShort: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
+    dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'],
+    monthNames: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
+    monthNamesShort: ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'],
+    today: 'Hoy',
+    clear: 'Limpiar'
+  });
+
   let countAdults = props["adults"];
   let countChildren = props["children"];
 
@@ -184,6 +196,7 @@ export default function Pasajeros(props) {
               <div className="field">
                 <span className="p-float-label p-input-icon-right">
                   <Calendar
+                    locale="es"
                     id={"fechaNacimiento" + i}
                     name={"fechaNacimiento" + i}
                     showIcon
@@ -531,6 +544,7 @@ export default function Pasajeros(props) {
           </div>
           <div className="col-4">
             <Calendar
+              locale="es"
               id="vencimiento"
               name="vencimiento"
               value={formik.values.vencimiento}
@@ -557,7 +571,7 @@ export default function Pasajeros(props) {
                   name="codSeguridad"
                   value={formik.values.codSeguridad}
                   onKeyPress={(event) => {
-                    if (!/'[0-9]/.test(event.key)) {
+                    if (!/[0-9]/.test(event.key)) {
                       event.preventDefault();
                     }
                   }}

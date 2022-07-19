@@ -223,6 +223,7 @@ export default function Buscador(props) {
           <div className="field mt-5">
             <span className="p-float-label">
               <Calendar
+                locale="es"
                 name="returnDate"
                 value={typeOfFlight === "Ida" ? "" : flightForm.values.returnDate}
                 onChange={flightForm.handleChange}
