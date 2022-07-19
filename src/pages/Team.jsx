@@ -2,6 +2,7 @@ import { Card } from "primereact/card";
 import React from "react";
 import Profile from "../components/team/Profile";
 
+import { FaAngellist } from "react-icons/fa";
 import { TbPokeball } from "react-icons/tb";
 const Resume = (props) => {
   const { resume, icon } = props;
@@ -13,6 +14,7 @@ const Resume = (props) => {
     </>
   );
 };
+
 
 export default function Team() {
   return (
@@ -39,8 +41,13 @@ export default function Team() {
           <Profile
             name="Rosalba Fuentes Soto"
             idImage="RAPR"
-            resume=""
-            profession="Cientifíca de Datos"
+			resume={
+            <Resume
+			  resume="Soy una feliz mamá, tengo un perico. Soy consultora en ITSS, llevo 4 años trabajando en empresas de software, impulso mi carrera hacia IT, estudié una maestría en Ciencia de Datos y siempre que puedo tomo bootcamps que aumenten mis habilidades."
+              icon={<FaAngellist />}
+			/>
+			}			
+			profession="Cientifíca de Datos"
             linkedIn="https://www.linkedin.com/in/rosalba-fuentes-85629193/"
             github="https://github.com/Rosalbafs"
           />
