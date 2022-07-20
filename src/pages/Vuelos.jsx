@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { get } from "../services/getVuelos";
 import { DataScroller } from "primereact/datascroller";
@@ -11,7 +11,6 @@ import "./Vuelo.css";
 
 export default function Vuelos() {
   const data = useLocation().state;
-  const msgNotData = useRef(null);
 
   const [vuelos, setVuelos] = useState([]);
   const [dictionariesRes, setDictionariesRes] = useState([]);
@@ -85,7 +84,7 @@ export default function Vuelos() {
             <Divider layout="vertical" />
 
             <div className="col-8 flex align-items-center justify-content-center">
-              <Message severity="warn" text="Debes rellenar el formulario para obtener los datos" />
+              <Message severity="warn" text="Ingresa datos para obtener resultados" />
             </div>
           </>
       }
