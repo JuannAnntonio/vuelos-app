@@ -58,7 +58,7 @@ export default function Team() {
           <Profile
             name="Pedro Emilio Guzmán García"
             idImage="PEGG"
-            resume=""
+            resume="Técnico en informática, apasionado por el desarrollo web. Tengo 2 años de experiencia trabajando como desarrollador, en mis tiempos libres me gusta ver partidos de fútbol, series o películas y también leer."
             profession="Desarrollador Frontend"
             linkedIn="https://www.linkedin.com/in/guzmanpdro/"
             github="https://github.com/guzmanpdro"
