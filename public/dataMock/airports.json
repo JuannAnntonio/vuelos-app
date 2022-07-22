@@ -22732,7 +22732,7 @@
         "state": "Mexico-City",
         "city": "Mexico City",
         "airport": "Licenciado Benito Juarez International Airport",
-        "stateCity": "Mexico-City, Mexico City"
+        "stateCity": "Mexico CDMX, Mexico"
     },
     {
         "iata": "MTY",
@@ -30390,14 +30390,14 @@
         "state": "Mato-Grosso",
         "city": "Barra Do Garcas",
         "airport": "Barra do Garcas Airport",
-        "stateCity": "Mato-Grosso, Barra Do Garcas"
+        "stateCity": "Mato Grosso, Barra Do Garcas"
     },
     {
         "iata": "BZC",
         "state": "Rio-de-Janeiro",
         "city": "Cabo Frio",
         "airport": "Umberto Modiano Airport",
-        "stateCity": "Rio-de-Janeiro, Cabo Frio"
+        "stateCity": "Rio de Janeiro, Umberto Modiano"
     },
     {
         "iata": "CAC",
@@ -30411,7 +30411,7 @@
         "state": "Rio-de-Janeiro",
         "city": "Cabo Frio",
         "airport": "Cabo Frio Airport",
-        "stateCity": "Rio-de-Janeiro, Cabo Frio"
+        "stateCity": "Rio de Janeiro, Cabo Frio"
     },
     {
         "iata": "CNF",
@@ -30600,7 +30600,7 @@
         "state": "Sao-Paulo",
         "city": "Sao Paulo",
         "airport": "Guarulhos - Governador Andre Franco Montoro International Airport",
-        "stateCity": "Sao-Paulo, Sao Paulo"
+        "stateCity": "Sao Paulo, Sao Paulo"
     },
     {
         "iata": "GPB",
@@ -30964,7 +30964,7 @@
         "state": "Rio-de-Janeiro",
         "city": "Rio De Janeiro",
         "airport": "Santos Dumont Airport",
-        "stateCity": "Rio-de-Janeiro, Rio De Janeiro"
+        "stateCity": "Rio de Janeiro, Santos Dumont"
     },
     {
         "iata": "RAO",
