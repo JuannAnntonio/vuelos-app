@@ -70,7 +70,6 @@ export async function get(props) {
   });
 
   try {
-    console.log("RAW", raw);
     const data = await vuelosService.getToken().then(data => data)
     const requestOptions = {
       method: 'POST',

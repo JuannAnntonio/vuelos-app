@@ -37,8 +37,6 @@ export default function Pasajeros(props) {
     validationSchema: getValidationSchema,
     onSubmit: (data) => {
       setFormData(data);
-      //formik.resetForm();
-      console.log(data);
     },
   });
 
