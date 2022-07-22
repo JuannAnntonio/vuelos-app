@@ -18518,13 +18518,7 @@
         "airport": "A Coruna Airport",
         "stateCity": "Galicia, Culleredo"
     },
-    {
-        "iata": "ECV",
-        "state": "Madrid",
-        "city": "Madrid",
-        "airport": "Cuatro Vientos Airport",
-        "stateCity": "Madrid, Madrid"
-    },
+    
     {
         "iata": "ILD",
         "state": "Catalonia",
@@ -18685,13 +18679,6 @@
         "city": "Montferrer / Castellbo",
         "airport": "Aerodrom dels Pirineus-Alt Urgell Airport",
         "stateCity": "Catalonia, Montferrer / Castellbo"
-    },
-    {
-        "iata": "TOJ",
-        "state": "Madrid",
-        "city": "Madrid",
-        "airport": "Torrejon Airport",
-        "stateCity": "Madrid, Madrid"
     },
     {
         "iata": "VLC",

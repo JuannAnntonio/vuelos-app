@@ -56,16 +56,7 @@ export async function get(props) {
       "GDS"
     ],
     "searchCriteria": {
-      "maxFlightOffers": 15,
-      "flightFilters": {
-        "cabinRestrictions": [{
-          "cabin": "BUSINESS",
-          "coverage": "MOST_SEGMENTS",
-          "originDestinationIds": [
-            "1"
-          ]
-        }]
-      }
+      "maxFlightOffers": 15
     }
   });
 
