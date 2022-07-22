@@ -15,15 +15,15 @@ const Resume = (props) => {
   );
 };
 
-
 export default function Team() {
   return (
     <div className="grid align-items-center justify-content-center">
       <div className="col-3 flex align-items-center justify-content-center">
         <Card>
           <Profile
-            name='Juan Antonio Pérez Ramos'
+            name="Juan Antonio Pérez Ramos"
             idImage="JAPR"
+            mail="dev.juan.perez@gmail.com"
             resume={
               <Resume
                 resume="Actualmente estudio maestria en Seguridad de TI, pertenezco al equipo de Arquitectura y Cálidad en Mercado Libre ... Amante de los videojuegos, de ver: Better Call Saul, Game of Thrones, DragonBall, Naruto, Attacks of Titans e igual que muchos quiero ver ganar al mostaza en un torneo."
@@ -41,13 +41,14 @@ export default function Team() {
           <Profile
             name="Rosalba Fuentes Soto"
             idImage="RAPR"
-			resume={
-            <Resume
-			  resume="Soy una feliz mamá, tengo un perico. Soy consultora en ITSS, llevo 4 años trabajando en empresas de software, impulso mi carrera hacia IT, estudié una maestría en Ciencia de Datos y siempre que puedo tomo bootcamps que aumenten mis habilidades."
-              icon={<FaAngellist />}
-			/>
-			}			
-			profession="Cientifíca de Datos"
+            mail="rosemexico@gmail.com"
+            resume={
+              <Resume
+                resume="Soy una feliz mamá, tengo un perico. Soy consultora en ITSS, llevo 4 años trabajando en empresas de software, impulso mi carrera hacia IT, estudié una maestría en Ciencia de Datos y siempre que puedo tomo bootcamps que aumenten mis habilidades."
+                icon={<FaAngellist />}
+              />
+            }
+            profession="Cientifíca de Datos"
             linkedIn="https://www.linkedin.com/in/rosalba-fuentes-85629193/"
             github="https://github.com/Rosalbafs"
           />
@@ -58,6 +59,7 @@ export default function Team() {
           <Profile
             name="Pedro Emilio Guzmán García"
             idImage="PEGG"
+            mail="pedroguzman2598@gmail.com"
             resume="Técnico en informática, apasionado por el desarrollo web. Tengo 2 años de experiencia trabajando como desarrollador, en mis tiempos libres me gusta ver partidos de fútbol, series o películas y también leer."
             profession="Desarrollador Frontend"
             linkedIn="https://www.linkedin.com/in/guzmanpdro/"

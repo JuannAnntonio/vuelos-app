@@ -2,6 +2,7 @@ import React from "react";
 import { Avatar } from "primereact/avatar";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { FaReact } from "react-icons/fa";
+import { HiMailOpen } from "react-icons/hi";
 
 export default function Profile(props) {
   return (
@@ -23,6 +24,12 @@ export default function Profile(props) {
         <FaReact />
         &nbsp;&nbsp;&nbsp;&nbsp;
         {props.profession}
+      </div>
+
+      <div className="col-12">
+        <HiMailOpen />
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        {props.mail}
       </div>
       <div className="col-12">
         <BsLinkedin />
