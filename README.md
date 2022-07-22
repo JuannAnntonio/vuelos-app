@@ -6,6 +6,27 @@ __Aquí tienes la aplicación desplegada en producción:__
 
 * <https://vuelos-app.vercel.app/>
 
+__Origenes y destinos testados:__
+
+* SDU -> Rio de Janeiro, Santos Dumont
+* MAD -> Madrid, Madrid
+
+___
+
+* MEX -> Mexico CDMX, Mexico
+* MAD -> Madrid, Madrid
+
+___
+
+* GRU -> Sao Paulo, Sao Paulo
+* MAD -> Madrid, Madrid
+
+___
+
+* BOS -> Massachusetts, Boston
+* MAD -> Madrid, Madrid
+
+
 ## Vista previa de la demo
 
 ![Vuelos App](/public/img/live-demo/live-demo.gif)
