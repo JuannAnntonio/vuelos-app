@@ -15,31 +15,31 @@ export default function MenuApp() {
   const items = [
     {
       label: "Home",
-      icon: <AiIcons.AiFillHome />,
+      icon: <AiIcons.AiFillHome className="icon"/>,
       command: (e) => {
         window.location.pathname = "/home";
       },
     },
     {
       label: "Vuelos",
-      icon: <IoIcons.IoIosAirplane />,
+      icon: <IoIcons.IoIosAirplane className="icon"/>,
       command: (e) => {
         window.location.pathname = "/vuelos";
       },
     },
     {
       label: "Team",
-      icon: <IoIcons.IoMdPeople />,
+      icon: <IoIcons.IoMdPeople className="icon"/>,
       command: (e) => {
         window.location.pathname = "/team";
       },
     },
     {
-      icon: <IoIcons.IoMdSettings />,
+      icon: <IoIcons.IoMdSettings className="icon"/>,
       items: [
         {
           label: "Claro",
-          icon: <BsIcons.BsSun />,
+          icon: <BsIcons.BsSun className="icon"/>,
           command: () => {
             changeTheme("lara-blue");
           },
@@ -49,7 +49,7 @@ export default function MenuApp() {
         },
         {
           label: "Obscuro",
-          icon: <BsIcons.BsFillMoonStarsFill />,
+          icon: <BsIcons.BsFillMoonStarsFill className="icon"/>,
           command: () => {
             changeTheme("lara-dark");
           },
@@ -69,7 +69,7 @@ export default function MenuApp() {
       selectedTheme.href = "/themes/lara-blue.css";
       localStorage.setItem("theme-app", "lara-blue");
     }
-  }, []);
+  }, [selectedTheme]);
 
   function changeTheme(themeNew) {
     setSelectedTheme(document.getElementById("app-theme"));
