@@ -1,11 +1,6 @@
-.p-slidemenu .p-slidemenu-wrapper {
-    height: 190px;
-    width: 170px;
-}
-
 .p-slidemenu.p-slidemenu-overlay {
-    height: 230px;
-    width: 180px;
+    height: 220px;
+    width: 175px;
 }
 
 .p-button-label {
@@ -16,4 +11,8 @@
 .p-button-icon-left {
     color: var(--primary-color-text);
     font-weight: 650;
+}
+
+.icon {
+  margin-right: .5rem;
 }
