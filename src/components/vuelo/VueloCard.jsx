@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Card } from "primereact/card";
 import { Fieldset } from "primereact/fieldset";
 import { ProgressSpinner } from "primereact/progressspinner";
@@ -6,7 +6,7 @@ import { Divider } from "primereact/divider";
 
 import { FaPlaneDeparture, FaPlaneArrival } from "react-icons/fa";
 
-import { VuelosService } from "../../services/VuelosService";
+import { getAirports } from "../../services/getAirports";
 import DetalleVuelo from "./DetalleVuelo";
 import { getAirportByIata, formatDate, formatTimeHM } from "./Util";
 import Precio from "./Precio";
@@ -19,8 +19,8 @@ export default function VueloCard(props) {
   useEffect(() => {
     async function loadAirports() {
       try {
-        const data = await new VuelosService().getAirports();
-        setAirports(data);
+        const response = await getAirports();
+        setAirports(response.data);
         setStatus("success");
       } catch (error) {
         setStatus("error");

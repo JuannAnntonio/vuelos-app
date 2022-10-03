@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { get } from "../services/getVuelos";
+import { getVuelos } from "../services/getVuelos";
 import { DataScroller } from "primereact/datascroller";
 import { Divider } from "primereact/divider";
 import { ProgressSpinner } from "primereact/progressspinner"
@@ -15,19 +15,19 @@ export default function Vuelos() {
   const [vuelos, setVuelos] = useState([]);
   const [dictionariesRes, setDictionariesRes] = useState([]);
   const [loading, setLoading] = useState(false)
-  useEffect(() => {
-    if (data) {
-      setLoading(true)
 
-      get(data).then(res => {
-        setVuelos(res.data)
-        setDictionariesRes(res.dictionaries)
-        setLoading(false)
-      });
+  useEffect(() => {
+    async function fetchData() {
+      setLoading(true)
+      const response = await getVuelos(data)
+      setVuelos(response.data)
+      setDictionariesRes(response.dictionaries)
+      setLoading(false)
+    }
+    if (data) {
+      fetchData()
     }
   }, [data]);
-
-
 
   const itemTemplate = (vuelo) => {
     let dataVuelta = vuelo.itineraries[1] ? vuelo.itineraries[1] : null;
@@ -46,6 +46,7 @@ export default function Vuelos() {
       />
     );
   };
+
   return (
     <div className="grid align-items-center justify-content-center">
       {
