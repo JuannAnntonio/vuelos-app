@@ -1,18 +1,13 @@
-import {
-  VuelosService
-} from "../services/VuelosService";
-import {
-  formatToISO8601
-} from "../components/vuelo/Util";
+import { getToken } from "./getToken";
+import { formatToISO8601 } from "../components/vuelo/Util";
 
-const vuelosService = new VuelosService();
-
+const URLSearch = 'https://test.api.amadeus.com/v2/shopping/flight-offers'
 
 function initTravelers(adults, children) {
-  return llenaTravel(0, "ADULT", adults).concat(llenaTravel(adults, "CHILD", children))
+  return addPassengers(0, "ADULT", adults).concat(addPassengers(adults, "CHILD", children))
 }
 
-function llenaTravel(index, label, countPasajeros) {
+function addPassengers(index, label, countPasajeros) {
   let array = [];
   for (let i = 0; i < countPasajeros; i++) {
     array[i] = {
@@ -23,26 +18,26 @@ function llenaTravel(index, label, countPasajeros) {
   return array;
 }
 
-export async function get(props) {
+export async function getVuelos(props) {
 
   let raw = JSON.stringify({
     "currencyCode": "USD",
     "originDestinations": props.typeOfFlight === 'Ida y vuelta' ? [{
-        "id": "1",
-        "originLocationCode": props.origin.iata,
-        "destinationLocationCode": props.destination.iata,
-        "departureDateTimeRange": {
-          "date": formatToISO8601(props.departureDate)
-        }
-      },
-      {
-        "id": "2",
-        "originLocationCode": props.destination.iata,
-        "destinationLocationCode": props.origin.iata,
-        "departureDateTimeRange": {
-          "date": formatToISO8601(props.returnDate)
-        }
+      "id": "1",
+      "originLocationCode": props.origin.iata,
+      "destinationLocationCode": props.destination.iata,
+      "departureDateTimeRange": {
+        "date": formatToISO8601(props.departureDate)
       }
+    },
+    {
+      "id": "2",
+      "originLocationCode": props.destination.iata,
+      "destinationLocationCode": props.origin.iata,
+      "departureDateTimeRange": {
+        "date": formatToISO8601(props.returnDate)
+      }
+    }
     ] : [{
       "id": "1",
       "originLocationCode": props.origin.iata,
@@ -50,7 +45,7 @@ export async function get(props) {
       "departureDateTimeRange": {
         "date": formatToISO8601(props.departureDate)
       }
-    }, ],
+    },],
     "travelers": initTravelers(props.adults, props.children),
     "sources": [
       "GDS"
@@ -61,17 +56,20 @@ export async function get(props) {
   });
 
   try {
-    const data = await vuelosService.getToken().then(data => data)
-    const requestOptions = {
+    const token = await getToken()
+    const data = await fetch(URLSearch, {
       method: 'POST',
       headers: {
         "Content-Type": "application/json",
-        ...data
+        ...token
       },
       body: raw,
       redirect: 'follow'
-    };
-    return vuelosService.getVuelos(requestOptions).then(res => res)
+    })
+    
+    const dataJSON = await data.json()
+
+    return dataJSON
 
   } catch (error) {
     console.log(error);

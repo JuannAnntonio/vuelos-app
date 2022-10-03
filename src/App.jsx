@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Team from "./pages/Team";
 import Vuelos from "./pages/Vuelos";
@@ -8,7 +7,6 @@ import MenuApp from "./components/menu/MenuApp";
 
 
 export default function App() {
-
   return (
     <div className="App">
       <MenuApp/>
@@ -22,6 +20,5 @@ export default function App() {
         </Routes>
       </Router>
     </div>
-
   );
 }

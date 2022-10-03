@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
-import { VuelosService } from "../../services/VuelosService";
+import { getAirports } from "../../services/getAirports";
 import { classNames } from "primereact/utils";
 import { Card } from "primereact/card";
 import { RadioButton } from "primereact/radiobutton";
@@ -30,7 +30,8 @@ export default function Buscador(props) {
 
   useEffect(() => {
     async function loadAirports() {
-      const data = await new VuelosService().getAirports();
+      const response = await getAirports();
+      const { data } = response
       setCountries(data);
     }
     loadAirports();
